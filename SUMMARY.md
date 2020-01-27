@@ -7,6 +7,11 @@
 
 * [Launch an instance](quickstarts/launch-an-instance.md)
 
+## Accounts
+
+* [Registration](accounts/registration.md)
+* [Forgot Password](accounts/forgot-password.md)
+
 ## Projects
 
 * [Project Management](projects/project-management.md)
