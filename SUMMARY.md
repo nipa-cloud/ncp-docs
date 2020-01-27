@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Nipa Cloud Portal](http://portal.nipa.cloud/)
 
 ## Quickstarts
 
@@ -19,5 +18,6 @@
 ## Resources
 
 * [FAQ](resources/faq.md)
+* [Nipa Cloud Portal](http://portal.nipa.cloud/)
 * [GitHub](https://github.com/nipa-cloud)
 
