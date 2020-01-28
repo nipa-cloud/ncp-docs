@@ -91,8 +91,6 @@
 
 ![](https://lh5.googleusercontent.com/hr8HLJNkn7V5S2ebQw8HGv_TywYZwBz6-0ihEk-VhBG6D4FmTpVDUaKE56n-pTijtSGC721JFZJxhTzvun4AM9vgg3lY__XqS7ZH6GxRLUy44LrXEyKVesGoGPPjf2Wii4vBnwQ)
 
-![](https://lh5.googleusercontent.com/hr8HLJNkn7V5S2ebQw8HGv_TywYZwBz6-0ihEk-VhBG6D4FmTpVDUaKE56n-pTijtSGC721JFZJxhTzvun4AM9vgg3lY__XqS7ZH6GxRLUy44LrXEyKVesGoGPPjf2Wii4vBnwQ)
-
 4. หลังจากคลิก **“Activate”** แล้ว จะแสดงหน้า website โดยมีขั้นตอนการสมัคร 2 ขั้นตอน ดังรูป คลิก **“Next”**
 
 ![](https://lh4.googleusercontent.com/cUIQNPNa7_weODk7W3xhV054QR8pOxXc1ch8lu-SyCkXxmAG1pL8nLJFeazyoOm3py0gL1JKcYK2feyzNMCJ6N0MTNCpoAZc29ThuTT0lDpSq08VqUd36rfrO_qe_PN3QpKAut0)
