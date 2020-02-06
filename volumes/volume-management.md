@@ -6,7 +6,7 @@ description: >-
 
 # Volume Management
 
-### Create Volume
+## Create Volume
 
 การสร้าง Volume เพื่อใช้เป็น storage เพิ่มเติมให้กับ instance โดยมีขั้นตอนในการสร้างดังนี้
 
@@ -36,7 +36,7 @@ description: >-
 
 ![Volume Creation Complete](../.gitbook/assets/volume5.png)
 
-### Extend Volume
+## Extend Volume
 
 เมื่อสร้าง volume ขึ้นมาแล้ว แต่มีขนาดไม่เพียงพอต่อการใช้งาน สามารถขยายขนาดได้ด้วยการ extend ซึ่งมีขั้นตอนดังนี้
 
@@ -60,7 +60,7 @@ description: >-
 
 ![Volume Page with Extended Volume](../.gitbook/assets/volume9.png)
 
-### Attach Volume
+## Attach Volume
 
 เมื่อมี Volume ตามขนาดที่ต้องการแล้ว ก็ต้องเอาไปใช้ โดยการ attach เข้ากับ instance โดยมีขั้นตอนดังนี้
 
@@ -80,7 +80,7 @@ description: >-
 
 ![Volume Page with Attached Volume \(Instance Name Show in &quot;in use by&quot;\)](../.gitbook/assets/volume11.png)
 
-### Detach Volume
+## Detach Volume
 
 เมื่อต้องการสลับ Volume ไปใส่ไว้ที่ Instance อื่น หรือต้องการลบ volume จะต้องทำการ Detach ก่อน โดยมีขั้นตอนดังนี้
 
@@ -98,7 +98,7 @@ description: >-
 
 ![Volumes Page with Instance Detached](../.gitbook/assets/volume14.png)
 
-### Transfer Volume
+## Transfer Volume
 
 นอกจากเราจะใช้ volume เป็น storage เพิ่มเติมกับ instance ของเราเองได้แล้ว เรายังสามารถ transfer volume ของเราไปให้ project ได้อีกด้วย โดยมีขั้นตอนดังนี้
 
@@ -125,7 +125,7 @@ description: >-
 
 ![Volumes Page with a Volume Trasfer Wait For Accept](../.gitbook/assets/volume17.png)
 
-### Accept Volume Transfer
+## Accept Volume Transfer
 
 หลังจากได้รับ email volume transfer แล้ว สามารถทำการ accept ได้ ตามขั้นตอนต่อไปนี้
 
@@ -156,4 +156,3 @@ description: >-
 5. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Accept เพื่อ accept volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ได้รับมา
 
 ![Volume Page with Transfered Volume](../.gitbook/assets/volume19-1.png)
-
