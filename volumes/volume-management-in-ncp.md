@@ -6,7 +6,7 @@ description: >-
 
 # Volume Management in NCP
 
-## Create Volume
+### Create Volume
 
 การสร้าง Volume เพื่อใช้เป็น storage เพิ่มเติมให้กับ instance โดยมีขั้นตอนในการสร้างดังนี้
 
@@ -129,9 +129,31 @@ description: >-
 
 หลังจากได้รับ email volume transfer แล้ว สามารถทำการ accept ได้ ตามขั้นตอนต่อไปนี้
 
-1. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
+1. เมื่อได้รับข้อมูลการ volume transfer มา โดยจะต้องประกอบด้วย Transfer ID และ Authorization Key 
+
+{% hint style="info" %}
+**ตัวอย่างข้อมูล**
+
+     **Transfer ID**: f9045302-9dcb-4473-b88e-6ad5ed86eb66
+
+     **Transfer Name**: sample
+
+     **Authorization Key**: 63f85bb5b3b20385
+{% endhint %}
+
+2. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
 ![Volumes Page](../.gitbook/assets/volume9.png)
 
+3. กดที่ปุ่ม Accept Transfer เพื่อเข้าสู่ accept transfer volume page
 
+![Accept Transfer Volume Page](../.gitbook/assets/volume18.png)
+
+4. ที่ accept transfer volume page ให้ใส่ข้อมูลตามที่ได้รับมาทาง email หรือทางอื่นๆ
+
+![](../.gitbook/assets/volume19.png)
+
+5. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Accept เพื่อ accept volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ได้รับมา
+
+![Volume Page with Transfered Volume](../.gitbook/assets/volume19-1.png)
 
