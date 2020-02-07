@@ -4,20 +4,107 @@
 
 ในการสร้าง instance ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง instance ก่อน ดังนี้
 
-| **หัวข้อ** | **คำอธิบาย** | Optional |
-| :--- | :--- | :---: |
-| Hostname | ชื่อ instance |  |
-| Image | ระบบปฏิบัติการ \(Operating System\) ของ instance |  |
-| Machine Type | spec ของ instance \(แต่ละประเภทมีจำนวนจำกัด หาก spec ไหนเหลือน้อยกว่า 10 เครื่อง จะแสดงจำนวนเครื่องที่เหลือไว้ และประเภทไหนที่หมด จะแสดงข้อความ out of stock\) |  |
-| Cloud firewall | ส่วนที่ระบุการเข้าถึง instance |  |
-| Authentication | ส่วนที่กำหนด keypair หรือ password ในการเข้าใช้งาน |  |
-| How many instance | จำนวนที่ต้องการสร้าง |  |
-| Instance Volume | ขนาดของ volume \(สามาถระบุได้ในกรณีที่สร้างแบบ boot volume\) | / |
-| Network | ส่วนที่กำหนด network ที่ต้องการใช้งาน โดยสามารถกำหนด IP Address ที่ต้องการใช้งานได้ | / |
-| External IP | ส่วนที่กำหนด IP Address ที่ใช้ในการเชื่อมต่อ instance กับ network ภายนอก |  |
-| Auto Backup | ส่วนที่กำหนดถึงการให้ระบบจัดการเก็บข้อมูล backup instance โดยอัตโนมัติ |  |
-
-> _/ ส่วนที่เป็น optional ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติมได้_
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>&#xE2B;&#xE31;&#xE27;&#xE02;&#xE49;&#xE2D;</b>
+      </th>
+      <th style="text-align:left"><b>&#xE04;&#xE33;&#xE2D;&#xE18;&#xE34;&#xE1A;&#xE32;&#xE22;</b>
+      </th>
+      <th style="text-align:center">Optional</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Hostname</td>
+      <td style="text-align:left">&#xE0A;&#xE37;&#xE48;&#xE2D; instance</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Image</td>
+      <td style="text-align:left">&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE1B;&#xE0F;&#xE34;&#xE1A;&#xE31;&#xE15;&#xE34;&#xE01;&#xE32;&#xE23;
+        (Operating System) &#xE02;&#xE2D;&#xE07; instance</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Machine Type</td>
+      <td style="text-align:left">spec &#xE02;&#xE2D;&#xE07; instance (&#xE41;&#xE15;&#xE48;&#xE25;&#xE30;&#xE1B;&#xE23;&#xE30;&#xE40;&#xE20;&#xE17;&#xE21;&#xE35;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE08;&#xE33;&#xE01;&#xE31;&#xE14;
+        &#xE2B;&#xE32;&#xE01; spec &#xE44;&#xE2B;&#xE19;&#xE40;&#xE2B;&#xE25;&#xE37;&#xE2D;&#xE19;&#xE49;&#xE2D;&#xE22;&#xE01;&#xE27;&#xE48;&#xE32;
+        10 &#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07; &#xE08;&#xE30;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE17;&#xE35;&#xE48;&#xE40;&#xE2B;&#xE25;&#xE37;&#xE2D;&#xE44;&#xE27;&#xE49;
+        &#xE41;&#xE25;&#xE30;&#xE1B;&#xE23;&#xE30;&#xE40;&#xE20;&#xE17;&#xE44;&#xE2B;&#xE19;&#xE17;&#xE35;&#xE48;&#xE2B;&#xE21;&#xE14;
+        &#xE08;&#xE30;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE04;&#xE27;&#xE32;&#xE21;
+        out of stock)</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Cloud firewall</td>
+      <td style="text-align:left">
+        <p>&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE23;&#xE30;&#xE1A;&#xE38;&#xE01;&#xE32;&#xE23;&#xE40;&#xE02;&#xE49;&#xE32;&#xE16;&#xE36;&#xE07;
+          instance &#xE42;&#xE14;&#xE22;&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE08;&#xE30;&#xE21;&#xE35;
+          default cloud firewall &#xE43;&#xE2B;&#xE49; &#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49;</p>
+        <ul>
+          <li>All</li>
+          <li>Rdp</li>
+          <li>Http-Https</li>
+          <li>default</li>
+          <li>In-Cluster</li>
+          <li>Ping</li>
+          <li>SSH</li>
+        </ul>
+        <p>&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;
+          Cloud firewall &#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE15;&#xE34;&#xE21;&#xE44;&#xE14;&#xE49;
+          &#xE42;&#xE14;&#xE22;&#xE14;&#xE39;&#xE08;&#xE32;&#xE01;&#xE2B;&#xE31;&#xE27;&#xE02;&#xE49;&#xE2D;
+          Create Cloud firewall</p>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Authentication</td>
+      <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
+        keypair &#xE2B;&#xE23;&#xE37;&#xE2D; password &#xE43;&#xE19;&#xE01;&#xE32;&#xE23;&#xE40;&#xE02;&#xE49;&#xE32;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;
+        &#xE42;&#xE14;&#xE22; keypair &#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE15;&#xE34;&#xE21;&#xE44;&#xE14;&#xE49;
+        &#xE42;&#xE14;&#xE22;&#xE14;&#xE39;&#xE08;&#xE32;&#xE01;&#xE2B;&#xE31;&#xE27;&#xE02;&#xE49;&#xE2D;
+        Create keypair</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">How many instance</td>
+      <td style="text-align:left">&#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Instance Volume</td>
+      <td style="text-align:left">&#xE02;&#xE19;&#xE32;&#xE14;&#xE02;&#xE2D;&#xE07; volume (&#xE2A;&#xE32;&#xE21;&#xE32;&#xE16;&#xE23;&#xE30;&#xE1A;&#xE38;&#xE44;&#xE14;&#xE49;&#xE43;&#xE19;&#xE01;&#xE23;&#xE13;&#xE35;&#xE17;&#xE35;&#xE48;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE41;&#xE1A;&#xE1A;
+        boot volume)</td>
+      <td style="text-align:center">/</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Network</td>
+      <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
+        network &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;
+        &#xE42;&#xE14;&#xE22;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
+        IP Address &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE44;&#xE14;&#xE49;</td>
+      <td
+      style="text-align:center">/</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">External IP</td>
+      <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
+        IP Address &#xE17;&#xE35;&#xE48;&#xE43;&#xE0A;&#xE49;&#xE43;&#xE19;&#xE01;&#xE32;&#xE23;&#xE40;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE21;&#xE15;&#xE48;&#xE2D;
+        instance &#xE01;&#xE31;&#xE1A; network &#xE20;&#xE32;&#xE22;&#xE19;&#xE2D;&#xE01;</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Auto Backup</td>
+      <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;&#xE16;&#xE36;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE2B;&#xE49;&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE08;&#xE31;&#xE14;&#xE01;&#xE32;&#xE23;&#xE40;&#xE01;&#xE47;&#xE1A;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;
+        backup instance &#xE42;&#xE14;&#xE22;&#xE2D;&#xE31;&#xE15;&#xE42;&#xE19;&#xE21;&#xE31;&#xE15;&#xE34;</td>
+      <td
+      style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table>> _/ ส่วนที่เป็น optional ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติมได้_
 
 ### ขั้นตอนการสร้าง Instance
 
@@ -53,7 +140,7 @@
 {% endtab %}
 {% endtabs %}
 
-3.เลือก **Machine Type** โดย Machine Type จะถูกแบ่งกลุ่มตามขนาดการใช้งาน ดังนี้
+3.เลือก **Machine Type** โดย Machine Type จะแสดงตามการเลือกของ image ซึ่งถูกแบ่งประเภทตามขนาดการใช้งาน ดังนี้
 
 {% tabs %}
 {% tab title="General" %}
@@ -69,7 +156,21 @@
 {% endtab %}
 {% endtabs %}
 
-สำหรับผู้ใช้งานที่เลือกประเภท image แบบ boot volume ในส่วน disk ของ machine type จะแสดงข้อความ "use existing volume" ซึ่งหมายความว่า ขนาด disk ของ image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
+สำหรับผู้ใช้งานที่เลือกประเภท image แบบ **boot volume** ในส่วน disk ของ machine type จะแสดงข้อความ "use existing volume" ซึ่งหมายความว่า ขนาด disk ของ image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
 
 ![](../.gitbook/assets/8%20%281%29.png)
+
+4.เลือก **Cloud firewall**
+
+![](../.gitbook/assets/9%20%281%29.png)
+
+5.เลือกประเภทการ **Authentication** ในการใช้งาน instance ซึ่งจะแสดงตามการเลือกของ image โดย Keypiar \(จะแสดงเมื่อเลือก image ประเภท linux\) และ password \(จะแสดงเมื่อเลือก image ประเภท linux หรือ windows\)  
+
+![](../.gitbook/assets/10.png)
+
+หรือ  
+
+![](../.gitbook/assets/11.png)
+
+
 
