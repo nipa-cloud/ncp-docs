@@ -112,7 +112,7 @@
 
 1.กรอก Hostname \(ชื่อ Instance\) ที่ต้องการ \(ภายในช่องกรอกระบบจะมีชื่อ default ให้ โดยทางผู้ใช้งานสามารถตั้งชื่อใหม่ได้\)   
 
-![](../.gitbook/assets/1.png)
+![](../.gitbook/assets/1%20%281%29.png)
 
 2.เลือก **Image** ที่ต้องการสร้าง โดย image จะประกอบไปด้วย 4 ประภท ดังนี้
 
@@ -219,4 +219,20 @@
 12.คลิกปุ่ม Create เพื่อสร้าง instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม resource ที่ผู้ใช้งานเลือก  
 
 ![](../.gitbook/assets/23.png)
+
+13.เมื่อคลิกสร้าง instance แล้ว ระบบจะแสดงหน้า instance list หากสร้างสำเร็จจะแสดงผลลัพธ์ตามรูปด้านล่าง  
+
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Create a new IP](../.gitbook/assets/24.png)
+
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Disabled](../.gitbook/assets/25%20%281%29.png)
+
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; External IP: Bypass internal netowrk ](../.gitbook/assets/26.png)
+
+หากสร้าง instance แบบ boot volume จะไม่สามารถดูผลลัพธ์ได้ในหน้า instance list ผู้ใช้งานจะสามารถตรวจสอบได้ที่ instance detail โดยคลิกที่ชื่อ instance  
+
+![](../.gitbook/assets/27.png)
+
+โดยภายใน instance detail จะแสดงข้อมูลขนาด disk ของ instance เป็นประเภท volume และมี 1 volume หลังจากสร้าง instance เรียบร้อยแล้ว  
+
+![](../.gitbook/assets/28.png)
 
