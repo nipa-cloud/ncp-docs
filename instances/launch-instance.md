@@ -168,11 +168,9 @@
 
 5.เลือกประเภทการ **Authentication** ในการใช้งาน instance ซึ่งจะแสดงตามการเลือกของ image โดย Keypiar \(จะแสดงเมื่อเลือก image ประเภท linux\) และ password \(จะแสดงเมื่อเลือก image ประเภท linux หรือ windows\)  
 
-![](../.gitbook/assets/10.png)
+![Keypair](../.gitbook/assets/10.png)
 
-หรือ  
-
-![](../.gitbook/assets/11.png)
+![Password](../.gitbook/assets/11.png)
 
 6. คลิก **Network, Volume and more** เพื่อดูหัวข้ออื่นๆ  
 
@@ -189,4 +187,12 @@
 8. กำหนด**ขนาดของ disk** เมื่อสร้าง **instance แบบ boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก image ประเภท volume จะใช้ขนาดตาม volume ที่เลือก \(Optional\)  
 
 ![](../.gitbook/assets/14.png)
+
+9.เลือก Network ที่ต้องการสร้าง instance โดยผู้ใช้งานสามารถกำหนด IP Address \(หมายเลข port\) ของ instance หรือสร้าง port \(ดูได้จากหัวข้อ Create Port\) ได้ด้วยตนเอง หากหมายเลขนั้นไม่มีผู้ใช้งานคนอื่นๆใช้งานอยู่  
+
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; Auto Assign IP](../.gitbook/assets/15.png)
+
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; port &#xE17;&#xE35;&#xE48;&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE40;&#xE2D;&#xE07;](../.gitbook/assets/16.png)
+
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; &#xE01;&#xE33;&#xE2B;&#xE19;&#xE14; IP Address &#xE17;&#xE35;&#xE48;&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;](../.gitbook/assets/17.png)
 
