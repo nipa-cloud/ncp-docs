@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Launch Instance](README.md)
+* [Initial page](README.md)
+
+## Instances
+
+* [Launch Instance](instances/untitled.md)
 
