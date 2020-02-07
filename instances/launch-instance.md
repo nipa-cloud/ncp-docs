@@ -19,10 +19,33 @@
 
 > _/ ส่วนที่เป็น optional ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติมได้_
 
-### 
-
 ### ขั้นตอนการสร้าง Instance
 
-1. กรอก **Hostname** \(ชื่อ Instance\) ที่ต้องการ \(ภายในช่องกรอกระบบจะมีชื่อ default ให้ โดยทางผู้ใช้งานสามารถตั้งชื่อใหม่ได้\)
-2. เลือก **Image** ที่ต้องการสร้าง โดย image จะประกอบไปด้วย 4 ประภท ดังนี้  **** _Distributions_: image หลักของระบบ เช่น Ubuntu, Windows, Centos เป็นต้น   _Marketplace:  image ที่มี template สำเร็จรูป โดยเมื่อผู้ใช้งานสร้าง จะสร้างมานำไปใช้งานได้เลย ไม่ต้องติดตั้งเพิ่มเติม เช่น Docker, GitLab, Wordpress เป็นต้น_
+1.กรอก Hostname \(ชื่อ Instance\) ที่ต้องการ \(ภายในช่องกรอกระบบจะมีชื่อ default ให้ โดยทางผู้ใช้งานสามารถตั้งชื่อใหม่ได้\)   
+
+![](../.gitbook/assets/1.png)
+
+2.เลือก **Image** ที่ต้องการสร้าง โดย image จะประกอบไปด้วย 4 ประภท ดังนี้
+
+{% tabs %}
+{% tab title="Distributions" %}
+> Image พื้นฐานหลักของระบบ เช่น Ubuntu, Windows, Centos เป็นต้น
+
+![](../.gitbook/assets/2.png)
+{% endtab %}
+
+{% tab title="Marketplace" %}
+> _Image ที่มี template สำเร็จรูป โดยเมื่อผู้ใช้งานสร้างด้วย image ประเภทนี้ จะสามารถนำไปใช้งานได้เลย ไม่ต้องตั้งค่าใดๆเพิ่มเติม เช่น Docker, GitLab, Wordpress เป็นต้น_
+
+![](../.gitbook/assets/3.png)
+{% endtab %}
+
+{% tab title="Images" %}
+
+{% endtab %}
+
+{% tab title="Volumes \(Optional\)" %}
+
+{% endtab %}
+{% endtabs %}
 
