@@ -4,5 +4,5 @@
 
 ## Instances
 
-* [Launch Instance](instances/untitled.md)
+* [Launch Instance](instances/launch-instance.md)
 
