@@ -8,7 +8,7 @@ description: การเติมเงินผ่านระบบ มีข
 
 การเติมเงินผ่าน Payment มีขั้นตอนดังนี้
 
-1.  ไปยังหน้า Billing แล้วใส่จำนวนเงินที่ต้องการเติมลงไปในเมนู Payment หลังจากนั้นให้กดปุ่ม "Pay"
+1.  ไปยังหน้า Billing แล้วใส่จำนวนเงินที่ต้องการเติมลงไปในเมนู Payment หลังจากนั้นให้กดปุ่ม "Pay"  ![](../.gitbook/assets/fn-customer-portal-dev-nipacloud-dev.png)  
 2. เลือกวิธีการชำระเงินที่ต้องการ หลังจากนั้นให้กดปุ่ม "Pay"
 
    ![](../.gitbook/assets/payment-ui-dev.nipa.cloud_payments_238ffb28f6524b7699b6.png)  
@@ -28,10 +28,12 @@ description: การเติมเงินผ่านระบบ มีข
 
    ![](../.gitbook/assets/payment-ui-dev.nipa.cloud_payments_238ffb28f6524b7699b6-33.png)  
 
-5.  QR Payment:  เว็บไซต์จะเข้าสู่หน้า QR code เพื่อให้ผู้ใช้สามารถชำระเงินได้  Bank Transfer: ผู้ใช้งานสามารถเลือกโอนเงินเข้าไปยังบัญชีตามภาพ \(สามารถคลิกที่เลขบัญชีเพื่อ Copy เลขบัญชีได้\)\* หลังจากโอนเงินแล้วให้ลูกค้าทำการอัพโหลดภาพสลิป ที่ปุ่ม "Payment transfer \(Pay-in Slip\) Credit / Debit Card: ทำตามขั้นตอนของ Omise Internet Banking: ทำการขั้นตอนของธนาคาร\* Alipay: ทำการขั้นตอนของ Alipay Rabbit LINE Pay: ทำตามขั้นตอนของ Rabbit LINE Pay
-
-  
-
+5. **QR Payment:**  ระบบจะทำการแสดง QR code สำหรับการชำระเงินดังภาพ  ![](../.gitbook/assets/payment-ui-dev-9.png)  **Bank Transfer:** Admin จะทำการตรวจสอบหลักฐานการชำระเงิน ภายใน 30 นาที ในช่วงเวลาทำการ แล้วจะแจ้งผลให้ผู้ใช้งานผ่านทาง E-mail ที่ลงทะเบียนไว้ **Credit / Debit Card:** ทำตามขั้นตอนของ Omise **Internet Banking:** ทำการขั้นตอนการทำธุรกรรมของธนาคารที่เลือก **Alipay:** ทำการขั้นตอนของ Alipay **Rabbit LINE Pay:** ทำตามขั้นตอนของ Rabbit LINE Pay 
 
 ## Voucher
+
+การเติมเงินผ่าน Voucher มีขั้นตอนดังนี้
+
+1.  ไปยังหน้า Billing แล้วใส่จำนวนเงินที่ต้องการเติมลงไปในเมนู Voucher หลังจากนั้นให้กดปุ่ม "Apply"  ![](../.gitbook/assets/fn-customer-portal-dev-nipacloud-dev-1.png)  
+2. หาก Voucher ถูกต้อง จะได้ระบบจะแจ้งดังภาพต่อไปนี้  ![](../.gitbook/assets/fn-customer-portal-dev-nipacloud-dev-2%20%281%29.png) 
 
