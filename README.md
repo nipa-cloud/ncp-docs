@@ -1,2 +1,2 @@
-# Launch Instance
+# Initial page
 
