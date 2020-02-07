@@ -4,7 +4,7 @@
 
 | **หัวข้อ** | **คำอธิบาย** |
 | :--- | :--- |
-| Hostname |  |
+| Hostname | ชื่อ instance |
 
 > **Hostname** ชื่อของ instance  
 > **Image** ระบบปฏิบัติการ \(Operating System\) ของ instance  
