@@ -172,5 +172,15 @@
 
 ![](../.gitbook/assets/11.png)
 
+6. คลิก **Network, Volume and more** เพื่อดูหัวข้ออื่นๆ  
 
+![](../.gitbook/assets/12.png)
+
+7.เลือกจำนวน instance ที่ต้องการสร้าง โดยสามารถได้สูงสุดครั้งละ 5 instance หากเหลือ quota ในการสร้าง instance เหลือน้อยกว่า 5 จะแสดงตามจำนวน quota ที่เหลือ และสามาถสร้างได้เพียงครั้งละ 1 instance เมื่อมีการเลือก/กำหนด resource ดังนี้  
+- เลือก image ประเภท volume  
+- Disable auto assign IP \(ข้อ 9\)  
+- เลือก IP Address \(Port\) ที่ผู้ใช้งานสร้างขึ้นเอง \(ข้อ 9\)  
+- เลือก External IP ที่ผู้ใช้งานสร้างขึ้นเอง \(ข้อ 10\)  
+
+![](../.gitbook/assets/13.png)
 
