@@ -210,3 +210,13 @@
 
 ![Enable Bypass internal network](../.gitbook/assets/21.png)
 
+11.ตั้งค่า **Auto Backup** โดยหาก  
+     _Enabled_: ระบบจะทำการ backup instance 2 files ทุกๆ 7 วัน ตอน 03:00 น. ให้อัตโนมัติ  
+     _Disabled_: ระบบจะไม่ทำการ backup instance ให้ ซึ่งผู้ใช้งานจะต้องทำการ backup instance ด้วยตนเอง โดยการ snapshot  
+
+![](../.gitbook/assets/22%20%281%29.png)
+
+12.คลิกปุ่ม Create เพื่อสร้าง instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม resource ที่ผู้ใช้งานเลือก  
+
+![](../.gitbook/assets/23.png)
+
