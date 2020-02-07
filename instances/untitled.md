@@ -8,7 +8,7 @@
 > **Cloud firewall** ส่วนที่ระบุการเข้าถึงการใช้งาน instance  
 > **Authentication** ส่วนระบุตัวตนในการใช้งาน instance  
 > **How many instance ?** จำนวน instance ที่ต้องการสร้าง  
-> __**External IP** ส่วนที่ระบุ IP Address ของ instance ที่ต้องการเชื่อมต่อกับ network ภายนอก  
+> **External IP** ส่วนที่ระบุ IP Address ของ instance ที่ต้องการเชื่อมต่อกับ network ภายนอก  
 > **Auto backup** ส่วนที่ระบุถึงการให้ระบบจัดการเก็บข้อมูล backup instance โดยอัตโนมัติ  
 > **Instance Volume** _**\(optional\)**_ ****ขนาดของ volume \(สามารถระบุได้ กรณีที่สร้างแบบ Boot volume\)  
 > **Network** _**\(optional\)**_ ส่วนที่ระบุ network ที่ต้องการใช้งาน instance โดยสามารถกำหนด IP Address ได้
