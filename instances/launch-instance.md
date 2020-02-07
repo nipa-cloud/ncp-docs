@@ -178,7 +178,7 @@
 
 ![](../.gitbook/assets/12.png)
 
-7.เลือกจำนวน instance ที่ต้องการสร้าง โดยสามารถได้สูงสุดครั้งละ 5 instance หากเหลือ quota ในการสร้าง instance เหลือน้อยกว่า 5 จะแสดงตามจำนวน quota ที่เหลือ และสามาถสร้างได้เพียงครั้งละ 1 instance เมื่อมีการเลือก/กำหนด resource ดังนี้  
+7.เลือก**จำนวน instance** ที่ต้องการสร้าง โดยสามารถได้สูงสุดครั้งละ 5 instance หากเหลือ quota ในการสร้าง instance เหลือน้อยกว่า 5 จะแสดงตามจำนวน quota ที่เหลือ และสามาถสร้างได้เพียงครั้งละ 1 instance เมื่อมีการเลือก/กำหนด resource ดังนี้  
 - เลือก image ประเภท volume  
 - Disable auto assign IP \(ข้อ 9\)  
 - เลือก IP Address \(Port\) ที่ผู้ใช้งานสร้างขึ้นเอง \(ข้อ 9\)  
@@ -186,7 +186,7 @@
 
 ![](../.gitbook/assets/13.png)
 
-8. กำหนดขนาดของ disk เมื่อสร้าง instance แบบ boot volume โดยจะสามารถกำหนดได้เมื่อเลือก image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก image ประเภท volume จะใช้ขนาดตาม volume ที่เลือก \(Optional\)  
+8. กำหนด**ขนาดของ disk** เมื่อสร้าง **instance แบบ boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก image ประเภท volume จะใช้ขนาดตาม volume ที่เลือก \(Optional\)  
 
 ![](../.gitbook/assets/14.png)
 
