@@ -2,6 +2,10 @@
 
 ในการสร้าง instance ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง instance ก่อน ดังนี้
 
+| **หัวข้อ** | **คำอธิบาย** |
+| :--- | :--- |
+| Hostname |  |
+
 > **Hostname** ชื่อของ instance  
 > **Image** ระบบปฏิบัติการ \(Operating System\) ของ instance  
 > **Machine Type** spec ของ instance  
