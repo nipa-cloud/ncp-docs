@@ -2,20 +2,18 @@
 
 ในการสร้าง instance ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง instance ก่อน ดังนี้
 
-| **หัวข้อ** | **คำอธิบาย** |
-| :--- | :--- |
-| Hostname | ชื่อ instance |
-
-> **Hostname** ชื่อของ instance  
-> **Image** ระบบปฏิบัติการ \(Operating System\) ของ instance  
-> **Machine Type** spec ของ instance  
-> **Cloud firewall** ส่วนที่ระบุการเข้าถึงการใช้งาน instance  
-> **Authentication** ส่วนระบุตัวตนในการใช้งาน instance  
-> **How many instance ?** จำนวน instance ที่ต้องการสร้าง  
-> **External IP** ส่วนที่ระบุ IP Address ของ instance ที่ต้องการเชื่อมต่อกับ network ภายนอก  
-> **Auto backup** ส่วนที่ระบุถึงการให้ระบบจัดการเก็บข้อมูล backup instance โดยอัตโนมัติ  
-> **Instance Volume** _**\(optional\)**_ ****ขนาดของ volume \(สามารถระบุได้ กรณีที่สร้างแบบ Boot volume\)  
-> **Network** _**\(optional\)**_ ส่วนที่ระบุ network ที่ต้องการใช้งาน instance โดยสามารถกำหนด IP Address ได้
+| **หัวข้อ** | **คำอธิบาย** | Optional |
+| :--- | :--- | :---: |
+| Hostname | ชื่อ instance |  |
+| Image | ระบบปฏิบัติการ \(Operating System\) ของ instance |  |
+| Machine Type | spec ของ instance |  |
+| Cloud firewall | ส่วนที่ระบุการเข้าถึง instance |  |
+| Authentication | ส่วนที่กำหนด keypair หรือ password ในการเข้าใช้งาน |  |
+| How many instance | จำนวนที่ต้องการสร้าง |  |
+| Instance Volume | ขนาดของ volume \(สามาถระบุได้ในกรณีที่สร้างแบบ boot volume\) | / |
+| Network | ส่วนที่กำหนด network ที่ต้องการใช้งาน โดยสามารถกำหนด IP Address ที่ต้องการใช้งานได้ | / |
+| External IP | ส่วนที่กำหนด IP Address ที่ใช้ในการเชื่อมต่อ instance กับ network ภายนอก |  |
+| Auto Backup | ส่วนที่กำหนดถึงการให้ระบบจัดการเก็บข้อมูล backup instance โดยอัตโนมัติ |  |
 
 
 
