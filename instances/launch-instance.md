@@ -8,7 +8,7 @@
 | :--- | :--- | :---: |
 | Hostname | ชื่อ instance |  |
 | Image | ระบบปฏิบัติการ \(Operating System\) ของ instance |  |
-| Machine Type | spec ของ instance |  |
+| Machine Type | spec ของ instance \(แต่ละประเภทมีจำนวนจำกัด หาก spec ไหนเหลือน้อยกว่า 10 เครื่อง จะแสดงจำนวนเครื่องที่เหลือไว้ และประเภทไหนที่หมด จะแสดงข้อความ out of stock\) |  |
 | Cloud firewall | ส่วนที่ระบุการเข้าถึง instance |  |
 | Authentication | ส่วนที่กำหนด keypair หรือ password ในการเข้าใช้งาน |  |
 | How many instance | จำนวนที่ต้องการสร้าง |  |
@@ -53,5 +53,23 @@
 {% endtab %}
 {% endtabs %}
 
+3.เลือก **Machine Type** โดย Machine Type จะถูกแบ่งกลุ่มตามขนาดการใช้งาน ดังนี้
 
+{% tabs %}
+{% tab title="General" %}
+> เป็น spec การใช้งานมาตรฐานของผู้ใช้งาน
+
+![](../.gitbook/assets/6.png)
+{% endtab %}
+
+{% tab title="High Memory" %}
+> เป็น spec ที่เหมาะกับผู้ใช้งานที่เน้นการใช้งาน memory เป็นหลัก
+
+![](../.gitbook/assets/7.png)
+{% endtab %}
+{% endtabs %}
+
+สำหรับผู้ใช้งานที่เลือกประเภท image แบบ boot volume ในส่วน disk ของ machine type จะแสดงข้อความ "use existing volume" ซึ่งหมายความว่า ขนาด disk ของ image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
+
+![](../.gitbook/assets/8%20%281%29.png)
 
