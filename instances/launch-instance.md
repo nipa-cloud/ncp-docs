@@ -41,11 +41,17 @@
 {% endtab %}
 
 {% tab title="Images" %}
+> Image ที่เกิดจากการ snapshot ของ instance ด้วยผู้ใช้งานเอง หรือการทำ auto backup ของระบบ
 
+![](../.gitbook/assets/4.png)
 {% endtab %}
 
 {% tab title="Volumes \(Optional\)" %}
+> Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้  จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน
 
+![](../.gitbook/assets/5.png)
 {% endtab %}
 {% endtabs %}
+
+
 
