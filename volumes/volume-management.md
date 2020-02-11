@@ -4,9 +4,9 @@ description: >-
   ขยายพื้นที่จัดเก็บข้อมูลเพิ่มเติมจาก machine type ที่เลือกไว้
 ---
 
-# Volume Management
+# Volume management
 
-### Create Volume
+## Create Volume
 
 การสร้าง Volume เพื่อใช้เป็น storage เพิ่มเติมให้กับ instance โดยมีขั้นตอนในการสร้างดังนี้
 
@@ -36,13 +36,13 @@ description: >-
 
 ![Volume Creation Complete](../.gitbook/assets/volume5.png)
 
-### Extend Volume
+## Extend Volume
 
 เมื่อสร้าง volume ขึ้นมาแล้ว แต่มีขนาดไม่เพียงพอต่อการใช้งาน สามารถขยายขนาดได้ด้วยการ extend ซึ่งมีขั้นตอนดังนี้
 
 1. ที่ Volume page ให้กดปุ่ม more ที่ด้านขวาของ volume ที่ต้องทำการ extend
 
-![Volumes Page](../.gitbook/assets/volume5%20%281%29.png)
+![Volumes Page](../.gitbook/assets/volume5-1.png)
 
 2. กดที่ปุ่ม Extend เพื่อเข้า extend volume page
 
@@ -60,11 +60,11 @@ description: >-
 
 ![Volume Page with Extended Volume](../.gitbook/assets/volume9.png)
 
-### Attach Volume
+## Attach Volume
 
 เมื่อมี Volume ตามขนาดที่ต้องการแล้ว ก็ต้องเอาไปใช้ โดยการ attach เข้ากับ instance โดยมีขั้นตอนดังนี้
 
-1.  เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
+1. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
 ![Volumes Page](../.gitbook/assets/volume9.png)
 
@@ -80,11 +80,11 @@ description: >-
 
 ![Volume Page with Attached Volume \(Instance Name Show in &quot;in use by&quot;\)](../.gitbook/assets/volume11.png)
 
-### Detach Volume
+## Detach Volume
 
 เมื่อต้องการสลับ Volume ไปใส่ไว้ที่ Instance อื่น หรือต้องการลบ volume จะต้องทำการ Detach ก่อน โดยมีขั้นตอนดังนี้
 
-1.  เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
+1. เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
 ![Volumes Page](../.gitbook/assets/volume9.png)
 
@@ -92,17 +92,17 @@ description: >-
 
 ![](../.gitbook/assets/volume12.png)
 
-4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ detach volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ถูก detach แล้ว
+3. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ detach volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ถูก detach แล้ว
 
 ![Confirm Detach Volume Page](../.gitbook/assets/volume13.png)
 
 ![Volumes Page with Instance Detached](../.gitbook/assets/volume14.png)
 
-### Transfer Volume
+## Transfer Volume
 
 นอกจากเราจะใช้ volume เป็น storage เพิ่มเติมกับ instance ของเราเองได้แล้ว เรายังสามารถ transfer volume ของเราไปให้ project ได้อีกด้วย โดยมีขั้นตอนดังนี้
 
-1.  เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
+1. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
 ![Volumes Page](../.gitbook/assets/volume9.png)
 
@@ -121,11 +121,11 @@ description: >-
 
 ![Volume Transfer Information Review Page](../.gitbook/assets/volume16.png)
 
-5.  ตรวจสอบข้อมูลให้ถูกต้องและ dowload หากต้องการ เรียบร้อยแล้วแล้วกดปุ่ม "Close" ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่อยู่ในสถานะรอการรับ transfer ซึ่งจะยังคงใช้งานได้ จนกว่าผู้รับจะทำการ accept transfer
+5. ตรวจสอบข้อมูลให้ถูกต้องและ dowload หากต้องการ เรียบร้อยแล้วแล้วกดปุ่ม "Close" ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่อยู่ในสถานะรอการรับ transfer ซึ่งจะยังคงใช้งานได้ จนกว่าผู้รับจะทำการ accept transfer
 
 ![Volumes Page with a Volume Trasfer Wait For Accept](../.gitbook/assets/volume17.png)
 
-### Accept Volume Transfer
+## Accept Volume Transfer
 
 หลังจากได้รับ email volume transfer แล้ว สามารถทำการ accept ได้ ตามขั้นตอนต่อไปนี้
 
@@ -134,11 +134,13 @@ description: >-
 {% hint style="info" %}
 **ตัวอย่างข้อมูล**
 
-     **Transfer ID**: f9045302-9dcb-4473-b88e-6ad5ed86eb66
+```text
+ **Transfer ID**: f9045302-9dcb-4473-b88e-6ad5ed86eb66
 
-     **Transfer Name**: sample
+ **Transfer Name**: sample
 
-     **Authorization Key**: 63f85bb5b3b20385
+ **Authorization Key**: 63f85bb5b3b20385
+```
 {% endhint %}
 
 2. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page

@@ -17,7 +17,7 @@
 
 ## Volumes
 
-* [Volume Management](volumes/volume-management.md)
+* [Volume management](volumes/volume-management.md)
 
 ## Resources
 
