@@ -1,6 +1,6 @@
 # Launch Instance
 
-### ข้อมูลที่ใช้ในการสร้าง Instance
+## ข้อมูลที่ใช้ในการสร้าง Instance
 
 ในการสร้าง instance ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง instance ก่อน ดังนี้
 
@@ -110,9 +110,9 @@
 
 ### ขั้นตอนการสร้าง Instance
 
-1.กรอก Hostname \(ชื่อ Instance\) ที่ต้องการ \(ภายในช่องกรอกระบบจะมีชื่อ default ให้ โดยทางผู้ใช้งานสามารถตั้งชื่อใหม่ได้\)   
+1.กรอก Hostname \(ชื่อ Instance\) ที่ต้องการ \(ภายในช่องกรอกระบบจะมีชื่อ default ให้ โดยทางผู้ใช้งานสามารถตั้งชื่อใหม่ได้\)
 
-![](../.gitbook/assets/1%20%281%29.png)
+![](../.gitbook/assets/13.png)
 
 2.เลือก **Image** ที่ต้องการสร้าง โดย image จะประกอบไปด้วย 4 ประภท ดังนี้
 
@@ -136,7 +136,7 @@
 {% endtab %}
 
 {% tab title="Volumes \(Optional\)" %}
-> Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้  จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน
+> Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้ จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน
 
 ![](../.gitbook/assets/5.png)
 {% endtab %}
@@ -160,35 +160,36 @@
 
 สำหรับผู้ใช้งานที่เลือกประเภท image แบบ **boot volume** ในส่วน disk ของ machine type จะแสดงข้อความ "use existing volume" ซึ่งหมายความว่า ขนาด disk ของ image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
 
-![](../.gitbook/assets/8%20%281%29.png)
+![](../.gitbook/assets/8-1.png)
 
 4.เลือก **Cloud firewall**
 
-![](../.gitbook/assets/9%20%281%29.png)
+![](../.gitbook/assets/9-1.png)
 
-5.เลือกประเภทการ **Authentication** ในการใช้งาน instance ซึ่งจะแสดงตามการเลือกของ image โดย Keypiar \(จะแสดงเมื่อเลือก image ประเภท linux\) และ password \(จะแสดงเมื่อเลือก image ประเภท linux หรือ windows\)  
+5.เลือกประเภทการ **Authentication** ในการใช้งาน instance ซึ่งจะแสดงตามการเลือกของ image โดย Keypiar \(จะแสดงเมื่อเลือก image ประเภท linux\) และ password \(จะแสดงเมื่อเลือก image ประเภท linux หรือ windows\)
 
 ![Keypair](../.gitbook/assets/10.png)
 
 ![Password](../.gitbook/assets/11.png)
 
-6. คลิก **Network, Volume and more** เพื่อดูหัวข้ออื่นๆ  
+6.คลิก **Network, Volume and more** เพื่อดูหัวข้ออื่นๆ  
 
 ![](../.gitbook/assets/12.png)
 
-7.เลือก**จำนวน instance** ที่ต้องการสร้าง โดยสามารถได้สูงสุดครั้งละ 5 instance หากเหลือ quota ในการสร้าง instance เหลือน้อยกว่า 5 จะแสดงตามจำนวน quota ที่เหลือ และสามาถสร้างได้เพียงครั้งละ 1 instance เมื่อมีการเลือก/กำหนด resource ดังนี้  
-     - เลือก image ประเภท volume  
-     - Disable auto assign IP \(ข้อ 9\)  
-     - เลือก IP Address \(Port\) ที่ผู้ใช้งานสร้างขึ้นเอง \(ข้อ 9\)  
-     - เลือก External IP ที่ผู้ใช้งานสร้างขึ้นเอง \(ข้อ 10\)  
+7.เลือก**จำนวน instance** ที่ต้องการสร้าง โดยสามารถได้สูงสุดครั้งละ 5 instance หากเหลือ quota ในการสร้าง instance เหลือน้อยกว่า 5 จะแสดงตามจำนวน quota ที่เหลือ และสามาถสร้างได้เพียงครั้งละ 1 instance เมื่อมีการเลือก/กำหนด resource ดังนี้
+
+* เลือก image ประเภท volume  
+* Disable auto assign IP \(ข้อ 9\)  
+* เลือก IP Address \(Port\) ที่ผู้ใช้งานสร้างขึ้นเอง \(ข้อ 9\)  
+* เลือก External IP ที่ผู้ใช้งานสร้างขึ้นเอง \(ข้อ 10\)  
 
 ![](../.gitbook/assets/13.png)
 
-8. กำหนด**ขนาดของ disk** เมื่อสร้าง **instance แบบ boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก image ประเภท volume จะใช้ขนาดตาม volume ที่เลือก _**\(Optional\)**_ 
+8.กำหนด**ขนาดของ disk** เมื่อสร้าง **instance แบบ boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก image ประเภท volume จะใช้ขนาดตาม volume ที่เลือก _**\(Optional\)**_ 
 
 ![](../.gitbook/assets/14.png)
 
-9.เลือก **Network** ที่ต้องการสร้าง instance หากผู้ใช้งานเลือก network แบบ public จะไม่สามารถเลือก External IP \(ข้อ 10\) ได้ นอกจากกำหนด network แล้วผู้ใช้งานสามารถกำหนด IP Address \(หมายเลข port\) ของ instance หรือสร้าง port \(ดูได้จากหัวข้อ Create Port\) ได้ด้วยตนเอง หากหมายเลขนั้นไม่มีผู้ใช้งานคนอื่นๆใช้งานอยู่  _**\(Optional\)**_
+9.เลือก **Network** ที่ต้องการสร้าง instance หากผู้ใช้งานเลือก network แบบ public จะไม่สามารถเลือก External IP \(ข้อ 10\) ได้ นอกจากกำหนด network แล้วผู้ใช้งานสามารถกำหนด IP Address \(หมายเลข port\) ของ instance หรือสร้าง port \(ดูได้จากหัวข้อ Create Port\) ได้ด้วยตนเอง หากหมายเลขนั้นไม่มีผู้ใช้งานคนอื่นๆใช้งานอยู่ _**\(Optional\)**_
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; Auto Assign IP](../.gitbook/assets/15.png)
 
@@ -196,11 +197,12 @@
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; &#xE01;&#xE33;&#xE2B;&#xE19;&#xE14; IP Address &#xE17;&#xE35;&#xE48;&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;](../.gitbook/assets/17.png)
 
-10.เลือก **External IP** โดยหากเลือก  
-     - _Create a new IP_: ระบบจะทำการสุ่ม External IP ที่ไม่ถูกใช้งานให้  
-     - _Disabled_: instance ที่ถูกสร้างจะไม่มีการใช้งาน External IP  
-     - _เลือก External IP ที่ผู้ใช้งานสร้างเอง_ \(ดูได้จากหัวข้อ Create External IPs\)  
-     - Enable _Bypass internal network_: instance ที่ถูกสร้างจะได้ internal IP เป็นเลข External IP แทน หาก Enable จะไม่สามารถเลือก Network \(ข้อ 9\) ได้  
+10.เลือก **External IP** โดยหากเลือก
+
+* _Create a new IP_: ระบบจะทำการสุ่ม External IP ที่ไม่ถูกใช้งานให้  
+* _Disabled_: instance ที่ถูกสร้างจะไม่มีการใช้งาน External IP  
+* _เลือก External IP ที่ผู้ใช้งานสร้างเอง_ \(ดูได้จากหัวข้อ Create External IPs\)  
+* Enable _Bypass internal network_: instance ที่ถูกสร้างจะได้ internal IP เป็นเลข External IP แทน หาก Enable จะไม่สามารถเลือก Network \(ข้อ 9\) ได้  
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Create a new IP](../.gitbook/assets/18.png)
 
@@ -211,28 +213,28 @@
 ![Enable Bypass internal network](../.gitbook/assets/21.png)
 
 11.ตั้งค่า **Auto Backup** โดยหาก  
-     _Enabled_: ระบบจะทำการ backup instance 2 files ทุกๆ 7 วัน ตอน 03:00 น. ให้อัตโนมัติ  
-     _Disabled_: ระบบจะไม่ทำการ backup instance ให้ ซึ่งผู้ใช้งานจะต้องทำการ backup instance ด้วยตนเอง โดยการ snapshot  
+_Enabled_: ระบบจะทำการ backup instance 2 files ทุกๆ 7 วัน ตอน 03:00 น. ให้อัตโนมัติ  
+_Disabled_: ระบบจะไม่ทำการ backup instance ให้ ซึ่งผู้ใช้งานจะต้องทำการ backup instance ด้วยตนเอง โดยการ snapshot
 
-![](../.gitbook/assets/22%20%281%29.png)
+![](../.gitbook/assets/22-1.png)
 
-12.คลิกปุ่ม Create เพื่อสร้าง instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม resource ที่ผู้ใช้งานเลือก  
+12.คลิกปุ่ม Create เพื่อสร้าง instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม resource ที่ผู้ใช้งานเลือก
 
 ![](../.gitbook/assets/23.png)
 
-13.เมื่อคลิกสร้าง instance แล้ว ระบบจะแสดงหน้า instance list หากสร้างสำเร็จจะแสดงผลลัพธ์ตามรูปด้านล่าง  
+13.เมื่อคลิกสร้าง instance แล้ว ระบบจะแสดงหน้า instance list หากสร้างสำเร็จจะแสดงผลลัพธ์ตามรูปด้านล่าง
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Create a new IP](../.gitbook/assets/24.png)
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Disabled](../.gitbook/assets/25%20%281%29.png)
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Disabled](../.gitbook/assets/25-1.png)
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; External IP: Bypass internal netowrk ](../.gitbook/assets/26.png)
 
-หากสร้าง instance แบบ boot volume จะไม่สามารถดูผลลัพธ์ได้ในหน้า instance list ผู้ใช้งานจะสามารถตรวจสอบได้ที่ instance detail โดยคลิกที่ชื่อ instance  
+หากสร้าง instance แบบ boot volume จะไม่สามารถดูผลลัพธ์ได้ในหน้า instance list ผู้ใช้งานจะสามารถตรวจสอบได้ที่ instance detail โดยคลิกที่ชื่อ instance
 
 ![](../.gitbook/assets/27.png)
 
-โดยภายใน instance detail จะแสดงข้อมูลขนาด disk ของ instance เป็นประเภท volume และมี 1 volume หลังจากสร้าง instance เรียบร้อยแล้ว  
+โดยภายใน instance detail จะแสดงข้อมูลขนาด disk ของ instance เป็นประเภท volume และมี 1 volume หลังจากสร้าง instance เรียบร้อยแล้ว
 
 ![](../.gitbook/assets/28.png)
 
