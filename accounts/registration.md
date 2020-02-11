@@ -97,7 +97,7 @@
 
 5. กรอกรายละเอียดข้อมูลผู้ใช้งาน โดย **First name** และ **Last name** ที่ใช้จะต้องไม่มีอยู่ในระบบ จากนั้นคลิก **“Finish”** เป็นการสมัครสมาชิกเรียบร้อย
 
-![](https://lh6.googleusercontent.com/T6iwL27lMFZbuFiU-fWptzyc9VZt9sDwnKZzKYBP1O0SIxpklqPds3hmRz4rYlWINUSqnIxOES1dCdH09BWUNjFRot9zByIIj_g96gHyMkvHWxLcNKXYZrNNel2MGFoeEJ-xHHg)
+![](../.gitbook/assets/registration-private-email-5.png)
 
 6. หากสมัครสมาชิกสำเร็จ จะแสดงหน้า ดังรูป จากนั้นคลิก **“Let’s start!”** ระบบจะทำการ login เข้าสู่หน้า **Billing** ให้อัตโนมัต
 
