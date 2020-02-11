@@ -1,8 +1,8 @@
-# Forgot Password
+# Forgot password
 
-การรีเซ็ตรหัสผ่านสมาชิกของระบบ Nipa Cloud Platform \(NCP\) สามารถทำได้ที่หน้า [http://portal.nipa.cloud/forgot-password](http://portal.nipa.cloud/forgot-password)  โดยมีขั้นตอนดังนี้
+การรีเซ็ตรหัสผ่านสมาชิกของระบบ Nipa Cloud Platform \(NCP\) สามารถทำได้ที่หน้า [http://portal.nipa.cloud/forgot-password](http://portal.nipa.cloud/forgot-password) โดยมีขั้นตอนดังนี้
 
-1. ****คลิก **“Forget Password”**
+1. ****คลิก **"Forgot Password"**
 
 ![](https://lh4.googleusercontent.com/MYC0LhiDjaQtZJ4dMJRFFjmckJGqXrwtrCLw52U1TD7AzkdOMWk2P_zKJH6ccFlNI3IqsFOnaWWeiHZFlfwT8rR1xFV5X6EQd-LsAnPw_xL9h2LS3NUBuh3RSjadzHSwwakG2Z9f)
 
@@ -24,7 +24,7 @@
 
 5. **เ**มื่อเข้ามายังหน้า **Reset password** ให้ทำการกรอก Password ใหม่ โดยจะต้องถูกต้องตามเงื่อนไข แล้วจึงจะกด **“Confirm”** เพื่อ Reset password ได้
 
-![](https://lh5.googleusercontent.com/CJYzlmI7Hj74P5UDpRTwV55_NTvMIfZsx0I4NDXOX6sFaFFDVGa437sF7BEcep0MQJWiWr6gIwa8T426nAoW9zkSu8possfV629n-eqnYNm4Zts4LHa9GVlzJ2fLYKf7AgdUhx2v)
+![](../.gitbook/assets/reset-password-5.png)
 
 6. เมื่อระบบทำการ Reset password ได้สำเร็จ จะได้รับการ Redirect ไปยังหน้า Login พร้อมกับแสดงข้อความว่า **“Reset your password is success.”**
 

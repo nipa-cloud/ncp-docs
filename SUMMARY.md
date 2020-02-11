@@ -1,6 +1,7 @@
 # Table of contents
 
-* [NCP Documentation](README.md)
+* [Introduction](README.md)
+* [Nipa Cloud Portal](http://portal.nipa.cloud/)
 
 ## Accounts
 
@@ -9,7 +10,7 @@
 
 ## BILLING
 
-* [Top Up](billing/payment.md)
+* [Top up](billing/top-up.md)
 
 ## Projects
 
