@@ -8,7 +8,11 @@
 * [Registration](accounts/registration.md)
 * [Forgot password](accounts/forgot-password.md)
 
-## BILLING
+## Instances
+
+* [Launch Instance](instances/launch-instance.md)
+
+## Billing
 
 * [Top up](billing/top-up.md)
 
