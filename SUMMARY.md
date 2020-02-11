@@ -5,7 +5,7 @@
 ## Accounts
 
 * [Registration](accounts/registration.md)
-* [Forget password](accounts/forget-password.md)
+* [Forgot password](accounts/forgot-password.md)
 
 ## BILLING
 
