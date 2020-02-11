@@ -1,15 +1,29 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [NCP Documentation](README.md)
+
+## Quickstarts
+
+* [Launch an Instance](quickstarts/launch-an-instance.md)
+
+## Accounts
+
+* [Registration](registration.md)
+* [Forget password](acccounts/forgot-password.md)
 
 ## BILLING
 
 * [Payment](billing/payment.md)
 
-## volumes
+## Projects
 
-* [Volume Management in NCP](volumes/volume-management-in-ncp.md)
+* [Project management](projects/project-management.md)
+
+## Volumes
+
+* [Volume Management](volumes/volume-management.md)
 * [Test Page](test-page.md)
 
-## Projects
-* [Project management in NCP](projects/project-management.md)
+## Resources
+
+* [FAQ](resources/faq.md)

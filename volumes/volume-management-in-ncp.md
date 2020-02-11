@@ -1,2 +1,0 @@
-# Volume Management in NCP
-
