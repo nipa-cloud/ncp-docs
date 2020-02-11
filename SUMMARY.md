@@ -11,3 +11,5 @@
 * [Volume Management in NCP](volumes/volume-management-in-ncp.md)
 * [Test Page](test-page.md)
 
+## Projects
+* [Project management in NCP](projects/project-management.md)
