@@ -12,13 +12,13 @@ description: >-
 
 1. เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
-![Volume Page](../.gitbook/assets/volume1.png)
+![Volume Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume1.png)
 
 1. คลิกปุ่ม Volume ที่บริเวณด้านขวาบนของ page เพื่อเข้าสู่ create volume page
 
-![Create Volume Button](../.gitbook/assets/volume2.png)
+![Create Volume Button](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume2.png)
 
-![Create Volume Page](../.gitbook/assets/volume3.png)
+![Create Volume Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume3.png)
 
 1. ที่ create volume page ให้ใส่ข้อมูลดังต่อไปนี้
 2. Name: ชื่อของ volume
@@ -29,11 +29,11 @@ description: >-
 4. Size: ขนาดของ volume
 5. Perfomance Type: ชนิดของ volume โดยจะมีให้เลือกแค่ corporate เท่านั้น
 
-![](../.gitbook/assets/volume4.png)
+![](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume4.png)
 
 1. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อสร้าง volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ถูกสร้าง
 
-![Volume Creation Complete](../.gitbook/assets/volume5.png)
+![Volume Creation Complete](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume5.png)
 
 ## Extend Volume
 
@@ -41,22 +41,22 @@ description: >-
 
 1. ที่ Volume page ให้กดปุ่ม more ที่ด้านขวาของ volume ที่ต้องทำการ extend
 
-![Volumes Page](../.gitbook/assets/volume5-1.png)
+![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume5-1.png)
 
 1. กดที่ปุ่ม Extend เพื่อเข้า extend volume page
 
-![Volume Options](../.gitbook/assets/volume7%20%282%29.png)
+![Volume Options](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume7%20%282%29.png)
 
 1. ที่ Extend volume page ให้ใส่ข้อมูลดังต่อไปนี้
 2. Volume Name: ชื่อของ volume ที่ต้องการ extend
 3. Current size: ขนาดปัจจุบันของ volume
 4. New size: ขนาดใหม่ที่ต้องการ
 
-![Extend Volume Page](../.gitbook/assets/volume8.png)
+![Extend Volume Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume8.png)
 
 1. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ extend volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ถูก extend แล้ว
 
-![Volume Page with Extended Volume](../.gitbook/assets/volume9%20%284%29.png)
+![Volume Page with Extended Volume](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume9%20%284%29.png)
 
 ## Attach Volume
 
@@ -64,19 +64,19 @@ description: >-
 
 1. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
-![Volumes Page](../.gitbook/assets/volume9%20%282%29.png)
+![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume9%20%282%29.png)
 
 1. กดที่ปุ่ม Attach เพื่อเข้า attach volume page
 
-![Volume Options](../.gitbook/assets/volume7.png)
+![Volume Options](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume7.png)
 
 1. เลือกชื่อของ instance ที่ต้องการ attach volume เข้าไป
 
-![Attach Volume Page](../.gitbook/assets/volume10.png)
+![Attach Volume Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume10.png)
 
 1. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ attach volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง Volume ที่ถูก attach แล้ว
 
-![Volume Page with Attached Volume \(Instance Name Show in &quot;in use by&quot;\)](../.gitbook/assets/volume11.png)
+![Volume Page with Attached Volume \(Instance Name Show in &quot;in use by&quot;\)](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume11.png)
 
 ## Detach Volume
 
@@ -84,17 +84,17 @@ description: >-
 
 1. เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
-![Volumes Page](../.gitbook/assets/volume9.png)
+![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume9.png)
 
 1. กดที่ปุ่ม Detach เพื่อเข้า detach volume page
 
-![](../.gitbook/assets/volume12.png)
+![](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume12.png)
 
 1. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ detach volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ถูก detach แล้ว
 
-![Confirm Detach Volume Page](../.gitbook/assets/volume13.png)
+![Confirm Detach Volume Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume13.png)
 
-![Volumes Page with Instance Detached](../.gitbook/assets/volume14.png)
+![Volumes Page with Instance Detached](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume14.png)
 
 ## Transfer Volume
 
@@ -102,25 +102,25 @@ description: >-
 
 1. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
-![Volumes Page](../.gitbook/assets/volume9%20%281%29.png)
+![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume9%20%281%29.png)
 
 1. กดที่ปุ่ม Transfer เพื่อเข้า transfer volume page
 
-![Volume Options](../.gitbook/assets/volume7%20%281%29.png)
+![Volume Options](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume7%20%281%29.png)
 
 1. ที่ transfer volume page ให้ใส่ข้อมูลดังต่อไปนี้
 2. Transfer Name: ชื่อของการ transfer นี้
 3. E-mail Destination: email ของผู้รับ volume
 
-![Transfer Volume Page](../.gitbook/assets/volume14-1.png)
+![Transfer Volume Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume14-1.png)
 
 1. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ transfer volume หลังจากนั้นระบบจะทำการส่ง email ข้อมูลที่จำเป็นต้องใช้ในการรับ transfer volume ไปให้ และจะแสดงข้อมูลให้สามารถ download เก็บไว้ได้ด้วย
 
-![Volume Transfer Information Review Page](../.gitbook/assets/volume16.png)
+![Volume Transfer Information Review Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume16.png)
 
 1. ตรวจสอบข้อมูลให้ถูกต้องและ dowload หากต้องการ เรียบร้อยแล้วแล้วกดปุ่ม "Close" ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่อยู่ในสถานะรอการรับ transfer ซึ่งจะยังคงใช้งานได้ จนกว่าผู้รับจะทำการ accept transfer
 
-![Volumes Page with a Volume Trasfer Wait For Accept](../.gitbook/assets/volume17.png)
+![Volumes Page with a Volume Trasfer Wait For Accept](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume17.png)
 
 ## Accept Volume Transfer
 
@@ -142,16 +142,17 @@ description: >-
 
 1. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
-![Volumes Page](../.gitbook/assets/volume9%20%283%29.png)
+![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume9%20%283%29.png)
 
 1. กดที่ปุ่ม Accept Transfer เพื่อเข้าสู่ accept transfer volume page
 
-![Accept Transfer Volume Page](../.gitbook/assets/volume18.png)
+![Accept Transfer Volume Page](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume18.png)
 
 1. ที่ accept transfer volume page ให้ใส่ข้อมูลตามที่ได้รับมาทาง email หรือทางอื่นๆ
 
-![](../.gitbook/assets/volume19.png)
+![](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume19.png)
 
 1. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Accept เพื่อ accept volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ได้รับมา
 
-![Volume Page with Transfered Volume](../.gitbook/assets/volume19-1.png)
+![Volume Page with Transfered Volume](https://github.com/nipa-cloud/ncp-docs/tree/82dfa6eaaef3329cc816a0e8ae6880375e4e634a/.gitbook/assets/volume19-1.png)
+
