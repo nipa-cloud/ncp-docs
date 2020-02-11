@@ -1,2 +1,2 @@
-# NCP Documentation
+# Introduction
 
