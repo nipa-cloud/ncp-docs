@@ -1,4 +1,4 @@
-# Project Management
+# Project management
 
 Project คือกลุ่มของ Resource ที่สามารถเข้าถึงได้โดยสมาชิกของโปรเจค นั้น ๆ ซึ่งสมาชิกนั้นจะมีอยู่ด้วยกัน 3 ประเภท ได้แก่
 
@@ -26,7 +26,7 @@ Document นี้จะพูดถึงการจัดการโปร�
 
 ![](https://lh4.googleusercontent.com/g5P_vgETVlD0_WSc6EMHowuOKX-4ymly6zg-kuVYPsuW_d8rj7-QpTqz1oIrnCh0Ttz7NOQvv0Rqd2if59g0Mz0LgxRm_Zu1whcuSSm6S9cUt1RP_9PVBSxjkJJ2yj9XfwzocLY)
 
-2. ที่หน้า Create project ****ให้ใส่ข้อมูลดังต่อไปนี้
+2. ที่หน้า Create project _\*\*_ให้ใส่ข้อมูลดังต่อไปนี้
 
 * **Project name**: ชื่อ Project ที่จะแสดงที่ Dropdown และ page Project
 * **Contact phone number**: เบอร์โทรศัพท์ที่ Admin ของเราจะใช้ในการติดต่อเมื่อเกิดปัญหากับ Project ของคุณ โดยจะมีเบอร์โทรศัพท์ของ User ปัจจุบัน เป็นค่าพื้นฐาน
@@ -103,7 +103,7 @@ Document นี้จะพูดถึงการจัดการโปร�
 
 Owner สามารถแก้ไขเบอร์โทรศัพท์ และ Email ที่ใช้ในการติดต่อสื่อสารได้ตลอดเวลา โดยมีขั้นตอนดังต่อไปนี้
 
-1. ที่หน้า Project กดปุ่ม ![](https://lh4.googleusercontent.com/BGDpH1xsHB8jagbpYjHNDLcA-zRKNmFIcN0gJUylm0e9cYQSbPsLqWHDvdmkh6BQOeA5NP0zKJ2bQCEwWsnhZIsME9JPiw04KPs9zzZFtumkRlqirfqt_IJS0x_NXNvXSJ49mdQ) ****
+1. ที่หน้า Project กดปุ่ม ![](https://lh4.googleusercontent.com/BGDpH1xsHB8jagbpYjHNDLcA-zRKNmFIcN0gJUylm0e9cYQSbPsLqWHDvdmkh6BQOeA5NP0zKJ2bQCEwWsnhZIsME9JPiw04KPs9zzZFtumkRlqirfqt_IJS0x_NXNvXSJ49mdQ)
 
 ![](https://lh3.googleusercontent.com/dgOHDivc8MUr6tHeLBM-hmkTo26Ns8Cps2wzCPgLVD3KWZsZCmDejFzHpXRhBeFiTK7DCJPxCGOlUVnpQb6psmOWWHSeEGelY0FbnPkyd5GdD_RNGrB1r8t9LuWHI7ZKuw_tIPc)
 
@@ -121,7 +121,7 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 ## **Change project & billing types**
 
 {% hint style="info" %}
-โดยพื้นฐานทุก ๆ project จะเป็นประเภท **Individual** แต่ Owner สามารถส่งคำร้องขอเปลี่ยนเป็นประเภท **Company** ได้ 
+โดยพื้นฐานทุก ๆ project จะเป็นประเภท **Individual** แต่ Owner สามารถส่งคำร้องขอเปลี่ยนเป็นประเภท **Company** ได้
 {% endhint %}
 
 รวมถึงรูปแบบการชำระเงินที่มีค่าพื้นฐานเป็น Prepaid หรือการเติมเงินไปก่อน จึงจะใช้ได้ แต่ **Owner** สามารถส่งคำร้องขอเปลี่ยนเป็นแบบ postpaid หรือการใช้งานไปก่อน แล้วค่อยออกบิลไปเก็บเงินได้ แต่จะต้องผ่านการพิจารณาจากทีมงานของ NCP ก่อน
@@ -129,13 +129,13 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 ### **Change project type**
 
 การส่งคำร้องขอเปลี่ยน project type มีขั้นตอนดังต่อไปนี้  
-****1. ****ที่หน้า Project กดปุ่ม ![](https://lh6.googleusercontent.com/4wPOJQ1dmlL0UV2bBwlKJ27A0WYz4qeLIE89dvZUyya3OXIXPjqpxvm2S1y2DUy1qiQ8B8ZNluuHPAhaujtwzC8rIYL6LhZuBOWU_99KBKrXv7rBJs_swhKoeet9HzE4CzABhMw) และเลือก **Change Project Type**
+1. ที่หน้า Project กดปุ่ม ![](https://lh6.googleusercontent.com/4wPOJQ1dmlL0UV2bBwlKJ27A0WYz4qeLIE89dvZUyya3OXIXPjqpxvm2S1y2DUy1qiQ8B8ZNluuHPAhaujtwzC8rIYL6LhZuBOWU_99KBKrXv7rBJs_swhKoeet9HzE4CzABhMw) และเลือก **Change Project Type**
 
 ![](https://lh3.googleusercontent.com/xOpe78pZd19311ctXSXTwFFqb2qrJKcBoZA-EmMT4M9stRxDbbO148y8pAldZpSq0fzDhPUCBAgrhxJ8oIroAUphe7xEGr12h7YGwUKlXTEyAq410pWYiuUe5PE-9J0MA1pkdfY)
 
 2. ที่หน้า **“Request for change project type”** ให้ใส่ข้อมูลดังต่อไปนี้
 
-* **Contact name:** ใส่ชื่อที่ใช้ในการติดต่อกับทีมงานของ NCP 
+* **Contact name:** ใส่ชื่อที่ใช้ในการติดต่อกับทีมงานของ NCP
 * **Tax ID:** เลขผู้เสียภาษีของบริษัทิ
 * **Name:** ชื่อของบริษัท
 * **Phone:** เบอร์โทรศัพท์ของบริษัท ที่สามารถติดต่อได้
@@ -144,9 +144,9 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 
 ![](https://lh6.googleusercontent.com/3M3oLzkNbTU63xLYy7shTn3a6_Ny2sWWE2_8C-UMvycHqBQMKgeA3BYBkmbqotNZoTjphjvOWFbtfz1LaUzXB2Zjo9kv4jlBRcFoHflOeFrrfuP2wVqZ27qIlEbejkZPZGLhbwk)
 
-3. ตรวจสอบข้อมูลให้ครบถ้วนถูกต้องแล้วกด Confirm ระบบจะพากลับไปที่หน้า Project จะเห็นว่าที่ Project type จะมี
+ตรวจสอบข้อมูลให้ครบถ้วนถูกต้องแล้วกด Confirm ระบบจะพากลับไปที่หน้า Project จะเห็นว่าที่ Project type จะมี
 
-* สัญลักษณ์ ![](https://lh6.googleusercontent.com/E-Jm9zYIaw6-0JqrF0smn8-FndUiHRnPuT9ay9HvVHKJ1RJtUgobS3v1yuRJHAAJl-mie_AByNkR662Q6DGqShkmKWNLTsA5tlJU8ayRFy4FtUxacNiOc-ljcYRgduxPf64PgQs)หมายถึงคำขอของคุณ กำลังรอการพิจารณาอยู่ 
+* สัญลักษณ์ ![](https://lh6.googleusercontent.com/E-Jm9zYIaw6-0JqrF0smn8-FndUiHRnPuT9ay9HvVHKJ1RJtUgobS3v1yuRJHAAJl-mie_AByNkR662Q6DGqShkmKWNLTsA5tlJU8ayRFy4FtUxacNiOc-ljcYRgduxPf64PgQs)หมายถึงคำขอของคุณ กำลังรอการพิจารณาอยู่
 * สัญลักษณ์ ![](https://lh5.googleusercontent.com/qZ9MuVbEFROtfS8sT67ffVoPFommvNtXm5SS_48mmR3ljs-sXg2_O__6lE0w4FlpVUftLMLp1sJxuJT22uFQ6VIpqG46BUquNCvkl-Ygtve7LHbNhcZl3V2nA1_zckhcmEFw7FY)หมายถึงคำขอของคุณ ได้รับการอนุมัติ
 
 ![](https://lh4.googleusercontent.com/nGD0k12z9DpmlCSgs0JEhkpFK7Yz071_-3dEQgYHmWTEVYfyEmde-7nFPO3GGgpYdsF9K9eTdOehMDRvRI9OqyqDPBbMxc-6YChr8C8N5IC3NagFMIsKE9xvnj728y3hppyHIHY)

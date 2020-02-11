@@ -1,8 +1,30 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction](README.md)
+* [Nipa Cloud Portal](http://portal.nipa.cloud/)
+
+## Accounts
+
+* [Registration](accounts/registration.md)
+* [Forgot password](accounts/forgot-password.md)
 
 ## Instances
 
 * [Launch Instance](instances/launch-instance.md)
+
+## Billing
+
+* [Top up](billing/top-up.md)
+
+## Projects
+
+* [Project management](projects/project-management.md)
+
+## Volumes
+
+* [Volume management](volumes/volume-management.md)
+
+## Resources
+
+* [FAQ](resources/faq.md)
 

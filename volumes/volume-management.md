@@ -4,7 +4,7 @@ description: >-
   ขยายพื้นที่จัดเก็บข้อมูลเพิ่มเติมจาก machine type ที่เลือกไว้
 ---
 
-# Volume Management
+# Volume management
 
 ## Create Volume
 
@@ -14,7 +14,7 @@ description: >-
 
 ![Volume Page](../.gitbook/assets/volume1.png)
 
-2.  คลิกปุ่ม Volume ที่บริเวณด้านขวาบนของ page เพื่อเข้าสู่ create volume page
+2. คลิกปุ่ม Volume ที่บริเวณด้านขวาบนของ page เพื่อเข้าสู่ create volume page
 
 ![Create Volume Button](../.gitbook/assets/volume2.png)
 
@@ -42,7 +42,7 @@ description: >-
 
 1. ที่ Volume page ให้กดปุ่ม more ที่ด้านขวาของ volume ที่ต้องทำการ extend
 
-![Volumes Page](../.gitbook/assets/volume5%20%281%29.png)
+![Volumes Page](../.gitbook/assets/volume5-1.png)
 
 2. กดที่ปุ่ม Extend เพื่อเข้า extend volume page
 
@@ -64,7 +64,7 @@ description: >-
 
 เมื่อมี Volume ตามขนาดที่ต้องการแล้ว ก็ต้องเอาไปใช้ โดยการ attach เข้ากับ instance โดยมีขั้นตอนดังนี้
 
-1.  เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
+1. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
 ![Volumes Page](../.gitbook/assets/volume9.png)
 
@@ -84,7 +84,7 @@ description: >-
 
 เมื่อต้องการสลับ Volume ไปใส่ไว้ที่ Instance อื่น หรือต้องการลบ volume จะต้องทำการ Detach ก่อน โดยมีขั้นตอนดังนี้
 
-1.  เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
+1. เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
 ![Volumes Page](../.gitbook/assets/volume9.png)
 
@@ -92,7 +92,7 @@ description: >-
 
 ![](../.gitbook/assets/volume12.png)
 
-4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ detach volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ถูก detach แล้ว
+3. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ detach volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ถูก detach แล้ว
 
 ![Confirm Detach Volume Page](../.gitbook/assets/volume13.png)
 
@@ -102,7 +102,7 @@ description: >-
 
 นอกจากเราจะใช้ volume เป็น storage เพิ่มเติมกับ instance ของเราเองได้แล้ว เรายังสามารถ transfer volume ของเราไปให้ project ได้อีกด้วย โดยมีขั้นตอนดังนี้
 
-1.  เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
+1. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
 
 ![Volumes Page](../.gitbook/assets/volume9.png)
 
@@ -121,7 +121,7 @@ description: >-
 
 ![Volume Transfer Information Review Page](../.gitbook/assets/volume16.png)
 
-5.  ตรวจสอบข้อมูลให้ถูกต้องและ dowload หากต้องการ เรียบร้อยแล้วแล้วกดปุ่ม "Close" ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่อยู่ในสถานะรอการรับ transfer ซึ่งจะยังคงใช้งานได้ จนกว่าผู้รับจะทำการ accept transfer
+5. ตรวจสอบข้อมูลให้ถูกต้องและ dowload หากต้องการ เรียบร้อยแล้วแล้วกดปุ่ม "Close" ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่อยู่ในสถานะรอการรับ transfer ซึ่งจะยังคงใช้งานได้ จนกว่าผู้รับจะทำการ accept transfer
 
 ![Volumes Page with a Volume Trasfer Wait For Accept](../.gitbook/assets/volume17.png)
 
@@ -134,11 +134,13 @@ description: >-
 {% hint style="info" %}
 **ตัวอย่างข้อมูล**
 
-     **Transfer ID**: f9045302-9dcb-4473-b88e-6ad5ed86eb66
+```text
+ **Transfer ID**: f9045302-9dcb-4473-b88e-6ad5ed86eb66
 
-     **Transfer Name**: sample
+ **Transfer Name**: sample
 
-     **Authorization Key**: 63f85bb5b3b20385
+ **Authorization Key**: 63f85bb5b3b20385
+```
 {% endhint %}
 
 2. เมื่อ login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่ volume page
@@ -156,3 +158,4 @@ description: >-
 5. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Accept เพื่อ accept volume ระบบจะพากลับไปที่ volumes page พร้อมแสดง volume ที่ได้รับมา
 
 ![Volume Page with Transfered Volume](../.gitbook/assets/volume19-1.png)
+

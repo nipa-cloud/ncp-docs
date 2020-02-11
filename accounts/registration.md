@@ -44,15 +44,15 @@
 
 ![](https://lh5.googleusercontent.com/25M8KhFLIbonBtjIWjdwtkh70CnT1bMsAf2qbUDRRvczDSYJ0X_cYfjO93HHvqnwL-_1fgFD3_8DJOGCkYwDcn_iQ6rgCjR-d-dgMTTrTiMqBW2QILZ0WiweIuw_uk1-PIGStbo)
 
-6. ระบบจะทำการส่งหมายเลข **OTP** \(One Time Password\) ****ให้ เมื่อได้รับแล้ว ให้กรอกลงในช่อง OTP ยืนยัน จากนั้นคลิก **“Next"**
+6. ระบบจะทำการส่งหมายเลข **OTP** \(One Time Password\) **\*\*ให้ เมื่อได้รับแล้ว ให้กรอกลงในช่อง OTP ยืนยัน จากนั้นคลิก** “Next"\*\*
 
 ![](https://lh6.googleusercontent.com/lNayxRUrHlKKNdSuKXNA5l98WA2FWaEQ5IvAj20o7IHdiZ65pM_dtx2dKtt1AzAPA00TC6_U_27_8Nu-rPLUrd3TeJMgWOTeB-vhh6biqDTJA3hg9UgjV9vesuEPq0lhJOelcfM)
 
 7. กรอกรายละเอียดข้อมูลผู้ใช้งาน โดย **First name** และ **Last name** ที่ใช้จะต้องไม่มีอยู่ในระบบ จากนั้นคลิก **“Finish”**เป็นการสมัครสมาชิกเรียบร้อย
 
-![](https://lh3.googleusercontent.com/WB_OsjBkcoTyvq1xW6tFHhUepB7T3DxjdaWbPN8uxsomoeLSvupFZBalsdNtfEbUmlz-0quUqxvHiHfG2ekXO7UMIMzwdYu7SZqILvabryeDab3_te5q91D2nW-ux2HQmN2RI0w)
+![](../.gitbook/assets/registration-public-7.png)
 
-7. หากสมัครสมาชิกสำเร็จ จะแสดงหน้า ดังรูป จากนั้นคลิก **“Let’s start!”** ระบบจะทำการ login เข้าสู่หน้า **Billing** ให้อัตโนมัติ
+8. หากสมัครสมาชิกสำเร็จ จะแสดงหน้า ดังรูป จากนั้นคลิก **“Let’s start!”** ระบบจะทำการ login เข้าสู่หน้า **Billing** ให้อัตโนมัติ
 
 ![](https://lh6.googleusercontent.com/ERDSYclQ2EynMkDkt6G_aL295W153TXqrYY51Fo_QPkFjcr3TfFOpWlFfdetkpCFe325DEi3HU1ssVN7aA1XvOUBTNXu3MPjEEHKFuX_gBwH0uu8YBunl4c7BD_0FMCVmBtL2R0)
 
@@ -61,9 +61,9 @@
 ## **Private user**
 
 สำหรับการสมัครสมาชิกของ Private user สามารถแบ่งได้ 3 รูปแบบ คือ  
- 1. [Full registration:](registration.md#full-registraion) สมัครแบบเต็มขั้นตอน: ขั้นตอนนี้จะเหมือนกับ Public user  
- 2. [Email registration:](registration.md#email-registration) สมัครแบบใช้เฉพาะ Email ในการยืนยันตัวตน  
- 3. [Phone registration:](registration.md#phone-registration) สมัครแบบใช้เฉพาะหมายเลขโทรศัพท์ และ OTP ในการยืนยันตัวตน
+1. [Full registration:](registration.md#full-registraion) สมัครแบบเต็มขั้นตอน: ขั้นตอนนี้จะเหมือนกับ Public user  
+2. [Email registration:](registration.md#email-registration) สมัครแบบใช้เฉพาะ Email ในการยืนยันตัวตน  
+3. [Phone registration:](registration.md#phone-registration) สมัครแบบใช้เฉพาะหมายเลขโทรศัพท์ และ OTP ในการยืนยันตัวตน
 
 {% hint style="info" %}
 โดยในส่วนของ **Private user** จะแสดงขั้นตอนการสมัครสมาชิกในรูปแบบที่ 2 และ 3 เท่านั้น
@@ -97,7 +97,7 @@
 
 5. กรอกรายละเอียดข้อมูลผู้ใช้งาน โดย **First name** และ **Last name** ที่ใช้จะต้องไม่มีอยู่ในระบบ จากนั้นคลิก **“Finish”** เป็นการสมัครสมาชิกเรียบร้อย
 
-![](https://lh6.googleusercontent.com/T6iwL27lMFZbuFiU-fWptzyc9VZt9sDwnKZzKYBP1O0SIxpklqPds3hmRz4rYlWINUSqnIxOES1dCdH09BWUNjFRot9zByIIj_g96gHyMkvHWxLcNKXYZrNNel2MGFoeEJ-xHHg)
+![](../.gitbook/assets/registration-private-email-5.png)
 
 6. หากสมัครสมาชิกสำเร็จ จะแสดงหน้า ดังรูป จากนั้นคลิก **“Let’s start!”** ระบบจะทำการ login เข้าสู่หน้า **Billing** ให้อัตโนมัต
 
@@ -107,8 +107,7 @@
 
 ### Phone registration
 
-สมัครแบบใช้เฉพาะหมายเลขโทรศัพท์ และ OTP ในการยืนยันตัวตน  
-
+สมัครแบบใช้เฉพาะหมายเลขโทรศัพท์ และ OTP ในการยืนยันตัวตน
 
 1. คลิก **“Create an account”**
 
@@ -134,7 +133,7 @@
 
 5. กรอกรายละเอียดข้อมูลผู้ใช้งาน โดย **First name** และ **Last name** ที่ใช้จะต้องไม่มีอยู่ในระบบ จากนั้นคลิก **“Finish” เ**ป็นการสมัครสมาชิกเรียบร้อย
 
-![](https://lh6.googleusercontent.com/T6iwL27lMFZbuFiU-fWptzyc9VZt9sDwnKZzKYBP1O0SIxpklqPds3hmRz4rYlWINUSqnIxOES1dCdH09BWUNjFRot9zByIIj_g96gHyMkvHWxLcNKXYZrNNel2MGFoeEJ-xHHg)
+![](../.gitbook/assets/registration-private-otp-5.png)
 
 6. หากสมัครสมาชิกสำเร็จ จะแสดงหน้า ดังรูป จากนั้นคลิก **“Let’s start!”** ระบบจะทำการ login เข้าสู่หน้า **Billing** ให้อัตโนมัติ
 
