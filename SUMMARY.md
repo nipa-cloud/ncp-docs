@@ -13,7 +13,7 @@
 
 ## BILLING
 
-* [Payment](billing/payment.md)
+* [Top Up](billing/payment.md)
 
 ## Projects
 
