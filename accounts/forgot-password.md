@@ -4,7 +4,7 @@
 
 1. ****คลิก **"Forgot Password"**
 
-![](https://lh4.googleusercontent.com/MYC0LhiDjaQtZJ4dMJRFFjmckJGqXrwtrCLw52U1TD7AzkdOMWk2P_zKJH6ccFlNI3IqsFOnaWWeiHZFlfwT8rR1xFV5X6EQd-LsAnPw_xL9h2LS3NUBuh3RSjadzHSwwakG2Z9f)
+![](../.gitbook/assets/forgot-password-1.png)
 
 2. กรอก **Email** ที่ใช้ในการสมัครสมาชิก แล้วทำการคลิก **“Send”**
 
