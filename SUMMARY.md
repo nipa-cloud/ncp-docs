@@ -12,9 +12,9 @@
 
 * [Launch an instance](instances/launch-instance.md)
 
-## Billing
+## Billings
 
-* [Top up](billing/top-up.md)
+* [Top up](billings/top-up.md)
 
 ## Projects
 
