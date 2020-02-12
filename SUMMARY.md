@@ -10,7 +10,7 @@
 
 ## Instances
 
-* [Launch Instance](instances/launch-instance.md)
+* [Launch an instance](instances/launch-instance.md)
 
 ## Billing
 
