@@ -14,7 +14,7 @@
 
 ## Billings
 
-* [Top up](billings/top-up.md)
+* [Top up](billing/top-up.md)
 
 ## Projects
 

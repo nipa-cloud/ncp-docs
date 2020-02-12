@@ -249,9 +249,15 @@
 
 ![](../.gitbook/assets/22-1.png)
 
-คลิกปุ่ม Create เพื่อสร้าง instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม resource ที่ผู้ใช้งานเลือก
+{% hint style="info" %}
+จากนั้นคลิกปุ่ม Create เพื่อสร้าง instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม resource ที่ผู้ใช้งานเลือก
+{% endhint %}
 
 ![](../.gitbook/assets/23.png)
+
+### \*\*\*\*
+
+## Using an Instance
 
 ### **Instance list**
 
@@ -267,7 +273,9 @@
 
 ![](../.gitbook/assets/27.png)
 
-โดยภายใน Instance detail จะแสดงข้อมูลขนาด Disk ของ Instance เป็นประเภท Volume และมี 1 Volume หลังจากสร้าง Instance เรียบร้อยแล้ว
+### Overview
+
+โดยภายในหน้าของ Instance จะแสดงข้อมูลขนาด Disk ของ Instance เป็นประเภท Volume และมี 1 Volume หลังจากสร้าง Instance เรียบร้อยแล้ว
 
 ![](../.gitbook/assets/28.png)
 
