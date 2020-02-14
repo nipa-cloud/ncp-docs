@@ -128,7 +128,7 @@
 
 ### Image
 
-เลือก Image ที่ต้องการสร้าง โดย image จะประกอบไปด้วย 4 ประภท ดังนี้
+เลือก Image ที่ต้องการสร้าง โดย Image จะประกอบไปด้วย 4 ประภท ดังนี้
 
 {% tabs %}
 {% tab title="Distributions" %}
@@ -158,7 +158,7 @@
 
 ### **Machine Type**
 
-เลือก Machine Type โดย Machine Type จะแสดงตามการเลือกของ image ซึ่งถูกแบ่งประเภทตามขนาดการใช้งาน ดังนี้
+เลือก Machine Type โดย Machine Type จะแสดงตามการเลือกของ Image ซึ่งถูกแบ่งประเภทตามขนาดการใช้งาน ดังนี้
 
 {% tabs %}
 {% tab title="General" %}
@@ -174,7 +174,7 @@
 {% endtab %}
 {% endtabs %}
 
-สำหรับผู้ใช้งานที่เลือกประเภท image แบบ **Boot volume** ในส่วน Disk ของ machine type จะแสดงข้อความ **"Use existing volume"** ซึ่งหมายความว่า ขนาด Disk ของ Image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
+สำหรับผู้ใช้งานที่เลือกประเภท image แบบ **Boot volume** ในส่วน Disk ของ Machine Type จะแสดงข้อความ **"Use existing volume"** ซึ่งหมายความว่า ขนาด Disk ของ Image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
 
 ![](../.gitbook/assets/8-1.png)
 
@@ -184,7 +184,7 @@
 
 ### **Authentication**
 
-เลือกประเภทการ Authentication ในการใช้งาน instance ซึ่งจะแสดงตามการเลือกของ image โดย Keypiar \(จะแสดงเมื่อเลือก image ประเภท linux\) และ password \(จะแสดงเมื่อเลือก image ประเภท linux หรือ windows\)
+เลือกประเภทการ Authentication ในการใช้งาน instance ซึ่งจะแสดงตามการเลือกของ Image โดย Keypiar \(จะแสดงเมื่อเลือก Image ประเภท Linux\) และ Password \(จะแสดงเมื่อเลือก image ประเภท Linux หรือ Windows\)
 
 #### Keypair
 
@@ -202,7 +202,7 @@
 
 ### Number of instances
 
-เลือกจำนวน instance ที่ต้องการสร้าง โดยสามารถได้สูงสุดครั้งละ 5 instance หากเหลือ quota ในการสร้าง instance เหลือน้อยกว่า 5 จะแสดงตามจำนวน quota ที่เหลือ และสามาถสร้างได้เพียงครั้งละ 1 instance เมื่อมีการเลือก/กำหนด resource ดังนี้
+เลือกจำนวน Instance ที่ต้องการสร้าง โดยสามารถได้สูงสุดครั้งละ 5 Instance หากเหลือ Quota ในการสร้าง Instance เหลือน้อยกว่า 5 จะแสดงตามจำนวน Quota ที่เหลือ และสามาถสร้างได้เพียงครั้งละ 1 Instance เมื่อมีการเลือก/กำหนด Resource ดังนี้
 
 * เลือก image ประเภท volume
 * [Disable auto assign IP](launch-instance.md#network)
@@ -213,13 +213,13 @@
 
 ### **Instance Volume**
 
-กำหนดขนาดของ **Disk** เมื่อสร้าง I**nstance** แบบ **Boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก image ประเภท volume จะใช้ขนาดตาม volume ที่เลือก __\(Optional\)
+กำหนดขนาดของ **Disk** เมื่อสร้าง **Instance** แบบ **Boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก Image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก Image ประเภท Volume จะใช้ขนาดตาม Volume ที่เลือก __\(Optional\)
 
 ![](../.gitbook/assets/14.png)
 
 ### **Network**
 
-เลือก **Network** ที่ต้องการสร้าง instance หากผู้ใช้งานเลือก network แบบ Public จะไม่สามารถเลือก [External IP](launch-instance.md#external-ip) ได้ นอกจากกำหนด network แล้วผู้ใช้งานสามารถกำหนด IP Address \(หมายเลข port\) ของ instance หรือสร้าง port \(ดูได้จากหัวข้อ Create Port\) ได้ด้วยตนเอง หากหมายเลขนั้นไม่มีผู้ใช้งานคนอื่นๆใช้งานอยู่ _**\(Optional\)**_
+เลือก **Network** ที่ต้องการสร้าง Instance หากผู้ใช้งานเลือก Network แบบ Public จะไม่สามารถเลือก [External IP](launch-instance.md#external-ip) ได้ นอกจากกำหนด Network แล้วผู้ใช้งานสามารถกำหนด IP Address \(หมายเลข Port\) ของ instance หรือสร้าง Port \(ดูได้จากหัวข้อ Create Port\) ได้ด้วยตนเอง หากหมายเลขนั้นไม่มีผู้ใช้งานคนอื่นๆใช้งานอยู่ _**\(Optional\)**_
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; Auto Assign IP](../.gitbook/assets/15.png)
 
@@ -244,13 +244,13 @@
 
 ### **Auto Backup**
 
-* **Enabled:** ระบบจะทำการ backup instance 2 files ทุกๆ 7 วัน ตอน 03:00 น. ให้อัตโนมัติ
-* **Disabled:** ระบบจะไม่ทำการ backup instance ให้ ซึ่งผู้ใช้งานจะต้องทำการ backup instance ด้วยตนเอง โดยการ snapshot
+* **Enabled:** ระบบจะทำการ Backup Instance 2 files ทุกๆ 7 วัน ตอน 03:00 น. ให้อัตโนมัติ
+* **Disabled:** ระบบจะไม่ทำการ Backup Instance ให้ ซึ่งผู้ใช้งานจะต้องทำการ Backup Instance ด้วยตนเอง โดยการ Snapshot
 
 ![](../.gitbook/assets/22-1.png)
 
 {% hint style="info" %}
-จากนั้นคลิกปุ่ม Create เพื่อสร้าง instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม resource ที่ผู้ใช้งานเลือก
+จากนั้นคลิกปุ่ม Create เพื่อสร้าง Instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม Resource ที่ผู้ใช้งานเลือก
 {% endhint %}
 
 ![](../.gitbook/assets/23.png)
@@ -261,7 +261,7 @@
 
 ### **Instance list**
 
-เมื่อคลิกสร้าง Instance แล้ว ระบบจะแสดงหน้า instance list หากสร้างสำเร็จจะแสดงผลลัพธ์ตามรูปด้านล่าง
+เมื่อคลิกสร้าง Instance แล้ว ระบบจะแสดงหน้า Instance List หากสร้างสำเร็จจะแสดงผลลัพธ์ตามรูปด้านล่าง
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Create a new IP](../.gitbook/assets/24.png)
 

@@ -32,7 +32,7 @@ description: >-
 
 ![](../.gitbook/assets/volume4.png)
 
-4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อสร้าง Volume ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่ถูกสร้าง
+4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Confirm เพื่อสร้าง Volume ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่ถูกสร้าง
 
 ![Volume Creation Complete](../.gitbook/assets/volume5.png)
 
@@ -56,7 +56,7 @@ description: >-
 
 ![Extend Volume Page](../.gitbook/assets/volume8.png)
 
-4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ Extend Volume ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่ถูก Extend แล้ว
+4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Confirm เพื่อ Extend Volume ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่ถูก Extend แล้ว
 
 ![Volume Page with Extended Volume](../.gitbook/assets/volume9.png)
 
@@ -76,7 +76,7 @@ description: >-
 
 ![Attach Volume Page](../.gitbook/assets/volume10.png)
 
-4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ Attach Volume ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่ถูก attach แล้ว
+4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Confirm เพื่อ Attach Volume ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่ถูก attach แล้ว
 
 ![Volume Page with Attached Volume \(Instance Name Show in &quot;in use by&quot;\)](../.gitbook/assets/volume11.png)
 
@@ -92,7 +92,7 @@ description: >-
 
 ![](../.gitbook/assets/volume12.png)
 
-3. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ Detach Volume ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่ถูก Detach แล้ว
+3. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Confirm เพื่อ Detach Volume ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่ถูก Detach แล้ว
 
 ![Confirm Detach Volume Page](../.gitbook/assets/volume13.png)
 
@@ -117,11 +117,11 @@ description: >-
 
 ![Transfer Volume Page](../.gitbook/assets/volume14-1.png)
 
-4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม "Confirm" เพื่อ Transfer Volume หลังจากนั้นระบบจะทำการส่ง Email ข้อมูลที่จำเป็นต้องใช้ในการรับ Transfer Volume ไปให้ และจะแสดงข้อมูลให้สามารถ Download เก็บไว้ได้ด้วย
+4. ตรวจสอบข้อมูลให้ถูกต้องแล้วกดปุ่ม Confirm เพื่อ Transfer Volume หลังจากนั้นระบบจะทำการส่ง Email ข้อมูลที่จำเป็นต้องใช้ในการรับ Transfer Volume ไปให้ และจะแสดงข้อมูลให้สามารถ Download เก็บไว้ได้ด้วย
 
 ![Volume Transfer Information Review Page](../.gitbook/assets/volume16.png)
 
-5. ตรวจสอบข้อมูลให้ถูกต้องและ Dowload หากต้องการ เรียบร้อยแล้วแล้วกดปุ่ม "Close" ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่อยู่ในสถานะรอการรับ Transfer ซึ่งจะยังคงใช้งานได้ จนกว่าผู้รับจะทำการ Accept Transfer
+5. ตรวจสอบข้อมูลให้ถูกต้องและ Dowload หากต้องการ เรียบร้อยแล้วแล้วกดปุ่ม Close ระบบจะพากลับไปที่หน้า Volumes พร้อมแสดง Volume ที่อยู่ในสถานะรอการรับ Transfer ซึ่งจะยังคงใช้งานได้ จนกว่าผู้รับจะทำการ Accept Transfer
 
 ![Volumes Page with a Volume Trasfer Wait For Accept](../.gitbook/assets/volume17.png)
 
