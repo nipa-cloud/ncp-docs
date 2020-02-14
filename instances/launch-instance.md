@@ -134,19 +134,19 @@
 {% tab title="Distributions" %}
 > Image พื้นฐานหลักของระบบ เช่น Ubuntu, Windows, Centos เป็นต้น
 
-![](../.gitbook/assets/2.png)
+![](../.gitbook/assets/2%20%281%29.png)
 {% endtab %}
 
 {% tab title="Marketplace" %}
 > _Image ที่มี template สำเร็จรูป โดยเมื่อผู้ใช้งานสร้างด้วย image ประเภทนี้ จะสามารถนำไปใช้งานได้เลย ไม่ต้องตั้งค่าใดๆเพิ่มเติม เช่น Docker, GitLab, Wordpress เป็นต้น_
 
-![](../.gitbook/assets/3.png)
+![](../.gitbook/assets/3%20%281%29.png)
 {% endtab %}
 
 {% tab title="Images" %}
 > Image ที่เกิดจากการ snapshot ของ instance ด้วยผู้ใช้งานเอง หรือการทำ auto backup ของระบบ
 
-![](../.gitbook/assets/4.png)
+![](../.gitbook/assets/4%20%281%29.png)
 {% endtab %}
 
 {% tab title="Volumes \(Optional\)" %}

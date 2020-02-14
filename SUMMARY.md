@@ -18,7 +18,7 @@
 
 ## Billings
 
-* [Top up](billing/top-up.md)
+* [Top up](billings/top-up.md)
 
 ## Volumes
 
