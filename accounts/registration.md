@@ -22,7 +22,7 @@
 
 ![](https://lh6.googleusercontent.com/2dTaohUBBLlzGBQ5AWacdeaUBpk3WxocPG66tPAACLfNV60BuCekLJx5kRgt4KoX0NbVtbB_s4k-6BZILtRMf5xY4ZZP6qVhW9LRsjEqHY4Pl4_QFg66L5YM967bg0pvNJHZtLk)
 
-2. กรอก Email ที่ใช่ในการสมัครสมาชิก \(โดย Email ที่ใช้ในการสมัครสมาชิกจะต้องไม่มีอยู่ในระบบ\) คลิกยืนยัน “Agree to the Terms of Service and Privacy Policy” และคลิก **“Register”**
+2. กรอก Email ที่ใช้ในการสมัครสมาชิก \(โดย Email ที่ใช้ในการสมัครสมาชิกจะต้องไม่มีอยู่ในระบบ\) คลิกยืนยัน “Agree to the Terms of Service and Privacy Policy” และคลิก **“Register”**
 
 ![Enter your email address](https://lh5.googleusercontent.com/EBjc6pYjrnpJIhEtNXW6TXcvtNNplZHpLP4nekMxR1j284mz1fgcHptFJmwPHRFv2tLUfVwQ75tUDHDHSVdEnemxdCxlpXF88sTshBbt6wREFP9zHYleq4hgsoLfJfOGjPDCcWU)
 
@@ -44,7 +44,7 @@
 
 ![](https://lh5.googleusercontent.com/25M8KhFLIbonBtjIWjdwtkh70CnT1bMsAf2qbUDRRvczDSYJ0X_cYfjO93HHvqnwL-_1fgFD3_8DJOGCkYwDcn_iQ6rgCjR-d-dgMTTrTiMqBW2QILZ0WiweIuw_uk1-PIGStbo)
 
-6. ระบบจะทำการส่งหมายเลข **OTP** \(One Time Password\) **\*\*ให้ เมื่อได้รับแล้ว ให้กรอกลงในช่อง OTP ยืนยัน จากนั้นคลิก** “Next"\*\*
+6. ระบบจะทำการส่งหมายเลข **OTP** \(One Time Password\) ให้ เมื่อได้รับแล้ว ให้กรอกลงในช่อง OTP ยืนยัน จากนั้นคลิก **"Next"**
 
 ![](https://lh6.googleusercontent.com/lNayxRUrHlKKNdSuKXNA5l98WA2FWaEQ5IvAj20o7IHdiZ65pM_dtx2dKtt1AzAPA00TC6_U_27_8Nu-rPLUrd3TeJMgWOTeB-vhh6biqDTJA3hg9UgjV9vesuEPq0lhJOelcfM)
 

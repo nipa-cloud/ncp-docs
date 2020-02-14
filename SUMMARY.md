@@ -8,6 +8,10 @@
 * [Registration](accounts/registration.md)
 * [Forgot password](accounts/forgot-password.md)
 
+## Projects
+
+* [Project management](projects/project-management.md)
+
 ## Instances
 
 * [Launch an instance](instances/launch-instance.md)
@@ -15,10 +19,6 @@
 ## Billings
 
 * [Top up](billing/top-up.md)
-
-## Projects
-
-* [Project management](projects/project-management.md)
 
 ## Volumes
 
