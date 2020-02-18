@@ -4,15 +4,6 @@
 
 ข้อมูลที่ใช้ในการสร้าง **Instance** ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง Instance ก่อน ดังนี้
 
-| tITLE | tITLE |
-| :--- | :--- |
-| CONTENT | CONTENT |
-| sdf | dsff |
-
-## --------------------------------------------------------------
-
-
-
 <table>
   <thead>
     <tr>
@@ -156,13 +147,13 @@
 {% tab title="Images" %}
 > Image ที่เกิดจากการ snapshot ของ instance ด้วยผู้ใช้งานเอง หรือการทำ auto backup ของระบบ
 
-![](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/4%20%281%29.png)
+![](../.gitbook/assets/launch_instance_4.png)
 {% endtab %}
 
 {% tab title="Volumes \(Optional\)" %}
 > Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้ จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน
 
-![](../.gitbook/assets/5.png)
+![](../.gitbook/assets/launch_instance_5.png)
 {% endtab %}
 {% endtabs %}
 
@@ -171,16 +162,22 @@
 เลือก Machine Type โดย Machine Type จะแสดงตามการเลือกของ Image ซึ่งถูกแบ่งประเภทตามขนาดการใช้งาน ดังนี้
 
 {% tabs %}
-{% tab title="General" %}
-> เป็น spec การใช้งานมาตรฐานของผู้ใช้งาน
+{% tab title="Eco" %}
+> _เป็น  spec สำหรับผู้ใช้งานบางประเภทที่ต้องการประหยัดค่าใช้จ่าย_
 
-![](../.gitbook/assets/6.png)
+![](../.gitbook/assets/launch_instance_6.png)
+{% endtab %}
+
+{% tab title="General" %}
+> _เป็น spec การใช้งานมาตรฐานของผู้ใช้งาน_
+
+![](../.gitbook/assets/launch_instance_7.png)
 {% endtab %}
 
 {% tab title="High Memory" %}
-> เป็น spec ที่เหมาะกับผู้ใช้งานที่เน้นการใช้งาน memory เป็นหลัก
+> _เป็น spec ที่เหมาะกับผู้ใช้งานที่เน้นการใช้งาน memory เป็นหลัก_
 
-![](../.gitbook/assets/7.png)
+![](../.gitbook/assets/launch_instance_8.png)
 {% endtab %}
 {% endtabs %}
 
