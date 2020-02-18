@@ -12,17 +12,18 @@
 
 * [Project management](projects/project-management.md)
 
-## Instances
+## Compute
 
-* [Launch an instance](instances/launch-instance.md)
+* [Launch an instance](compute/launch-instance.md)
+* [Keypair](compute/keypair.md)
 
 ## Billings
 
 * [Top up](billings/top-up.md)
 
-## Volumes
+## Storage
 
-* [Volume management](volumes/volume-management.md)
+* [Volume management](storage/volume-management.md)
 
 ## Resources
 
