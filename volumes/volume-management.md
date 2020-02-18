@@ -42,7 +42,7 @@ description: >-
 
 1.ที่หน้า Volumes ให้กดปุ่ม more ที่ด้านขวาของ Volume ที่ต้องทำการ Extend
 
-![Volumes Page](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/volume5-1.png)
+![](../.gitbook/assets/extend_volume_1.png)
 
 2.กดที่ปุ่ม Extend เพื่อเข้าหน้า Extend Volume
 
@@ -66,11 +66,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Volume
 
-![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/a0bed3cdfc8f873d2bc7879ee7a78f1e3d053925/.gitbook/assets/volume9%20%284%29.png)
+![](../.gitbook/assets/attach_volume_1.png)
 
 2.กดที่ปุ่ม Attach เพื่อเข้าหน้า Attach Volume
 
-![Volume Options](https://github.com/nipa-cloud/ncp-docs/tree/a0bed3cdfc8f873d2bc7879ee7a78f1e3d053925/.gitbook/assets/volume7%20%282%29.png)
+![](../.gitbook/assets/attach_volume_2.png)
 
 3.เลือกชื่อของ Instance ที่ต้องการ Attach Volume เข้าไป
 
@@ -86,7 +86,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่หน้า Volume
 
-![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/a0bed3cdfc8f873d2bc7879ee7a78f1e3d053925/.gitbook/assets/volume9%20%282%29.png)
+![](../.gitbook/assets/detach_volume_1.png)
 
 2.กดที่ปุ่ม Detach เพื่อเข้าหน้า Detach Volume
 
@@ -104,11 +104,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Volume
 
-![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/a0bed3cdfc8f873d2bc7879ee7a78f1e3d053925/.gitbook/assets/volume9%20%283%29.png)
+![](../.gitbook/assets/detach_volume_1.png)
 
 2.กดที่ปุ่ม Transfer เพื่อเข้าสู่หน้า Transfer Volume
 
-![Volume Options](https://github.com/nipa-cloud/ncp-docs/tree/a0bed3cdfc8f873d2bc7879ee7a78f1e3d053925/.gitbook/assets/volume7%20%281%29.png)
+![](../.gitbook/assets/transfer_volume_2.png)
 
 ที่หน้า Transfer Volume ให้ใส่ข้อมูลดังต่อไปนี้
 
@@ -143,7 +143,7 @@ Authorization Key: 63f85bb5b3b20385
 
 2.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Volume
 
-![Volumes Page](https://github.com/nipa-cloud/ncp-docs/tree/a0bed3cdfc8f873d2bc7879ee7a78f1e3d053925/.gitbook/assets/volume9%20%281%29.png)
+![](../.gitbook/assets/detach_volume_1.png)
 
 3.กดที่ปุ่ม Accept Transfer เพื่อเข้าสู่หน้า Accept Transfer Volume
 
