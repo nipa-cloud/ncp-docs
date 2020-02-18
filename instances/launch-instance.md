@@ -11,7 +11,7 @@
       </th>
       <th style="text-align:left"><b>Description</b>
       </th>
-      <th style="text-align:center">Optional</th>
+      <th style="text-align:left">Optional</th>
     </tr>
   </thead>
   <tbody>
@@ -19,14 +19,14 @@
       <td style="text-align:left"><b>Hostname</b>
       </td>
       <td style="text-align:left">&#xE0A;&#xE37;&#xE48;&#xE2D; instance</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">no</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Image</b>
       </td>
       <td style="text-align:left">&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE1B;&#xE0F;&#xE34;&#xE1A;&#xE31;&#xE15;&#xE34;&#xE01;&#xE32;&#xE23;
         (Operating System) &#xE02;&#xE2D;&#xE07; Instance</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">no</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Machine Type</b>
@@ -37,7 +37,7 @@
         &#xE41;&#xE25;&#xE30;&#xE1B;&#xE23;&#xE30;&#xE40;&#xE20;&#xE17;&#xE44;&#xE2B;&#xE19;&#xE17;&#xE35;&#xE48;&#xE2B;&#xE21;&#xE14;
         &#xE08;&#xE30;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE04;&#xE27;&#xE32;&#xE21;
         out of stock)</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">no</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Cloud Firewall</b>
@@ -60,7 +60,7 @@
           &#xE42;&#xE14;&#xE22;&#xE14;&#xE39;&#xE08;&#xE32;&#xE01;&#xE2B;&#xE31;&#xE27;&#xE02;&#xE49;&#xE2D;
           Create Cloud Firewall</p>
       </td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">no</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Authentication</b>
@@ -70,14 +70,14 @@
         &#xE42;&#xE14;&#xE22; keypair &#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE15;&#xE34;&#xE21;&#xE44;&#xE14;&#xE49;
         &#xE42;&#xE14;&#xE22;&#xE14;&#xE39;&#xE08;&#xE32;&#xE01;&#xE2B;&#xE31;&#xE27;&#xE02;&#xE49;&#xE2D;
         create keypair</td>
-      <td style="text-align:center">no</td>
+      <td style="text-align:left">no</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Number of Instances</b>
       </td>
       <td style="text-align:left">&#xE08;&#xE33;&#xE19;&#xE27;&#xE19; instance &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</td>
       <td
-      style="text-align:center">no</td>
+      style="text-align:left">no</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Instance Volume</b>
@@ -86,7 +86,7 @@
         image &#xE41;&#xE1A;&#xE1A; Distributions, Marketplace &#xE2B;&#xE23;&#xE37;&#xE2D;
         Images &#xE41;&#xE25;&#xE30;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE41;&#xE1A;&#xE1A;
         boot volume)</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:left">yes</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Network</b>
@@ -96,7 +96,7 @@
         &#xE42;&#xE14;&#xE22;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
         IP Address &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE44;&#xE14;&#xE49;</td>
       <td
-      style="text-align:center">yes</td>
+      style="text-align:left">yes</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>External IP</b>
@@ -105,7 +105,7 @@
         IP Address &#xE17;&#xE35;&#xE48;&#xE43;&#xE0A;&#xE49;&#xE43;&#xE19;&#xE01;&#xE32;&#xE23;&#xE40;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE21;&#xE15;&#xE48;&#xE2D;
         instance &#xE01;&#xE31;&#xE1A; network &#xE20;&#xE32;&#xE22;&#xE19;&#xE2D;&#xE01;</td>
       <td
-      style="text-align:center">no</td>
+      style="text-align:left">no</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Auto Backup</b>
@@ -113,10 +113,10 @@
       <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;&#xE16;&#xE36;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE2B;&#xE49;&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE08;&#xE31;&#xE14;&#xE01;&#xE32;&#xE23;&#xE40;&#xE01;&#xE47;&#xE1A;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;
         backup instance &#xE42;&#xE14;&#xE22;&#xE2D;&#xE31;&#xE15;&#xE42;&#xE19;&#xE21;&#xE31;&#xE15;&#xE34;</td>
       <td
-      style="text-align:center">no</td>
+      style="text-align:left">no</td>
     </tr>
   </tbody>
-</table>> _ส่วนที่เป็น optional \(yes/no\) ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติมได้_
+</table>_ส่วนที่เป็น optional \(yes/no\) ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติมได้_
 
 ## Create an instance
 
@@ -124,7 +124,7 @@
 
 กรอก Hostname \(ชื่อ Instance\) ที่ต้องการ \(ภายในช่องกรอกระบบจะมีชื่อ default ให้ โดยทางผู้ใช้งานสามารถตั้งชื่อใหม่ได้\)
 
-![ ](../.gitbook/assets/1.png)
+![](../.gitbook/assets/launch_instance_1.png)
 
 ### Image
 
@@ -132,21 +132,21 @@
 
 {% tabs %}
 {% tab title="Distributions" %}
-> Image พื้นฐานหลักของระบบ เช่น Ubuntu, Windows, Centos เป็นต้น
+> _Image พื้นฐานหลักของระบบ เช่น Ubuntu, Windows, Centos เป็นต้น_
 
-![](../.gitbook/assets/2%20%281%29.png)
+![](../.gitbook/assets/launch_instance_2.png)
 {% endtab %}
 
 {% tab title="Marketplace" %}
 > _Image ที่มี template สำเร็จรูป โดยเมื่อผู้ใช้งานสร้างด้วย image ประเภทนี้ จะสามารถนำไปใช้งานได้เลย ไม่ต้องตั้งค่าใดๆเพิ่มเติม เช่น Docker, GitLab, Wordpress เป็นต้น_
 
-![](../.gitbook/assets/3%20%281%29.png)
+![](../.gitbook/assets/launch_instance_3.png)
 {% endtab %}
 
 {% tab title="Images" %}
 > Image ที่เกิดจากการ snapshot ของ instance ด้วยผู้ใช้งานเอง หรือการทำ auto backup ของระบบ
 
-![](../.gitbook/assets/4%20%281%29.png)
+![](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/4%20%281%29.png)
 {% endtab %}
 
 {% tab title="Volumes \(Optional\)" %}
@@ -176,11 +176,11 @@
 
 สำหรับผู้ใช้งานที่เลือกประเภท image แบบ **Boot volume** ในส่วน Disk ของ Machine Type จะแสดงข้อความ **"Use existing volume"** ซึ่งหมายความว่า ขนาด Disk ของ Image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
 
-![](../.gitbook/assets/8-1.png)
+![](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/8-1.png)
 
 ### **Cloud firewall**
 
-![](../.gitbook/assets/9-1.png)
+![](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/9-1.png)
 
 ### **Authentication**
 
@@ -195,7 +195,7 @@
 ![](../.gitbook/assets/11.png)
 
 {% hint style="info" %}
-คลิก Network, Volume and more เพื่อดูหัวข้ออื่นๆ  
+คลิก Network, Volume and more เพื่อดูหัวข้ออื่นๆ
 {% endhint %}
 
 ![](../.gitbook/assets/12.png)
@@ -213,7 +213,7 @@
 
 ### **Instance Volume**
 
-กำหนดขนาดของ **Disk** เมื่อสร้าง **Instance** แบบ **Boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก Image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก Image ประเภท Volume จะใช้ขนาดตาม Volume ที่เลือก __\(Optional\)
+กำหนดขนาดของ **Disk** เมื่อสร้าง **Instance** แบบ **Boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก Image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก Image ประเภท Volume จะใช้ขนาดตาม Volume ที่เลือก \_\_\(Optional\)
 
 ![](../.gitbook/assets/14.png)
 
@@ -247,7 +247,7 @@
 * **Enabled:** ระบบจะทำการ Backup Instance 2 files ทุกๆ 7 วัน ตอน 03:00 น. ให้อัตโนมัติ
 * **Disabled:** ระบบจะไม่ทำการ Backup Instance ให้ ซึ่งผู้ใช้งานจะต้องทำการ Backup Instance ด้วยตนเอง โดยการ Snapshot
 
-![](../.gitbook/assets/22-1.png)
+![](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/22-1.png)
 
 {% hint style="info" %}
 จากนั้นคลิกปุ่ม Create เพื่อสร้าง Instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม Resource ที่ผู้ใช้งานเลือก
@@ -265,7 +265,7 @@
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Create a new IP](../.gitbook/assets/24.png)
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Disabled](../.gitbook/assets/25-1.png)
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Disabled](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/25-1.png)
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; External IP: Bypass internal netowrk ](../.gitbook/assets/26.png)
 
