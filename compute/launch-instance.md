@@ -2,23 +2,23 @@
 
 ## Instance details
 
-
-
-| title | title | Option |
-| :--- | :--- | :--- |
-| bvvv | ระบบปฏิบัติการ \(Operating System\) ของ Instance | zxcxzc |
-
-
-
 ข้อมูลที่ใช้ในการสร้าง **Instance** ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง Instance ก่อน ดังนี้
+
+| Detail | **Description** | Option |
+| :--- | :--- | :--- |
+| **Hostname** | ชื่อ instance | no |
+
+
+
+Detail
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Detail</th>
       <th style="text-align:left"><b>Description</b>
       </th>
       <th style="text-align:left">Optional</th>
+      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody>
