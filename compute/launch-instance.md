@@ -8,6 +8,7 @@
 | :--- | :--- | :--- |
 | **Hostname** | ชื่อ instance | no |
 | **Image** | ระบบปฏิบัติการ \(Operating System\) ของ Instance | no |
+| **Machine Type** | Specification ของ Instance \(แต่ละประเภทมีจำนวนจำกัด หาก spec ไหนเหลือน้อยกว่า 10 เครื่อง จะแสดงจำนวนเครื่องที่เหลือไว้ และประเภทไหนที่หมด จะแสดงข้อความ out of stock\) | no |
 
 
 
