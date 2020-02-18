@@ -4,9 +4,9 @@
 
 
 
-| title | title |
-| :--- | :--- |
-| bvvv | ระบบปฏิบัติการ \(Operating System\) ของ Instance |
+| title | title | Option |
+| :--- | :--- | :--- |
+| bvvv | ระบบปฏิบัติการ \(Operating System\) ของ Instance | zxcxzc |
 
 
 
