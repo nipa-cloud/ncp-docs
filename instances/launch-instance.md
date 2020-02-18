@@ -116,7 +116,9 @@
       style="text-align:left">no</td>
     </tr>
   </tbody>
-</table>_ส่วนที่เป็น optional \(yes/no\) ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติมได้_
+</table>{% hint style="info" %}
+ส่วนที่เป็น optional \(yes/no\) ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติม
+{% endhint %}
 
 ## Create an instance
 
