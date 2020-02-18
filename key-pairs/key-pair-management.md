@@ -18,7 +18,7 @@
 
 1.คลิก Create Key Pair
 
-![](../.gitbook/assets/create_keypair_1%20%281%29.png)
+![](../.gitbook/assets/create_keypair_1.png)
 
 2.หลังจากคลิกแล้ว หน้า Pop up จะแสดงขึ้นมา เลือกแทป Import ซึ่งจะประกอบด้วยข้อมูล ดังนี้
 
@@ -36,7 +36,7 @@
 ผู้ใช้งานสามารถ คลิก Show ในตารางส่วนของ Column Public Key เพื่อ Copy Public Key ไปใช้งาน Instance ได้
 {% endhint %}
 
-![](../.gitbook/assets/create_keypair_8-1.png)
+![](../.gitbook/assets/create_keypair_8.png)
 
 ### Import key
 
@@ -61,7 +61,7 @@
 ผู้ใช้งานสามารถ คลิก Show ในตารางส่วนของ Column Public Key เพื่อ Copy Public Key ไปใช้งาน Instance ได้
 {% endhint %}
 
-![](../.gitbook/assets/create_keypair_8.png)
+![](../.gitbook/assets/create_keypair_8%20%281%29.png)
 
 ## Set default
 
@@ -79,9 +79,9 @@
 
 3.ระบบจะแสดง Status ตามที่ผู้ใช้งานตั้งค่า
 
-![Status: Enable](../.gitbook/assets/set_default_3-1.png)
+![Status: Enable](../.gitbook/assets/set_default_3.png)
 
-![Status: Disable](../.gitbook/assets/set_default_1-1.png)
+![Status: Disable](../.gitbook/assets/set_default_1.png)
 
 ## Remove
 
