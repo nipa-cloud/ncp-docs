@@ -183,11 +183,11 @@
 
 สำหรับผู้ใช้งานที่เลือกประเภท image แบบ **Boot volume** ในส่วน Disk ของ Machine Type จะแสดงข้อความ **"Use existing volume"** ซึ่งหมายความว่า ขนาด Disk ของ Image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
 
-![](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/8-1.png)
+![](../.gitbook/assets/launch_instance_9.png)
 
 ### **Cloud firewall**
 
-![](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/9-1.png)
+![](../.gitbook/assets/launch_instance_10.png)
 
 ### **Authentication**
 
@@ -195,17 +195,17 @@
 
 #### Keypair
 
-![](../.gitbook/assets/10.png)
+![](../.gitbook/assets/launch_instance_11.png)
 
 #### Password
 
-![](../.gitbook/assets/11.png)
+![](../.gitbook/assets/launch_instance_12.png)
 
 {% hint style="info" %}
 คลิก Network, Volume and more เพื่อดูหัวข้ออื่นๆ
 {% endhint %}
 
-![](../.gitbook/assets/12.png)
+![](../.gitbook/assets/launch_instance_13.png)
 
 ### Number of instances
 
@@ -216,7 +216,7 @@
 * [เลือก IP Address \(Port\) ที่ผู้ใช้งานสร้างขึ้นเอง](launch-instance.md#network)
 * [เลือก External IP ที่ผู้ใช้งานสร้างขึ้นเอง](launch-instance.md#external-ip)
 
-![](../.gitbook/assets/13.png)
+![](../.gitbook/assets/launch_instance_14.png)
 
 ### **Instance Volume**
 
