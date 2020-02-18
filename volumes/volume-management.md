@@ -129,7 +129,7 @@ description: >-
 
 หลังจากได้รับ Email Volume Transfer แล้ว สามารถทำการ Accept ได้ ตามขั้นตอนต่อไปนี้
 
-1.เมื่อได้รับข้อมูลการ Volume Transfer มา โดยจะต้องประกอบด้วย Transfer ID และ Authorization Key 
+1.เมื่อได้รับข้อมูลการ Volume Transfer มา โดยจะต้องประกอบด้วย Transfer ID และ Authorization Key
 
 {% hint style="info" %}
 **ตัวอย่างข้อมูล**
