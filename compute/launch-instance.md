@@ -7,6 +7,7 @@
 | Detail | **Description** | Option |
 | :--- | :--- | :--- |
 | **Hostname** | ชื่อ instance | no |
+| **Image** | ระบบปฏิบัติการ \(Operating System\) ของ Instance | no |
 
 
 
