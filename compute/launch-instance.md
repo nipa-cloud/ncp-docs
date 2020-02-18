@@ -12,8 +12,6 @@
 
 
 
-Detail
-
 <table>
   <thead>
     <tr>
@@ -24,30 +22,6 @@ Detail
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left"><b>Hostname</b>
-      </td>
-      <td style="text-align:left">&#xE0A;&#xE37;&#xE48;&#xE2D; instance</td>
-      <td style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Image</b>
-      </td>
-      <td style="text-align:left">&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE1B;&#xE0F;&#xE34;&#xE1A;&#xE31;&#xE15;&#xE34;&#xE01;&#xE32;&#xE23;
-        (Operating System) &#xE02;&#xE2D;&#xE07; Instance</td>
-      <td style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Machine Type</b>
-      </td>
-      <td style="text-align:left">Specification &#xE02;&#xE2D;&#xE07; Instance (&#xE41;&#xE15;&#xE48;&#xE25;&#xE30;&#xE1B;&#xE23;&#xE30;&#xE40;&#xE20;&#xE17;&#xE21;&#xE35;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE08;&#xE33;&#xE01;&#xE31;&#xE14;
-        &#xE2B;&#xE32;&#xE01; spec &#xE44;&#xE2B;&#xE19;&#xE40;&#xE2B;&#xE25;&#xE37;&#xE2D;&#xE19;&#xE49;&#xE2D;&#xE22;&#xE01;&#xE27;&#xE48;&#xE32;
-        10 &#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07; &#xE08;&#xE30;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE17;&#xE35;&#xE48;&#xE40;&#xE2B;&#xE25;&#xE37;&#xE2D;&#xE44;&#xE27;&#xE49;
-        &#xE41;&#xE25;&#xE30;&#xE1B;&#xE23;&#xE30;&#xE40;&#xE20;&#xE17;&#xE44;&#xE2B;&#xE19;&#xE17;&#xE35;&#xE48;&#xE2B;&#xE21;&#xE14;
-        &#xE08;&#xE30;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE04;&#xE27;&#xE32;&#xE21;
-        out of stock)</td>
-      <td style="text-align:left">no</td>
-    </tr>
     <tr>
       <td style="text-align:left"><b>Cloud Firewall</b>
       </td>
