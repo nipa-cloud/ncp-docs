@@ -2,6 +2,14 @@
 
 ## Instance details
 
+
+
+| title | title |
+| :--- | :--- |
+| bvvv | ระบบปฏิบัติการ \(Operating System\) ของ Instance |
+
+
+
 ข้อมูลที่ใช้ในการสร้าง **Instance** ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง Instance ก่อน ดังนี้
 
 <table>
