@@ -21,7 +21,7 @@ description: ขั้นตอนการเติมเงินเข้า�
 * **Alipay:** ทำการขั้นตอนของ Alipay 
 * **Rabbit LINE Pay:** ทำตามขั้นตอนของ Rabbit LINE Pay 
 
-![](../.gitbook/assets/1-1.png)
+![](https://github.com/nipa-cloud/ncp-docs/tree/a0bed3cdfc8f873d2bc7879ee7a78f1e3d053925/.gitbook/assets/1-1.png)
 
 ### **QR Payment**
 
@@ -55,7 +55,7 @@ description: ขั้นตอนการเติมเงินเข้า�
 
 คลิกที่ช่อง "**Agree to the payment refunds**" แล้วกดปุ่ม Comfirm เพิ้อเข้าสู่ขั้นตอนการชำระเงิน ตามวิธีการชำระเงินที่ได้เลือกไว้
 
-![](../.gitbook/assets/payment-ui-dev.nipa.cloud_payments_238ffb28f6524b7699b6-33%20%281%29.png)
+![](https://github.com/nipa-cloud/ncp-docs/tree/a0bed3cdfc8f873d2bc7879ee7a78f1e3d053925/.gitbook/assets/payment-ui-dev.nipa.cloud_payments_238ffb28f6524b7699b6-33%20%281%29.png)
 
 ## Voucher
 
