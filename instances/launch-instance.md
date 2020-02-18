@@ -4,11 +4,19 @@
 
 ข้อมูลที่ใช้ในการสร้าง **Instance** ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง Instance ก่อน ดังนี้
 
+| tITLE | tITLE |
+| :--- | :--- |
+| CONTENT | CONTENT |
+| sdf | dsff |
+
+## --------------------------------------------------------------
+
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Detail</b>
-      </th>
+      <th style="text-align:left">Detail</th>
       <th style="text-align:left"><b>Description</b>
       </th>
       <th style="text-align:left">Optional</th>
