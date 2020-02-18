@@ -222,17 +222,17 @@
 
 กำหนดขนาดของ **Disk** เมื่อสร้าง **Instance** แบบ **Boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก Image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก Image ประเภท Volume จะใช้ขนาดตาม Volume ที่เลือก \_\_\(Optional\)
 
-![](../.gitbook/assets/14.png)
+![](../.gitbook/assets/launch_instance_15.png)
 
 ### **Network**
 
 เลือก **Network** ที่ต้องการสร้าง Instance หากผู้ใช้งานเลือก Network แบบ Public จะไม่สามารถเลือก [External IP](launch-instance.md#external-ip) ได้ นอกจากกำหนด Network แล้วผู้ใช้งานสามารถกำหนด IP Address \(หมายเลข Port\) ของ instance หรือสร้าง Port \(ดูได้จากหัวข้อ Create Port\) ได้ด้วยตนเอง หากหมายเลขนั้นไม่มีผู้ใช้งานคนอื่นๆใช้งานอยู่ _**\(Optional\)**_
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; Auto Assign IP](../.gitbook/assets/15.png)
+![](../.gitbook/assets/launch_instance_16.png)
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; port &#xE17;&#xE35;&#xE48;&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE40;&#xE2D;&#xE07;](../.gitbook/assets/16.png)
+![](../.gitbook/assets/launch_instance_17.png)
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; default network &#xE41;&#xE25;&#xE30; &#xE01;&#xE33;&#xE2B;&#xE19;&#xE14; IP Address &#xE17;&#xE35;&#xE48;&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;](../.gitbook/assets/17.png)
+![](../.gitbook/assets/launch_instance_18.png)
 
 ### **External IP**
 
@@ -241,28 +241,26 @@
 * เลือก External IP ที่ผู้ใช้งานสร้างเอง \(ดูได้จากหัวข้อ Create External IPs\)  
 * Enable **Bypass internal network:** instance ที่ถูกสร้างจะได้ internal IP เป็นเลข External IP แทน หาก Enable จะไม่สามารถเลือก [Network](launch-instance.md#network) ได้
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Create a new IP](../.gitbook/assets/18.png)
+![](../.gitbook/assets/launch_instance_19.png)
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Disabled](../.gitbook/assets/19.png)
+![](../.gitbook/assets/launch_instance_20.png)
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; External IP &#xE17;&#xE35;&#xE48;&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE40;&#xE2D;&#xE07;](../.gitbook/assets/20.png)
+![](../.gitbook/assets/launch_instance_21.png)
 
-![Enable Bypass internal network](../.gitbook/assets/21.png)
+![](../.gitbook/assets/launch_instance_22.png)
 
 ### **Auto Backup**
 
 * **Enabled:** ระบบจะทำการ Backup Instance 2 files ทุกๆ 7 วัน ตอน 03:00 น. ให้อัตโนมัติ
 * **Disabled:** ระบบจะไม่ทำการ Backup Instance ให้ ซึ่งผู้ใช้งานจะต้องทำการ Backup Instance ด้วยตนเอง โดยการ Snapshot
 
-![](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/22-1.png)
+![](../.gitbook/assets/launch_instance_23.png)
 
 {% hint style="info" %}
 จากนั้นคลิกปุ่ม Create เพื่อสร้าง Instance โดยทางด้านซ้ายของปุ่ม จะแสดงราคาต่อเดือนตาม Resource ที่ผู้ใช้งานเลือก
 {% endhint %}
 
-![](../.gitbook/assets/23.png)
-
-### \*\*\*\*
+![](../.gitbook/assets/launch_instance_24.png)
 
 ## Using an Instance
 
@@ -270,19 +268,19 @@
 
 เมื่อคลิกสร้าง Instance แล้ว ระบบจะแสดงหน้า Instance List หากสร้างสำเร็จจะแสดงผลลัพธ์ตามรูปด้านล่าง
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Create a new IP](../.gitbook/assets/24.png)
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Create a new IP](../.gitbook/assets/launch_instance_25.png)
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Disabled](https://github.com/st-nann/ncp-docs/tree/20d57c338efa7e66752e3a8c36482f22c6e7ca3d/.gitbook/assets/25-1.png)
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; Network: Default / External IP: Disabled](../.gitbook/assets/launch_instance_26.png)
 
-![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; External IP: Bypass internal netowrk ](../.gitbook/assets/26.png)
+![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; External IP: Bypass internal netowrk](../.gitbook/assets/launch_instance_27.png)
 
 หากสร้าง Instance แบบ Boot volume จะไม่สามารถดูผลลัพธ์ได้ในหน้า Instance list ผู้ใช้งานจะสามารถตรวจสอบได้ที่ Instance detail โดยคลิกที่ชื่อ Instance
 
-![](../.gitbook/assets/27.png)
+![](../.gitbook/assets/launch_instance_28.png)
 
 ### Overview
 
 โดยภายในหน้าของ Instance จะแสดงข้อมูลขนาด Disk ของ Instance เป็นประเภท Volume และมี 1 Volume หลังจากสร้าง Instance เรียบร้อยแล้ว
 
-![](../.gitbook/assets/28.png)
+![](../.gitbook/assets/launch_instance_29.png)
 
