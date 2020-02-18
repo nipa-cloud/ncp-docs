@@ -4,154 +4,20 @@
 
 ข้อมูลที่ใช้ในการสร้าง **Instance** ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง Instance ก่อน ดังนี้
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Detail</th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-      <th style="text-align:left">Option</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>Hostname</b>
-      </td>
-      <td style="text-align:left">&#xE0A;&#xE37;&#xE48;&#xE2D; instance</td>
-      <td style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Image</b>
-      </td>
-      <td style="text-align:left">&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE1B;&#xE0F;&#xE34;&#xE1A;&#xE31;&#xE15;&#xE34;&#xE01;&#xE32;&#xE23;
-        (Operating System) &#xE02;&#xE2D;&#xE07; Instance</td>
-      <td style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Machine Type</b>
-      </td>
-      <td style="text-align:left">Specification &#xE02;&#xE2D;&#xE07; Instance (&#xE41;&#xE15;&#xE48;&#xE25;&#xE30;&#xE1B;&#xE23;&#xE30;&#xE40;&#xE20;&#xE17;&#xE21;&#xE35;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE08;&#xE33;&#xE01;&#xE31;&#xE14;
-        &#xE2B;&#xE32;&#xE01; spec &#xE44;&#xE2B;&#xE19;&#xE40;&#xE2B;&#xE25;&#xE37;&#xE2D;&#xE19;&#xE49;&#xE2D;&#xE22;&#xE01;&#xE27;&#xE48;&#xE32;
-        10 &#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07; &#xE08;&#xE30;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE17;&#xE35;&#xE48;&#xE40;&#xE2B;&#xE25;&#xE37;&#xE2D;&#xE44;&#xE27;&#xE49;
-        &#xE41;&#xE25;&#xE30;&#xE1B;&#xE23;&#xE30;&#xE40;&#xE20;&#xE17;&#xE44;&#xE2B;&#xE19;&#xE17;&#xE35;&#xE48;&#xE2B;&#xE21;&#xE14;
-        &#xE08;&#xE30;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE04;&#xE27;&#xE32;&#xE21;
-        out of stock)</td>
-      <td style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Cloud Firewall</b>
-      </td>
-      <td style="text-align:left">
-        <p>&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE23;&#xE30;&#xE1A;&#xE38;&#xE01;&#xE32;&#xE23;&#xE40;&#xE02;&#xE49;&#xE32;&#xE16;&#xE36;&#xE07;
-          Instance &#xE42;&#xE14;&#xE22;&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE08;&#xE30;&#xE21;&#xE35;
-          Default Cloud Firewall &#xE43;&#xE2B;&#xE49; &#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49;</p>
-        <ul>
-          <li>All</li>
-          <li>Rdp</li>
-          <li>Http-Https</li>
-          <li>default</li>
-          <li>In-Cluster</li>
-          <li>Ping</li>
-          <li>SSH</li>
-        </ul>
-        <p>&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;
-          Cloud Firewall &#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE15;&#xE34;&#xE21;&#xE44;&#xE14;&#xE49;
-          &#xE42;&#xE14;&#xE22;&#xE14;&#xE39;&#xE08;&#xE32;&#xE01;&#xE2B;&#xE31;&#xE27;&#xE02;&#xE49;&#xE2D;
-          Create Cloud Firewall</p>
-      </td>
-      <td style="text-align:left">no</td>
-    </tr>
-  </tbody>
-</table>
+| Detail | **Description** | Option |
+| :--- | :--- | :--- |
+| **Hostname** | ชื่อ instance | no |
+| **Image** | ระบบปฏิบัติการ \(Operating System\) ของ Instance | no |
+| **Machine Type** | Specification ของ Instance \(แต่ละประเภทมีจำนวนจำกัด หาก spec ไหนเหลือน้อยกว่า 10 เครื่อง จะแสดงจำนวนเครื่องที่เหลือไว้ และประเภทไหนที่หมด จะแสดงข้อความ out of stock\) | no |
+| **Cloud Firewall** | ส่วนที่ระบุการเข้าถึง Instance โดยระบบจะมี Default Cloud Firewall ให้ ดังนี้ _**All**, **Rdp**, **Http-Https**, **default**, **In-Cluster**, **Ping**_ และ _**SSH**_ ซึ่งผู้ใช้งานสามารถสร้าง Cloud Firewall เพิ่มเติมได้ โดยดูจากหัวข้อ Create Cloud Firewall | no |
+| **Authentication** | ส่วนที่กำหนด keypair หรือ password ในการเข้าใช้งาน โดย keypair ผู้ใช้งานสร้างเพิ่มเติมได้ โดยดูจากหัวข้อ create keypair | no |
+| **Number of Instances** | จำนวน instance ที่ต้องการสร้าง | no |
+| **Instance Volume** | ขนาดของ volume \(สามาถระบุได้ในกรณีที่เลือก image แบบ Distributions, Marketplace หรือ Images และสร้างแบบ boot volume\) | yes |
+| **Network** | ส่วนที่กำหนด network ที่ต้องการใช้งาน โดยสามารถกำหนด IP Address ที่ต้องการใช้งานได้ | yes |
+| **External IP** | ส่วนที่กำหนด IP Address ที่ใช้ในการเชื่อมต่อ instance กับ network ภายนอก | no |
+| **Auto Backup** | ส่วนที่กำหนดถึงการให้ระบบจัดการเก็บข้อมูล backup instance โดยอัตโนมัติ | no |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-      <th style="text-align:left">Optional</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>Cloud Firewall</b>
-      </td>
-      <td style="text-align:left">
-        <p>&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE23;&#xE30;&#xE1A;&#xE38;&#xE01;&#xE32;&#xE23;&#xE40;&#xE02;&#xE49;&#xE32;&#xE16;&#xE36;&#xE07;
-          Instance &#xE42;&#xE14;&#xE22;&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE08;&#xE30;&#xE21;&#xE35;
-          Default Cloud Firewall &#xE43;&#xE2B;&#xE49; &#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49;</p>
-        <ul>
-          <li>All</li>
-          <li>Rdp</li>
-          <li>Http-Https</li>
-          <li>default</li>
-          <li>In-Cluster</li>
-          <li>Ping</li>
-          <li>SSH</li>
-        </ul>
-        <p>&#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;
-          Cloud Firewall &#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE15;&#xE34;&#xE21;&#xE44;&#xE14;&#xE49;
-          &#xE42;&#xE14;&#xE22;&#xE14;&#xE39;&#xE08;&#xE32;&#xE01;&#xE2B;&#xE31;&#xE27;&#xE02;&#xE49;&#xE2D;
-          Create Cloud Firewall</p>
-      </td>
-      <td style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Authentication</b>
-      </td>
-      <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
-        keypair &#xE2B;&#xE23;&#xE37;&#xE2D; password &#xE43;&#xE19;&#xE01;&#xE32;&#xE23;&#xE40;&#xE02;&#xE49;&#xE32;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;
-        &#xE42;&#xE14;&#xE22; keypair &#xE1C;&#xE39;&#xE49;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE15;&#xE34;&#xE21;&#xE44;&#xE14;&#xE49;
-        &#xE42;&#xE14;&#xE22;&#xE14;&#xE39;&#xE08;&#xE32;&#xE01;&#xE2B;&#xE31;&#xE27;&#xE02;&#xE49;&#xE2D;
-        create keypair</td>
-      <td style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Number of Instances</b>
-      </td>
-      <td style="text-align:left">&#xE08;&#xE33;&#xE19;&#xE27;&#xE19; instance &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</td>
-      <td
-      style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Instance Volume</b>
-      </td>
-      <td style="text-align:left">&#xE02;&#xE19;&#xE32;&#xE14;&#xE02;&#xE2D;&#xE07; volume (&#xE2A;&#xE32;&#xE21;&#xE32;&#xE16;&#xE23;&#xE30;&#xE1A;&#xE38;&#xE44;&#xE14;&#xE49;&#xE43;&#xE19;&#xE01;&#xE23;&#xE13;&#xE35;&#xE17;&#xE35;&#xE48;&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01;
-        image &#xE41;&#xE1A;&#xE1A; Distributions, Marketplace &#xE2B;&#xE23;&#xE37;&#xE2D;
-        Images &#xE41;&#xE25;&#xE30;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE41;&#xE1A;&#xE1A;
-        boot volume)</td>
-      <td style="text-align:left">yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Network</b>
-      </td>
-      <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
-        network &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;
-        &#xE42;&#xE14;&#xE22;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
-        IP Address &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE44;&#xE14;&#xE49;</td>
-      <td
-      style="text-align:left">yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>External IP</b>
-      </td>
-      <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;
-        IP Address &#xE17;&#xE35;&#xE48;&#xE43;&#xE0A;&#xE49;&#xE43;&#xE19;&#xE01;&#xE32;&#xE23;&#xE40;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE21;&#xE15;&#xE48;&#xE2D;
-        instance &#xE01;&#xE31;&#xE1A; network &#xE20;&#xE32;&#xE22;&#xE19;&#xE2D;&#xE01;</td>
-      <td
-      style="text-align:left">no</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Auto Backup</b>
-      </td>
-      <td style="text-align:left">&#xE2A;&#xE48;&#xE27;&#xE19;&#xE17;&#xE35;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;&#xE16;&#xE36;&#xE07;&#xE01;&#xE32;&#xE23;&#xE43;&#xE2B;&#xE49;&#xE23;&#xE30;&#xE1A;&#xE1A;&#xE08;&#xE31;&#xE14;&#xE01;&#xE32;&#xE23;&#xE40;&#xE01;&#xE47;&#xE1A;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;
-        backup instance &#xE42;&#xE14;&#xE22;&#xE2D;&#xE31;&#xE15;&#xE42;&#xE19;&#xE21;&#xE31;&#xE15;&#xE34;</td>
-      <td
-      style="text-align:left">no</td>
-    </tr>
-  </tbody>
-</table>{% hint style="info" %}
+{% hint style="info" %}
 ส่วนที่เป็น optional \(yes/no\) ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติม
 {% endhint %}
 
