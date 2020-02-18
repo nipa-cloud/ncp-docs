@@ -61,7 +61,7 @@
 ผู้ใช้งานสามารถ คลิก Show ในตารางส่วนของ Column Public Key เพื่อ Copy Public Key ไปใช้งาน Instance ได้
 {% endhint %}
 
-![](../.gitbook/assets/create_keypair_8%20%281%29.png)
+![](../.gitbook/assets/create_keypair_8.png)
 
 ## Set default
 
