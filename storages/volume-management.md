@@ -86,7 +86,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่หน้า Volume
 
-![](../.gitbook/assets/detach_volume_1.png)
+![](../.gitbook/assets/detach_volume_1%20%282%29.png)
 
 2.กดที่ปุ่ม Detach เพื่อเข้าหน้า Detach Volume
 
@@ -143,7 +143,7 @@ Authorization Key: 63f85bb5b3b20385
 
 2.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Volume
 
-![](../.gitbook/assets/detach_volume_1.png)
+![](../.gitbook/assets/detach_volume_1%20%281%29.png)
 
 3.กดที่ปุ่ม Accept Transfer เพื่อเข้าสู่หน้า Accept Transfer Volume
 
