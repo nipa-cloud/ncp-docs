@@ -19,7 +19,7 @@
 ![](../.gitbook/assets/external_ip_2.png)
 
 {% hint style="info" %}
-ในการคิดราคา External IP ทางระบบจะคิดราคา เมื่อผู้ใช้งานไม่มีการผูกติดระหว่าง External IP กับ Instance, Load Balancer หรือ Port ต่างๆ
+ในการคิดราคา External IP ทางระบบจะคิดราคา เมื่อผู้ใช้งานไม่มีการผูกติดกันระหว่าง External IP กับ Instance, Load Balancer หรือ Port ต่างๆ
 {% endhint %}
 
 3.หลังจากคลิก Confirm แล้ว จะเห็นรายชื่อ External IPs ที่ทำการสร้างในตาราง
