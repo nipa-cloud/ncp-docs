@@ -10,7 +10,7 @@
 | **Image** | ระบบปฏิบัติการ \(Operating System\) ของ Instance | no |
 | **Machine Type** | Specification ของ Instance \(แต่ละประเภทมีจำนวนจำกัด หาก spec ไหนเหลือน้อยกว่า 10 เครื่อง จะแสดงจำนวนเครื่องที่เหลือไว้ และประเภทไหนที่หมด จะแสดงข้อความ out of stock\) | no |
 | **Cloud Firewall** | ส่วนที่ระบุการเข้าถึง Instance โดยระบบจะมี Default Cloud Firewall ให้ ดังนี้ _**All**, **Rdp**, **Http-Https**, **default**, **In-Cluster**, **Ping**_ และ _**SSH**_ ซึ่งผู้ใช้งานสามารถสร้าง Cloud Firewall เพิ่มเติมได้ โดยดูจากหัวข้อ Create Cloud Firewall | no |
-| **Authentication** | ส่วนที่กำหนด keypair หรือ password ในการเข้าใช้งาน โดย keypair ผู้ใช้งานสร้างเพิ่มเติมได้ โดยดูจากหัวข้อ create keypair | no |
+| **Authentication** | ส่วนที่กำหนด keypair หรือ password ในการเข้าใช้งาน โดย keypair ผู้ใช้งานสร้างเพิ่มเติมได้ โดยดูจากหัวข้อ [Keypair management](../key-pairs/key-pair-management.md#create) | no |
 | **Number of Instances** | จำนวน instance ที่ต้องการสร้าง | no |
 | **Instance Volume** | ขนาดของ volume \(สามาถระบุได้ในกรณีที่เลือก image แบบ Distributions, Marketplace หรือ Images และสร้างแบบ boot volume\) | yes |
 | **Network** | ส่วนที่กำหนด network ที่ต้องการใช้งาน โดยสามารถกำหนด IP Address ที่ต้องการใช้งานได้ | yes |
