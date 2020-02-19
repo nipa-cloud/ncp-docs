@@ -47,13 +47,13 @@
 {% endtab %}
 
 {% tab title="Images" %}
-> Image ที่เกิดจากการ snapshot ของ instance ด้วยผู้ใช้งานเอง หรือการทำ auto backup ของระบบ
+> _Image ที่เกิดจากการ snapshot ของ instance ด้วยผู้ใช้งานเอง หรือการทำ auto backup ของระบบ_
 
 ![](../.gitbook/assets/launch_instance_4.png)
 {% endtab %}
 
 {% tab title="Volumes \(Optional\)" %}
-> Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้ จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน
+> _Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้ จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน \(การสร้าง boot volume ดูได้จากหัวข้อ_ [_Create Volume_](../volumes/volume-management.md#create-volume)_\)_
 
 ![](../.gitbook/assets/launch_instance_5.png)
 {% endtab %}
@@ -122,7 +122,7 @@
 
 ### **Instance Volume**
 
-กำหนดขนาดของ **Disk** เมื่อสร้าง **Instance** แบบ **Boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก Image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก Image ประเภท Volume จะใช้ขนาดตาม Volume ที่เลือก \_\_\(Optional\)
+กำหนดขนาดของ **Disk** เมื่อสร้าง **Instance** แบบ **Boot volume** โดยจะสามารถกำหนดได้เมื่อเลือก Image ประเภท Distributions, Marketplace หรือ Images เท่านั้น หากเลือก Image ประเภท Volume จะใช้ขนาดตาม Volume ที่เลือก \(Optional\)
 
 ![](../.gitbook/assets/launch_instance_15.png)
 
