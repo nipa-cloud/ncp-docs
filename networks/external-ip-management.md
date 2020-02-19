@@ -5,8 +5,10 @@
 **Table of contents**
 
 * [Create](external-ip-management.md#create-external-ip)
-* Link / Unlink
-* [Remove](../authentications/key-pair-management.md#remove)
+* [Associate](external-ip-management.md#associate)
+  * Link
+  * Unlink
+* Remove
 
 ## Create External IP
 
@@ -25,4 +27,12 @@
 3.หลังจากคลิก Confirm แล้ว จะเห็นรายชื่อ External IPs ที่ทำการสร้างในตาราง
 
 ![](../.gitbook/assets/external_ip_3.png)
+
+## Associate
+
+### Link External IPs
+
+
+
+
 
