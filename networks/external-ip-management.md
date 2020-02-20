@@ -62,3 +62,7 @@ Unlink External IP คือ การที่ผู้ใช้งานทำ
 
 ## Remove External IP
 
+{% hint style="info" %}
+External IP จะสามารถลบได้ ก็ต่อเมื่อ External IP ไม่มีการผูกติดกับ Port ใดๆอยู่
+{% endhint %}
+
