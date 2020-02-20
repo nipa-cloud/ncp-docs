@@ -7,7 +7,7 @@
 * [Create](external-ip-management.md#create-external-ip)
 * [Associate](external-ip-management.md#associate)
   * [Link](external-ip-management.md#link-external-ips)
-  * Unlink
+  * [Unlink](external-ip-management.md#unlink-external-ip)
 * Remove
 
 ## Create External IP
@@ -45,4 +45,10 @@ Link External IP คือ การที่ผู้ใช้งานทำ�
 3.เมื่อ Link เรียบร้อยแล้ว ภายในตาราง จะแสดงชื่อ Port พร้อมเลข IP Address ของ Port ที่ Column "resource"
 
 ![](../.gitbook/assets/link_external_ip_3.png)
+
+### Unlink External IPs
+
+
+
+
 
