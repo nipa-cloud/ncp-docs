@@ -21,7 +21,7 @@
 ![](../.gitbook/assets/external_ip_2.png)
 
 {% hint style="info" %}
-ในการคิดราคา External IP ทางระบบจะคิดราคา เมื่อผู้ใช้งานไม่มีการผูกติดกันระหว่าง External IP กับ Instance, Load Balancer หรือ Port ต่างๆ
+ทางระบบจะคิดค่าบริการ External IP เมื่อผู้ใช้งานไม่มีการผูกติดกันระหว่าง External IP กับ Instance, Load Balancer หรือ Port ต่างๆ
 {% endhint %}
 
 3.หลังจากคลิก Confirm แล้ว จะเห็นรายชื่อ External IPs ที่ทำการสร้างในตาราง
@@ -32,7 +32,17 @@
 
 ### Link External IPs
 
+Link External IP คือ การที่ผู้ใช้งานทำการผูกติด External IP กับ Instance, Load Balancer หรือ Port ต่างๆ จะเชื่อมต่อกับ network ภายนอกได้ โดยมีขั้นตอนการทำงาน ดังนี้
 
+1.คลิกปุ่ม link
 
+![](../.gitbook/assets/link_external_ip_1.png)
 
+2.หลังจากคลิกแล้ว หน้า Pop up จะแสดงขึ้นมา ให้เลือก Port ที่ต้องการ Link แล้วคลิก Confirm
+
+![](../.gitbook/assets/link_external_ip_2.png)
+
+3.เมื่อ Link เรียบร้อยแล้ว ภายในตาราง จะแสดงชื่อ Port พร้อมเลข IP Address ของ Port ที่ Column "resource"
+
+![](../.gitbook/assets/link_external_ip_3.png)
 
