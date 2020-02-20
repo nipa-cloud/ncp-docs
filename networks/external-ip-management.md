@@ -6,7 +6,7 @@
 
 * [Create](external-ip-management.md#create-external-ip)
 * [Associate](external-ip-management.md#associate)
-  * Link
+  * [Link](external-ip-management.md#link-external-ips)
   * Unlink
 * Remove
 
