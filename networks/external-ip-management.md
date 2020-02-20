@@ -6,9 +6,9 @@
 
 * [Create](external-ip-management.md#create-external-ip)
 * [Associate](external-ip-management.md#associate)
-  * [Link](external-ip-management.md#link-external-ips)
+  * [Link](external-ip-management.md#link-external-ip)
   * [Unlink](external-ip-management.md#unlink-external-ip)
-* Remove
+* [Remove](external-ip-management.md#remove-external-ip)
 
 ## Create External IP
 
@@ -28,7 +28,7 @@
 
 ## Associate
 
-### Link External IPs
+### Link External IP
 
 Link External IP คือ การที่ผู้ใช้งานทำการผูกติด External IP กับ Instance, Load Balancer หรือ Port ต่างๆ จะเชื่อมต่อกับ network ภายนอกได้ โดยมีขั้นตอนการทำงาน ดังนี้
 
@@ -44,7 +44,7 @@ Link External IP คือ การที่ผู้ใช้งานทำ�
 
 ![](../.gitbook/assets/link_external_ip_3.png)
 
-### Unlink External IPs
+### Unlink External IP
 
 Unlink External IP คือ การที่ผู้ใช้งานทำการถอด External IP ที่ผูกติดอยู่กับ Instance, Load Balancer หรือ Port ต่างๆ ออก ซึ่งจะทำให้ไม่สามารถเชื่อมต่อกับ Network ภายนอกได้ โดยมีขั้นตอนการทำงาน ดังนี้
 
@@ -59,4 +59,6 @@ Unlink External IP คือ การที่ผู้ใช้งานทำ
 3.เมื่อ Confirm เรียบร้อยแล้ว ระบบจะถอด Port ที่ผูกติดอยู่กับ External IP ออก โดยภายในตารางจะไม่แสดงรายชื่อ Port ที่ Column "resource"
 
 ![](../.gitbook/assets/unlink_external_ip_3.png)
+
+## Remove External IP
 
