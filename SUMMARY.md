@@ -20,13 +20,17 @@
 
 * [Launch an instance](instances/launch-instance.md)
 
-## Key pairs
+## Authentications
 
-* [Key pair management](key-pairs/key-pair-management.md)
+* [Key pair management](authentications/key-pair-management.md)
 
-## Volumes
+## Networks
 
-* [Volume management](volumes/volume-management.md)
+* [External IP management](networks/external-ip-management.md)
+
+## Storages
+
+* [Volume management](storages/volume-management.md)
 
 ## Resources
 
