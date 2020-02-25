@@ -16,7 +16,7 @@
 
 ![](../.gitbook/assets/external_ip_1.png)
 
-2.หลังจากคลิกแล้ว หน้า Pop up จะแสดงขึ้นมา ให้กรอกชื่อ External IP ที่ต้องการ แล้วคลิก Confirm
+2.หลังจากคลิกแล้ว หน้า Pop up จะแสดงขึ้นมา ให้กรอกชื่อ External IP ที่ต้องการ แล้วคลิก Create
 
 ![](../.gitbook/assets/external_ip_2.png)
 
@@ -24,7 +24,7 @@
 ทางระบบจะคิดค่าบริการ External IP เมื่อผู้ใช้งานไม่มีการผูกติดกันระหว่าง External IP กับ Instance, Load Balancer หรือ Port ต่างๆ
 {% endhint %}
 
-3.หลังจากคลิก Confirm แล้ว จะเห็นรายชื่อ External IPs ที่ทำการสร้างในตาราง
+3.หลังจากคลิก Create แล้ว จะเห็นรายชื่อ External IPs ที่ทำการสร้างในตาราง
 
 ![](../.gitbook/assets/external_ip_3.png)
 
