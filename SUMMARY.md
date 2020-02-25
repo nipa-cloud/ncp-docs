@@ -31,7 +31,7 @@
 
 ## Storages
 
-* [Volumes Management](volumes/volumes-management.md)
+* [Volumes Management](storages/volumes-management.md)
 
 ## Images
 

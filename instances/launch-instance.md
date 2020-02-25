@@ -53,7 +53,7 @@
 {% endtab %}
 
 {% tab title="Volumes \(Optional\)" %}
-> _Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้ จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน \(การสร้าง boot volume ดูได้จากหัวข้อ_ [_Create Volume_](../storages/volume-management.md#create-volume)_\)_
+> _Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้ จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน \(การสร้าง boot volume ดูได้จากหัวข้อ_ [_Create Volume_](https://github.com/Pippint/ncp-docs/tree/0794971fbf99dcd5e9275d595f5d258bdf7b2e35/storages/volume-management.md#create-volume)_\)_
 
 ![](../.gitbook/assets/launch_instance_5.png)
 {% endtab %}
