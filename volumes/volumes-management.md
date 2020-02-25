@@ -4,7 +4,7 @@ description: >-
   ขยายพื้นที่จัดเก็บข้อมูลเพิ่มเติมจาก machine type ที่เลือกไว้
 ---
 
-# Volume Management in NCP
+# Volumes Management
 
 ### Create Volume
 

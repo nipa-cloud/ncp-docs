@@ -4,7 +4,7 @@ description: >-
   ที่ใช้ในการจัดการ  instance
 ---
 
-# Instance Operation
+# Instances Management
 
 ### Stop
 
@@ -122,7 +122,7 @@ description: >-
 
 ![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
 
-2. stop instance ตามวิธีการด้านบน [Instance Operation](instance-operation.md#stop)
+2. stop instance ตามวิธีการด้านบน [Instance Operation](instances-management.md#stop)
 
 3. ที่ power page ด้านล่าง จะพบปุ่ม clean install
 
@@ -136,7 +136,7 @@ description: >-
 
 ![Power Page \(Shutoff Instance\)](../.gitbook/assets/cleaninstall09.png)
 
-6. start instance ตามวิธีด้านบน [Instance Operation](instance-operation.md#start)
+6. start instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start)
 
 
 
@@ -148,7 +148,7 @@ description: >-
 
 ![](../.gitbook/assets/cleaninstall02.png)
 
-2. stop instance ตามวิธีการด้านบน [Instance Operation](instance-operation.md#stop)
+2. stop instance ตามวิธีการด้านบน [Instance Operation](instances-management.md#stop)
 
 3. ที่ power page ด้านล่าง จะพบปุ่ม rebuild
 
@@ -162,7 +162,7 @@ description: >-
 
 ![Power Page \(Shutoff Instance\)](../.gitbook/assets/cleaninstall09.png)
 
-6. start instance ตามวิธีด้านบน [Instance Operation](instance-operation.md#start)
+6. start instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start)
 
 
 

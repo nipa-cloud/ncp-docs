@@ -4,9 +4,13 @@
 
 ## volumes
 
-* [Volume Management in NCP](volumes/volume-management-in-ncp.md)
+* [Volumes Management](volumes/volumes-management.md)
 
-## Instance Operation
+## Instances
 
-* [Instance Operation](instance-operation/instance-operation.md)
+* [Instances Management](instances/instances-management.md)
+
+## Images
+
+* [Images Management](images/images-management.md)
 
