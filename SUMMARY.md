@@ -19,6 +19,7 @@
 ## Instances
 
 * [Launch an instance](instances/launch-instance.md)
+* [Instances Management](instances/instances-management.md)
 
 ## Authentications
 
@@ -30,7 +31,11 @@
 
 ## Storages
 
-* [Volume management](storages/volume-management.md)
+* [Volumes Management](volumes/volumes-management.md)
+
+## Images
+
+* [Images Management](images/images-management.md)
 
 ## Resources
 
