@@ -1,6 +1,6 @@
 ---
 description: >-
- Instance คือ resource หลัก สำหรับ Nipa.Cloud จึงมี operation มากมาย
+ Instance คือ Resource หลัก สำหรับ Nipa.Cloud จึงมี Operation มากมาย
  ที่ใช้ในการจัดการ Instance 
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ### Stop
 
-เมื่อไม่ต้องการใช้งาน Instance แต่ยังไม่ต้องการลบ Instance ตัวนั้นทั้ง หรือต้องการทำ operation อื่นๆ ที่ทำได้เฉพาะตอนที่ Instance อยู่ในสถานะ Shutoff สามารถทำการ Shutoff Instance ด้วยคำสั่ง Stop ได้ โดยมีขั้นตอนดังนี้
+เมื่อไม่ต้องการใช้งาน Instance แต่ยังไม่ต้องการลบ Instance ตัวนั้นทั้ง หรือต้องการทำ Operation อื่นๆ ที่ทำได้เฉพาะตอนที่ Instance อยู่ในสถานะ Shutoff สามารถทำการ Shutoff Instance ด้วยคำสั่ง Stop ได้ โดยมีขั้นตอนดังนี้
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ stop
 
@@ -136,7 +136,7 @@ description: >-
 
 ![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
-6.start Instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
+6.Start Instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
 
 
 
@@ -162,7 +162,7 @@ description: >-
 
 ![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
-6.start Instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
+6.Start Instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
 
 
 
@@ -188,7 +188,7 @@ description: >-
 
 ![](../.gitbook/assets/resize03.png)
 
-6.start Instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
+6.Start Instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
 
 
 
