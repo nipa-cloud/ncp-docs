@@ -6,11 +6,11 @@
 ## Accounts
 
 * [Registration](accounts/registration.md)
-* [Forgot password](accounts/forgot-password.md)
+* [Forgot Password](accounts/forgot-password.md)
 
 ## Projects
 
-* [Project management](projects/project-management.md)
+* [Project Management](projects/project-management.md)
 
 ## Billings
 
@@ -18,16 +18,16 @@
 
 ## Instances
 
-* [Launch an instance](instances/launch-instance.md)
+* [Launch an Instance](instances/launch-instance.md)
 * [Instances Management](instances/instances-management.md)
 
 ## Authentications
 
-* [Key pair management](authentications/key-pair-management.md)
+* [Key Pair Management](authentications/key-pair-management.md)
 
 ## Networks
 
-* [External IP management](networks/external-ip-management.md)
+* [External IP Management](networks/external-ip-management.md)
 
 ## Storages
 
