@@ -9,11 +9,11 @@ description: >-
 
 ## Restore Image
 
-เมื่อเราต้องการเอา image ที่มีอยู่ ไป Build บน Instance ตัวเดิม เพื่อเป็นการเปลี่ยน OS หรืออื่นๆ โดยไม่ต้องตั้งค่า IP, Port, Network, ฯลฯ ใหม่ สามารถทำได้โดยการใช้คำสั่ง Restore Image ซึ่งก็จะคล้ายกับการ Rebuild Instance \(ดูได้ที่ [Instances Management](../instances/instances-management.md#rebuild)\) โดยการ Restore Image มีขั้นตอนดังนี้
+เมื่อเราต้องการเอา Image ที่มีอยู่ ไป Build บน Instance ตัวเดิม เพื่อเป็นการเปลี่ยน OS หรืออื่นๆ โดยไม่ต้องตั้งค่า IP, Port, Network, ฯลฯ ใหม่ สามารถทำได้โดยการใช้คำสั่ง Restore Image ซึ่งก็จะคล้ายกับการ Rebuild Instance \(ดูได้ที่ [Instances Management](../instances/instances-management.md#rebuild)\) โดยการ Restore Image มีขั้นตอนดังนี้
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Images ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Image
 
-![Images Page](../.gitbook/assets/restoreimage01%20%281%29.png)
+![Images Page](../.gitbook/assets/restoreimage01.png)
 
 2.กดที่ More หลัง Image ที่ต้องการ Build ทับลงไปที่ Instance เพื่อเปิด Image Menu
 
@@ -40,16 +40,16 @@ description: >-
 ### Sender
 
 {% hint style="info" %}
-image ที่ share จะยังเป็นของ project ที่สร้างอยู่ แต่สามารถเข้าถึงได้โดย project ที่ share ให้ได้ ซึ่งหมายความว่า หากผู้สร้างลบ image นี้ทิ้ง project อื่นๆก็จะมองไม่เห็น image นั้นอีกต่อไป
+image ที่ share จะยังเป็นของ Project ที่สร้างอยู่ แต่สามารถเข้าถึงได้โดย Project ที่ Share ให้ได้ ซึ่งหมายความว่า หากผู้สร้างลบ Image นี้ทิ้ง Project อื่นๆก็จะมองไม่เห็น Image นั้นอีกต่อไป
 {% endhint %}
 
-1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Images ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่หน้า Image
+1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Images ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Image
 
 ![Images Page \(Before Share\)](../.gitbook/assets/restoreimage01.png)
 
 2.กดที่ More หลัง Image ที่ต้องการ Share เพื่อเปิด Image Menu
 
-![Image Menu](../.gitbook/assets/restoreimage02%20%281%29.png)
+![Image Menu](../.gitbook/assets/restoreimage02.png)
 
 3.กดที่ Manage Image Sharing เพื่อเข้าสู่ Manage Image Sharing Page
 
