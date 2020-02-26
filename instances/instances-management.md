@@ -30,9 +30,9 @@ description: >-
 
 ### Start 
 
-เมื่อต้องการกลับมาใช้งาน Instance ที่อยู่ในสถานะ Shutoff ทำได้โดยการสั่ง start Instance โดยมีขั้นตอนดังนี้
+เมื่อต้องการกลับมาใช้งาน Instance ที่อยู่ในสถานะ Shutoff ทำได้โดยการสั่ง Start Instance โดยมีขั้นตอนดังนี้
 
-1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ start
+1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ Start
 
 ![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
 
@@ -40,7 +40,7 @@ description: >-
 
 ![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
-3.กดที่ปุ่ม Start เพื่อเข้า start Instance Page
+3.กดที่ปุ่ม Start เพื่อเข้า Start Instance Page
 
 ![Start Instance Page](../.gitbook/assets/cleaninstall10.png)
 
@@ -52,9 +52,9 @@ description: >-
 
 ### Soft Reboot
 
-เมื่อต้องการ reboot Instance ด้วย command ของ OS สามารถทำได้โดยการสั่ง soft reboot โดยมีขั้นตอนดังนี้
+เมื่อต้องการ Reboot Instance ด้วย Command ของ OS สามารถทำได้โดยการสั่ง Soft Reboot โดยมีขั้นตอนดังนี้
 
-1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ soft reboot
+1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Soft reboot
 
 ![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
 
@@ -62,11 +62,11 @@ description: >-
 
 ![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
-3.กดที่ปุ่ม Soft Reboot เพื่อเข้าสู่ soft reboot Page
+3.กดที่ปุ่ม Soft Reboot เพื่อเข้าสู่ Soft Reboot Page
 
 ![Soft Reboot Page](../.gitbook/assets/softreboot01.png)
 
-4.กดที่ปุ่ม Confirm เพื่อเริ่มการ soft reboot ระบบจะใช้เวลาสักครู่หนึ่ง เมื่อเสร็จแล้วจะเห็นจุดสีเขียว แสดงสถานะ active ของ Instance 
+4.กดที่ปุ่ม Confirm เพื่อเริ่มการ Soft Reboot ระบบจะใช้เวลาสักครู่หนึ่ง เมื่อเสร็จแล้วจะเห็นจุดสีเขียว แสดงสถานะ Active ของ Instance 
 
 ![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall11.png)
 
@@ -74,9 +74,9 @@ description: >-
 
 ### Hard Reboot
 
-เมื่อต้องการ reboot Instance ที่ตัวเครื่อง physical สามารถทำได้โดยการสั่ง hard reboot โดยมีขั้นตอนดังนี้
+เมื่อต้องการ Reboot Instance ที่ตัวเครื่อง physical สามารถทำได้โดยการสั่ง Hard Reboot โดยมีขั้นตอนดังนี้
 
-1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ hard reboot
+1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Hard reboot
 
 ![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
 
@@ -84,11 +84,11 @@ description: >-
 
 ![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
-3.กดที่ปุ่ม Hard Reboot เพื่อเข้าสู่ hard reboot Page
+3.กดที่ปุ่ม Hard Reboot เพื่อเข้าสู่ Hard Reboot Page
 
 ![Hard Reboot Page](../.gitbook/assets/hardreboot01.png)
 
-4.กดที่ปุ่ม Confirm เพื่อเริ่มการ hard reboot ระบบจะใช้เวลาสักครู่หนึ่ง เมื่อเสร็จแล้วจะเห็นจุดสีเขียว แสดงสถานะ active ของ Instance 
+4.กดที่ปุ่ม Confirm เพื่อเริ่มการ Hard Reboot ระบบจะใช้เวลาสักครู่หนึ่ง เมื่อเสร็จแล้วจะเห็นจุดสีเขียว แสดงสถานะ Active ของ Instance 
 
 ![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall11.png)
 
@@ -142,7 +142,7 @@ description: >-
 
 ### Rebuild 
 
-เมื่อเราต้องการเปลี่ยน OS ของ Instance หรือต้องการ Instance ที่มี Image ตัวอื่น แต่ด้วย config, spec, IP, port, network, ฯลน เดิม เราไม่จำเป็นจะต้อง launch Instance ขึ้นมาใหม่แล้ว setting ใหม่ทั้งหมด เราสามารถใช้ feature Rebuild เพื่อ build Image ใหม่ ไปที่ Instance ตัวเดิมได้ โดยมีขั้นตอนดังนี้
+เมื่อเราต้องการเปลี่ยน OS ของ Instance หรือต้องการ Instance ที่มี Image ตัวอื่น แต่ด้วย Config, Spec, IP, Port, Network, ฯลน เดิม เราไม่จำเป็นจะต้อง Launch Instance ขึ้นมาใหม่แล้ว Setting ใหม่ทั้งหมด เราสามารถใช้ Feature Rebuild เพื่อ Build Image ใหม่ ไปที่ Instance ตัวเดิมได้ โดยมีขั้นตอนดังนี้
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Clean Install
 
@@ -158,7 +158,7 @@ description: >-
 
 ![Rebuild Page](../.gitbook/assets/rebuild01.png)
 
-5.ที่ Select Image ให้เลือก Image ใหม่ที่ต้องการ build ลงไปใน Instance นี้ แล้วกดที่ปุ่ม Confirm เพื่อเริ่มทำ Rebuild ระบบจะใช้เวลาซักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเทาแสดงสถานะของ Instance 
+5.ที่ Select Image ให้เลือก Image ใหม่ที่ต้องการ Build ลงไปใน Instance นี้ แล้วกดที่ปุ่ม Confirm เพื่อเริ่มทำ Rebuild ระบบจะใช้เวลาซักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเทาแสดงสถานะของ Instance 
 
 ![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
