@@ -124,7 +124,7 @@ description: >-
 
 2. stop instance ตามวิธีการด้านบน [Instance Operation](instances-management.md#stop)
 
-3. ที่ power page ด้านล่าง จะพบปุ่ม clean install
+3. ที่ instance detail page ให้เลือกที่ power tab เพื่อเข้าสู่ power page และเลื่อนลงมาด้านล่างจะพบปุ่ม clean install
 
 ![Power Page](../.gitbook/assets/cleaninstall06.png)
 
@@ -136,7 +136,7 @@ description: >-
 
 ![Power Page \(Shutoff Instance\)](../.gitbook/assets/cleaninstall09.png)
 
-6. start instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start)
+6. start instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
 
 
 
@@ -150,7 +150,7 @@ description: >-
 
 2. stop instance ตามวิธีการด้านบน [Instance Operation](instances-management.md#stop)
 
-3. ที่ power page ด้านล่าง จะพบปุ่ม rebuild
+3. ที่ instance detail page ให้เลือกที่ power tab เพื่อเข้าสู่ power page และเลื่อนลงมาด้านล่างจะพบปุ่ม rebuild
 
 ![Power Page \(Active Instance\)](../.gitbook/assets/cleaninstall06.png)
 
@@ -162,7 +162,77 @@ description: >-
 
 ![Power Page \(Shutoff Instance\)](../.gitbook/assets/cleaninstall09.png)
 
-6. start instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start)
+6. start instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
+
+
+
+### Resize
+
+เมื่อเราสร้าง instance มาแล้ว ทำงานไปได้ซักพักนึง ความต้องการของระบบอาจจะมากขึ้น RAM, CPU ไม่พอ การที่จะ launch instance ขึ้นมาใหม่แล้วถ่ายโอนทุกอย่างไปก็คงจะเป็นเรื่องยาก วิธีนึงที่ช่วยได้ก็คือการ resize ที่จะเพิ่มขนาดและประสิทธิภาพของ instance โดยไม่ต้องสร้างใหม่ โดยมีวิธีการดังนี้
+
+1. เมื่อ Login เข้ามาใน NCP จะพบกับ instance page ให้เลือก instance ที่ต้องการทำ resize
+
+![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+
+2. stop instance ตามวิธีการด้านบน [Instance Operation](instances-management.md#stop)
+
+3. ที่ instance detail page ให้เลือกที่ resize tab เพื่อเข้าสู่ resize pag
+
+![Resize Page](../.gitbook/assets/resize01.png)
+
+4. เลือก spec ใหม่ที่ต้องการ แล้วกดปุ่ม Resize ที่ด้านล่างเพื่อเข้าสู่ Confirm Resize Page
+
+![Confirm Resize Page](../.gitbook/assets/resize02.png)
+
+5. กดปุ่ม Confirm เพื่อทำการ resize ระบบจะใช้เวลาสักครุ่ เมื่อเสร็จแล้วระบบจะพากลับไปที่ resize page พร้อมแสดง spec ใหม่ และสถานะของ instance เป็นสีเท่า
+
+![](../.gitbook/assets/resize03.png)
+
+6. start instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
+
+
+
+### Attach Volume
+
+เมื่อเราใช้งาน instance ไปได้สักพักหนึ่ง ความต้องการระบบก็อาจจะเพิ่มขึ้น นอกจากการ resize \(ดูการ resize [Instances Management](instances-management.md#resize)\) ที่เพิ่ม RAM, CPU, ROM แล้ว เรายังสามารถเพิ่ม SSD storage เข้าไปที่ instance เข้าเราได้ โดยการ attach volume โดยมีขั้นตอนดังนี้
+
+1. เมื่อ Login เข้ามาใน NCP จะพบกับ instance page ให้เลือก instance ที่ต้องการ attach volume
+
+![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+
+2. ที่ instance detail page ให้เลือกที่ volumes tab เพื่อเข้าสู่ attach volume page
+
+![Attach Volume Page \(Without Volume\)](../.gitbook/assets/resize01-1.png)
+
+3. กดปุ่ม Attach เพื่อเข้า confirm attach volume page
+
+![Confirm Attach Volume Page](../.gitbook/assets/attachvolume02.png)
+
+4. เลือก volume ที่ต้องการ \(หากไม่มี สามารถสร้างได้โดยมีขั้นตอนดังนี้ [Volumes Management](../storages/volumes-management.md#create-volume)\) แล้วกด Confirm เพื่อทำการ attach เมื่อเสร็จแล้ว ระบบจะพากลับมาที่ attach volume page โดยจะเห็นว่ามี volume เพิ่มขึ้นมาก็เป็นอันเสร็จ
+
+![Attach Volume Page \(Volume Attached\)](../.gitbook/assets/attachvolume03.png)
+
+
+
+### Detach Volume
+
+เมื่อเราต้องการ launch instance ใหม่ เพื่อเปลี่ยนแปลงระบบ แต่ยังต้องการใช้ volume ตัวเดิม เราก็จะต้อง detach volume ตัวนั้น ออกจาก instance ตัวเก่าก่อน โดยมีขั้นตอนดังนี้
+
+1. เมื่อ Login เข้ามาใน NCP จะพบกับ instance page ให้เลือก instance ที่ต้องการ detach volume
+
+![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+
+2. ที่ instance detail page ให้เลือกที่ volumes tab เพื่อเข้าสู่ attach volume page
+
+![Attach Volume Page \(Volume Attached\)](../.gitbook/assets/attachvolume03.png)
+
+3. ที่ volume ที่ต้องการ detach ให้กดที่ปุ่ม Detach ด้านขวา เพื่อเข้าสู่ confirm detach volume page
+
+![Confirm Detach Volume Page](../.gitbook/assets/detachvolume01.png)
+
+4. กดที่ปุ่ม Confirm เพื่อทำการ detach volume เมื่อเสร็จแล้ว ระบบจะพากลับไปที่ attach volume page โดย volume ที่เคย attach อยู่จะหายไป
+
+![Attach Volume Page \(Volume Detached\)](../.gitbook/assets/detachvolume02.png)
 
 
 
