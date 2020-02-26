@@ -10,7 +10,7 @@
 
 ## Projects
 
-* [Project Management](Projects/project-management.md)
+* [Project Management](projects/project-management.md)
 
 ## Billings
 
