@@ -44,11 +44,11 @@
 
 ![](https://lh5.googleusercontent.com/25M8KhFLIbonBtjIWjdwtkh70CnT1bMsAf2qbUDRRvczDSYJ0X_cYfjO93HHvqnwL-_1fgFD3_8DJOGCkYwDcn_iQ6rgCjR-d-dgMTTrTiMqBW2QILZ0WiweIuw_uk1-PIGStbo)
 
-6.ระบบจะทำการส่งหมายเลข **OTP** \(One Time Password\) ให้ เมื่อได้รับแล้ว ให้กรอกลงในช่อง OTP ยืนยัน จากนั้นคลิก \_\*\*\_Next
+6.ระบบจะทำการส่งหมายเลข **OTP** \(One Time Password\) ให้ เมื่อได้รับแล้ว ให้กรอกลงในช่อง OTP ยืนยัน จากนั้นคลิก Next
 
 ![](https://lh6.googleusercontent.com/lNayxRUrHlKKNdSuKXNA5l98WA2FWaEQ5IvAj20o7IHdiZ65pM_dtx2dKtt1AzAPA00TC6_U_27_8Nu-rPLUrd3TeJMgWOTeB-vhh6biqDTJA3hg9UgjV9vesuEPq0lhJOelcfM)
 
-7.กรอกรายละเอียดข้อมูลผู้ใช้งาน โดย **First name** และ **Last name** ที่ใช้จะต้องไม่มีอยู่ในระบบ Finish _\*\*_เป็นการสมัครสมาชิกเรียบร้อย
+7.กรอกรายละเอียดข้อมูลผู้ใช้งาน โดย **First name** และ **Last name** ที่ใช้จะต้องไม่มีอยู่ในระบบ Finish เป็นการสมัครสมาชิกเรียบร้อย
 
 ![](../.gitbook/assets/registration-public-7.png)
 
