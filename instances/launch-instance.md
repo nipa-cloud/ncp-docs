@@ -1,4 +1,4 @@
-# Launch an instance
+# Launch an Instance
 
 ## Instance details
 
