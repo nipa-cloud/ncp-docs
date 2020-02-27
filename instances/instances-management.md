@@ -246,6 +246,46 @@ description: >-
 
 ![Manage Port Cloud Firewall Page \(After Detach\)](../.gitbook/assets/cloudfirewall06.png)
 
+## Manage Auto Backup
+
+เมื่อเราใช้งาน Instance ไปเป็นระยะเวลาหนึ่ง แล้วเกิดปัญหาที่ทำให้ไม่สามารถใช้งานต่อไปได้ หากเรามีการทำ Snapshot ไว้ ก็สามารถเอา Snapshot นั้นมาสร้าง Instance ใหม่ใช้ได้ แต่หากไม่มีจะทำยังไง ใน Nipa.Cloud เราพร้อมรับมือกับปัญหาแบบนี้อยู่แล้ว เราจึงมี Auto Backup ซึ่งคอยช่วยบันทึก State ของ Instance สำหรับกู้คืนไว้ให้อัตโนมัติ โดยสามารถจัดการกับ Auto Backup ได้ดังนี้
+
+1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการจัดการ Auto Backup
+
+![Instance Detail Page](../.gitbook/assets/cloudfirewall01.png)
+
+2.ที่ Instance Detail Page ให้เลือกที่ Auto Backup Tab เพื่อเข้าสู่ Manage Auto Backup Page
+
+![Manage Auto Backup Page \(Auto Backup Enable\)](../.gitbook/assets/autobackup01.png)
+
+3.โดยปกติ feature นี้จะถูกเปิดให้อัตโนมัติสำหรับทุก Project แต่ก็สามารถปิดได้ โดยปรับ Auto Backup Enable เป็น Disable ระบบจะแสดง Confirm Disable Auto Backup Page
+
+![Confirm Disable Auto Backup Page](../.gitbook/assets/autobackup02.png)
+
+4.กดที่ Confirm เพื่อปิดการทำงาน Auto Backup ระบบจะพากลับไปที่ Manage Auto Backup Page พร้อมแสดงสถานะเป็น Disable
+
+![Manage Auto Backup Page \(Auto Backup Disable\)](../.gitbook/assets/autobackup03.png)
+
+5.ในกรณีที่ต้องการใช้งาน Auto Backup แต่ต้องการแก้ไขเวลาที่ทำการ Backup และจำนวนของ Backup สามารถทำได้โดยการกดที่ปุ่ม Setting เพื่อเข้าสู่ Auto Backup Setting Page
+
+![Auto Backup Setting Page](../.gitbook/assets/autobackup04.png)
+
+6.ใส่ข้อมูลดังต่อไป
+
+* Backup Interval \(days\): จำนวนวันที่ระบบจะทำการ Backup 
+* Preferred Backup Time \(AM\): เวลาที่จะทำการ Backup
+* Rotations: จำนวนของ Backup ที่จะทำการเก็บไว้
+
+เมื่อใส่ข้อมูลครบถ้วนแล้ว ให้กด Confirm ระบบจะพากลับไปที่ Manage Auto Backup Page เป็นอันเสร็จสิ้น
+
+{% hint style="warning" %}
+Setting เหล่านี้จะมีผลในรอบการทำงานต่อไป
+{% endhint %}
+
+{% hint style="danger" %}
+จำนวน Rotations ที่มากกว่า 2 จะถูกคิดเงิน โดยราคาจะเป็นไปตามขนาดของ Backup File
+{% endhint %}
+
 ## Edit Name
 
 เมื่อเราต้องการเปลี่ยนชื่อของ Instance เพื่อให้ง่ายต่อการจดจำ สามารถทำได้ตามขั้นตอนต่อไปนี้
