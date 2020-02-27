@@ -32,7 +32,7 @@
 
 ### Link External IP
 
-Link External IP คือ การที่ผู้ใช้งานทำการผูกติด External IP กับ Instance, Load Balancer หรือ Port ต่างๆ จะเชื่อมต่อกับ network ภายนอกได้ โดยมีขั้นตอนการทำงาน ดังนี้
+Link External IP คือ การที่ผู้ใช้งานทำการผูกติด External IP กับ Instance, Load Balancer หรือ Port ต่างๆ จะเชื่อมต่อกับ Network ภายนอกได้ โดยมีขั้นตอนการทำงาน ดังนี้
 
 1.คลิกปุ่ม link
 

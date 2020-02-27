@@ -10,22 +10,22 @@
 | **Image** | ระบบปฏิบัติการ \(Operating System\) ของ Instance | no |
 | **Machine Type** | Specification ของ Instance \(แต่ละประเภทมีจำนวนจำกัด หาก spec ไหนเหลือน้อยกว่า 10 เครื่อง จะแสดงจำนวนเครื่องที่เหลือไว้ และประเภทไหนที่หมด จะแสดงข้อความ out of stock\) | no |
 | **Cloud Firewall** | ส่วนที่ระบุการเข้าถึง Instance โดยระบบจะมี Default Cloud Firewall ให้ ดังนี้ _**All**, **Rdp**, **Http-Https**, **default**, **In-Cluster**, **Ping**_ และ _**SSH**_ ซึ่งผู้ใช้งานสามารถสร้าง Cloud Firewall เพิ่มเติมได้ โดยดูจากหัวข้อ Create Cloud Firewall | no |
-| **Authentication** | ส่วนที่กำหนด keypair หรือ password ในการเข้าใช้งาน โดย keypair ผู้ใช้งานสร้างเพิ่มเติมได้ โดยดูจากหัวข้อ [Keypair management](../authentications/key-pair-management.md#create) | no |
+| **Authentication** | ส่วนที่กำหนด Keypair หรือ Password ในการเข้าใช้งาน โดย keypair ผู้ใช้งานสร้างเพิ่มเติมได้ โดยดูจากหัวข้อ [Keypair management](../authentications/key-pair-management.md#create) | no |
 | **Number of Instances** | จำนวน instance ที่ต้องการสร้าง | no |
-| **Instance Volume** | ขนาดของ volume \(สามาถระบุได้ในกรณีที่เลือก image แบบ Distributions, Marketplace หรือ Images และสร้างแบบ boot volume\) | yes |
-| **Network** | ส่วนที่กำหนด network ที่ต้องการใช้งาน โดยสามารถกำหนด IP Address ที่ต้องการใช้งานได้ | yes |
+| **Instance Volume** | ขนาดของ Volume \(สามาถระบุได้ในกรณีที่เลือก image แบบ Distributions, Marketplace หรือ Images และสร้างแบบ boot volume\) | yes |
+| **Network** | ส่วนที่กำหนด Network ที่ต้องการใช้งาน โดยสามารถกำหนด IP Address ที่ต้องการใช้งานได้ | yes |
 | **External IP** | ส่วนที่กำหนด IP Address ที่ใช้ในการเชื่อมต่อ instance กับ network ภายนอก | no |
 | **Auto Backup** | ส่วนที่กำหนดถึงการให้ระบบจัดการเก็บข้อมูล backup instance โดยอัตโนมัติ | no |
 
 {% hint style="info" %}
-ส่วนที่เป็น optional \(yes/no\) ผู้ใช้งานสามารถ request ขอทาง Administrator เพื่อใช้งานเพิ่มเติม
+ส่วนที่เป็น optional \(yes/no\) ผู้ใช้งานสามารถ Request ขอทาง Administrator เพื่อใช้งานเพิ่มเติม
 {% endhint %}
 
 ## Create an instance
 
 ### Hostname
 
-กรอก Hostname \(ชื่อ Instance\) ที่ต้องการ \(ภายในช่องกรอกระบบจะมีชื่อ default ให้ โดยทางผู้ใช้งานสามารถตั้งชื่อใหม่ได้\)
+กรอก Hostname \(ชื่อ Instance\) ที่ต้องการ \(ภายในช่องกรอกระบบจะมีชื่อ Default ให้ โดยทางผู้ใช้งานสามารถตั้งชื่อใหม่ได้\)
 
 ![](../.gitbook/assets/launch_instance_1.png)
 
@@ -41,19 +41,19 @@
 {% endtab %}
 
 {% tab title="Marketplace" %}
-> _Image ที่มี template สำเร็จรูป โดยเมื่อผู้ใช้งานสร้างด้วย image ประเภทนี้ จะสามารถนำไปใช้งานได้เลย ไม่ต้องตั้งค่าใดๆเพิ่มเติม เช่น Docker, GitLab, Wordpress เป็นต้น_
+> _Image ที่มี Template สำเร็จรูป โดยเมื่อผู้ใช้งานสร้างด้วย Image ประเภทนี้ จะสามารถนำไปใช้งานได้เลย ไม่ต้องตั้งค่าใดๆเพิ่มเติม เช่น Docker, GitLab, Wordpress เป็นต้น_
 
 ![](../.gitbook/assets/launch_instance_3.png)
 {% endtab %}
 
 {% tab title="Images" %}
-> _Image ที่เกิดจากการ snapshot ของ instance ด้วยผู้ใช้งานเอง หรือการทำ auto backup ของระบบ_
+> _Image ที่เกิดจากการ Snapshot ของ Instance ด้วยผู้ใช้งานเอง หรือการทำ Auto Backup ของระบบ_
 
 ![](../.gitbook/assets/launch_instance_4.png)
 {% endtab %}
 
 {% tab title="Volumes \(Optional\)" %}
-> _Image ที่เกิดจากการสร้าง volume แบบ boot volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ feature นี้ จะต้อง request ขอมายัง Administrator เพิ่มเปิดใช้งาน \(การสร้าง boot volume ดูได้จากหัวข้อ_ [_Create Volume_](https://github.com/Pippint/ncp-docs/tree/0794971fbf99dcd5e9275d595f5d258bdf7b2e35/storages/volume-management.md#create-volume)_\)_
+> _Image ที่เกิดจากการสร้าง Volume แบบ Boot Volume โดยในส่วนนี้ หากผู้ใช้งานต้องใช้ Feature นี้ จะต้อง Request ขอมายัง Administrator เพิ่มเปิดใช้งาน \(การสร้าง boot volume ดูได้จากหัวข้อ_ [_Create Volume_](https://github.com/Pippint/ncp-docs/tree/0794971fbf99dcd5e9275d595f5d258bdf7b2e35/storages/volume-management.md#create-volume)_\)_
 
 ![](../.gitbook/assets/launch_instance_5.png)
 {% endtab %}
@@ -65,25 +65,25 @@
 
 {% tabs %}
 {% tab title="Eco" %}
-> _เป็น spec สำหรับผู้ใช้งานบางประเภทที่ต้องการประหยัดค่าใช้จ่าย_
+> _เป็น Spec สำหรับผู้ใช้งานบางประเภทที่ต้องการประหยัดค่าใช้จ่าย_
 
 ![](../.gitbook/assets/launch_instance_6.png)
 {% endtab %}
 
 {% tab title="General" %}
-> _เป็น spec การใช้งานมาตรฐานของผู้ใช้งาน_
+> _เป็น Spec การใช้งานมาตรฐานของผู้ใช้งาน_
 
 ![](../.gitbook/assets/launch_instance_7.png)
 {% endtab %}
 
 {% tab title="High Memory" %}
-> _เป็น spec ที่เหมาะกับผู้ใช้งานที่เน้นการใช้งาน memory เป็นหลัก_
+> _เป็น Spec ที่เหมาะกับผู้ใช้งานที่เน้นการใช้งาน Memory เป็นหลัก_
 
 ![](../.gitbook/assets/launch_instance_8.png)
 {% endtab %}
 {% endtabs %}
 
-สำหรับผู้ใช้งานที่เลือกประเภท image แบบ **Boot volume** ในส่วน Disk ของ Machine Type จะแสดงข้อความ **"Use existing volume"** ซึ่งหมายความว่า ขนาด Disk ของ Image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด volume image ที่เลือก
+สำหรับผู้ใช้งานที่เลือกประเภท Image แบบ **Boot volume** ในส่วน Disk ของ Machine Type จะแสดงข้อความ **"Use existing volume"** ซึ่งหมายความว่า ขนาด Disk ของ Image ประเภทนี้จะขึ้นอยู่กับจำนวนของขนาด Volume Image ที่เลือก
 
 ![](../.gitbook/assets/launch_instance_9.png)
 
@@ -93,7 +93,7 @@
 
 ### **Authentication**
 
-เลือกประเภทการ Authentication ในการใช้งาน instance ซึ่งจะแสดงตามการเลือกของ Image โดย Keypiar \(จะแสดงเมื่อเลือก Image ประเภท Linux\) และ Password \(จะแสดงเมื่อเลือก image ประเภท Linux หรือ Windows\)
+เลือกประเภทการ Authentication ในการใช้งาน Instance ซึ่งจะแสดงตามการเลือกของ Image โดย Keypiar \(จะแสดงเมื่อเลือก Image ประเภท Linux\) และ Password \(จะแสดงเมื่อเลือก Image ประเภท Linux หรือ Windows\)
 
 #### Keypair
 
@@ -141,7 +141,7 @@
 * **Create a new IP:** ระบบจะทำการสุ่ม External IP ที่ไม่ถูกใช้งานให้  
 * **Disabled:** Instance ที่ถูกสร้างจะไม่มีการใช้งาน External IP  
 * เลือก External IP ที่ผู้ใช้งานสร้างเอง \(ดูได้จากหัวข้อ Create External IPs\)  
-* Enable **Bypass internal network:** instance ที่ถูกสร้างจะได้ internal IP เป็นเลข External IP แทน หาก Enable จะไม่สามารถเลือก [Network](launch-instance.md#network) ได้
+* Enable **Bypass Internal Network:** Instance ที่ถูกสร้างจะได้ internal IP เป็นเลข External IP แทน หาก Enable จะไม่สามารถเลือก [Network](launch-instance.md#network) ได้
 
 ![](../.gitbook/assets/launch_instance_19.png)
 
@@ -176,7 +176,7 @@
 
 ![&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; External IP: Bypass internal netowrk](../.gitbook/assets/launch_instance_27.png)
 
-หากสร้าง Instance แบบ Boot volume จะไม่สามารถดูผลลัพธ์ได้ในหน้า Instance list ผู้ใช้งานจะสามารถตรวจสอบได้ที่ Instance detail โดยคลิกที่ชื่อ Instance
+หากสร้าง Instance แบบ Boot Volume จะไม่สามารถดูผลลัพธ์ได้ในหน้า Instance list ผู้ใช้งานจะสามารถตรวจสอบได้ที่ Instance Detail โดยคลิกที่ชื่อ Instance
 
 ![](../.gitbook/assets/launch_instance_28.png)
 

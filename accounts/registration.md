@@ -77,7 +77,7 @@
 
 ![](https://lh6.googleusercontent.com/2dTaohUBBLlzGBQ5AWacdeaUBpk3WxocPG66tPAACLfNV60BuCekLJx5kRgt4KoX0NbVtbB_s4k-6BZILtRMf5xY4ZZP6qVhW9LRsjEqHY4Pl4_QFg66L5YM967bg0pvNJHZtLk)
 
-2.กรอก **Email** ที่ใช่ในการสมัครสมาชิก \(โดย Email ที่ใช้ในการสมัครสมาชิกจะต้องไม่มีอยู่ในระบบ\) คลิกยืนยัน “Agree to the Terms of Service and Privacy Policy” และคลิก Register
+2.กรอก **Email** ที่ใช้ในการสมัครสมาชิก \(โดย Email ที่ใช้ในการสมัครสมาชิกจะต้องไม่มีอยู่ในระบบ\) คลิกยืนยัน “Agree to the Terms of Service and Privacy Policy” และคลิก Register
 
 ![](https://lh5.googleusercontent.com/EBjc6pYjrnpJIhEtNXW6TXcvtNNplZHpLP4nekMxR1j284mz1fgcHptFJmwPHRFv2tLUfVwQ75tUDHDHSVdEnemxdCxlpXF88sTshBbt6wREFP9zHYleq4hgsoLfJfOGjPDCcWU)
 
@@ -113,7 +113,7 @@
 
 ![](https://lh6.googleusercontent.com/2dTaohUBBLlzGBQ5AWacdeaUBpk3WxocPG66tPAACLfNV60BuCekLJx5kRgt4KoX0NbVtbB_s4k-6BZILtRMf5xY4ZZP6qVhW9LRsjEqHY4Pl4_QFg66L5YM967bg0pvNJHZtLk)
 
-2.กรอก Email ที่ใช่ในการสมัครสมาชิก \(โดย Email ที่ใช้ในการสมัครสมาชิกจะต้องไม่มีอยู่ในระบบ\) คลิกยืนยัน “Agree to the Terms of Service and Privacy Policy” และคลิก Register
+2.กรอก Email ที่ใช้ในการสมัครสมาชิก \(โดย Email ที่ใช้ในการสมัครสมาชิกจะต้องไม่มีอยู่ในระบบ\) คลิกยืนยัน “Agree to the Terms of Service and Privacy Policy” และคลิก Register
 
 ![](https://lh5.googleusercontent.com/EBjc6pYjrnpJIhEtNXW6TXcvtNNplZHpLP4nekMxR1j284mz1fgcHptFJmwPHRFv2tLUfVwQ75tUDHDHSVdEnemxdCxlpXF88sTshBbt6wREFP9zHYleq4hgsoLfJfOGjPDCcWU)
 
