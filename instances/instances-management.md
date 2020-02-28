@@ -286,6 +286,32 @@ Setting เหล่านี้จะมีผลในรอบการทำ
 จำนวน Rotations ที่มากกว่า 2 จะถูกคิดเงิน โดยราคาจะเป็นไปตามขนาดของ Backup File
 {% endhint %}
 
+## Attach Network
+
+เมื่อสร้าง Instance ขึ้นมา จะมี Network Port แค่ Port เดียวเท่านั้น แต่ในการใช้งานจริง เราอาจต้องการมากกว่านั้น ซึ่งเราสามารถเพิ่ม Network Port ได้โดยการ Attach  Network โดยมีขั้นตอนดังนี้
+
+1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ Attach Network เพิ่ม
+
+![Instance Detail Page](../.gitbook/assets/attachnetwork01.png)
+
+2.ที่ Instance Detail Page ให้เลือกที่ Network Tab เพื่อเข้าสู่ Network Page
+
+![Instance Network Page](../.gitbook/assets/attachnetwork02.png)
+
+3.กดที่ปุ่ม Attach เพื่อเข้า Attach Network Page
+
+![Attach Network Page](../.gitbook/assets/attachnetwork03.png)
+
+4.ใส่ข้อมูลดังต่อไปนี้
+
+* Subnet: เลือก Subnet สำหรับ Port ที่ต้องการ Attach
+* IP Address\(Port\): เลือก Port IP ที่ต้องการ หรือหากต้องการสร้าง Port ใหม่ ให้เลือก "create new IP address"
+* Auto Assign IP: ในกรณีที่เลือกสร้าง Port ใหม่ สามารถเลือก IP เองได้ แต่หากต้องการให้ระบบตั้งให้ ให้เลือก Auto Assign IP
+* MAC Address: สามารถกำหนัด MAC Address เอง หรือให้ระบบตั้งให้ได้
+* Cloud Firewall: เปิดหรือปิด Cloud Firewall สำหรับ Port นี้ หากเปิด ก็สามารถใส่ Cloud Firewall ที่ต้องการได้เลย
+
+เมื่อใส่ข้อมูลครบถ้วนแล้ว ให้กด Confirm ระบบจะพากลับไปที่ Instance Network Page พร้อมแสดง Port ที่ถูก Attach เข้ามาแล้ว
+
 ## Edit Name
 
 เมื่อเราต้องการเปลี่ยนชื่อของ Instance เพื่อให้ง่ายต่อการจดจำ สามารถทำได้ตามขั้นตอนต่อไปนี้
