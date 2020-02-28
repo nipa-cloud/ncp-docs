@@ -12,11 +12,11 @@ Document นี้จะพูดถึงการจัดการโปร�
 
 **Table of contents**
 
-1. [Create a Project](https://github.com/Pippint/ncp-docs/tree/6893a2f3f9c8b50b452c853be86f2380e56c29d0/projects/Project-management.md#create-a-Project)
-2. [Manage member](https://github.com/Pippint/ncp-docs/tree/6893a2f3f9c8b50b452c853be86f2380e56c29d0/projects/Project-management.md#manage-member)
-3. [Edit contact](https://github.com/Pippint/ncp-docs/tree/6893a2f3f9c8b50b452c853be86f2380e56c29d0/projects/Project-management.md#edit-contact)
-4. [Change Project & billing types](https://github.com/Pippint/ncp-docs/tree/6893a2f3f9c8b50b452c853be86f2380e56c29d0/projects/Project-management.md#change-Project-and-billing-types)
-5. [Remove Project](https://github.com/Pippint/ncp-docs/tree/6893a2f3f9c8b50b452c853be86f2380e56c29d0/projects/Project-management.md#remove-Project)
+1. [Create a Project](project-management.md#create-a-project)
+2. [Manage member](project-management.md#manage-member)
+3. [Edit contact](project-management.md#edit-contact)
+4. [Change Project & billing types](project-management.md#change-project-and-billing-types)
+5. [Remove Project](project-management.md#remove-project)
 
 ## **Create a Project**
 
