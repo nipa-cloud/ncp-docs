@@ -11,7 +11,7 @@ description: >-
 
 เมื่อเราต้องการเอา Image ที่มีอยู่ ไป Build บน Instance ตัวเดิม เพื่อเป็นการเปลี่ยน OS หรืออื่นๆ โดยไม่ต้องตั้งค่า IP, Port, Network, ฯลฯ ใหม่ สามารถทำได้โดยการใช้คำสั่ง Restore Image ซึ่งก็จะคล้ายกับการ Rebuild Instance \(ดูได้ที่ [Instances Management](../instances/instances-management.md#rebuild)\) โดยการ Restore Image มีขั้นตอนดังนี้
 
-1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Images ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Image
+1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Images ภายใต้กลุ่ม Compute ที่ Sidebar เพื่อเข้าสู่หน้า Image
 
 ![Images Page](../.gitbook/assets/restoreimage01.png)
 

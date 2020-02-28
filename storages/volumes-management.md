@@ -4,7 +4,7 @@ description: >-
   ขยายพื้นที่จัดเก็บข้อมูลเพิ่มเติมจาก Machine Type ที่เลือกไว้
 ---
 
-# Volumes Management
+# Volume Management
 
 ## Create Volume
 
@@ -42,7 +42,7 @@ description: >-
 
 1.ที่หน้า Volumes ให้กดปุ่ม more ที่ด้านขวาของ Volume ที่ต้องทำการ Extend
 
-![Volumes Page](../.gitbook/assets/volume5%20%282%29.png)
+![](../.gitbook/assets/extend_volume_1.png)
 
 2.กดที่ปุ่ม Extend เพื่อเข้าหน้า Extend Volume
 
@@ -66,11 +66,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Volume
 
-![Volume Page](../.gitbook/assets/volume5%20%282%29.png)
+![](../.gitbook/assets/attach_volume_1.png)
 
 2.กดที่ปุ่ม Attach เพื่อเข้าหน้า Attach Volume
 
-![Volume Menu](../.gitbook/assets/volume999.png)
+![](../.gitbook/assets/attach_volume_2.png)
 
 3.เลือกชื่อของ Instance ที่ต้องการ Attach Volume เข้าไป
 
@@ -86,7 +86,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Volumes ภายใต้กลุ่ม Storage ที่ sidebar เพื่อเข้าสู่หน้า Volume
 
-![](../.gitbook/assets/volume5%20%282%29.png)
+![](../.gitbook/assets/detach_volume_1.png)
 
 2.กดที่ปุ่ม Detach เพื่อเข้าหน้า Detach Volume
 
@@ -108,7 +108,7 @@ description: >-
 
 2.กดที่ปุ่ม Transfer เพื่อเข้าสู่หน้า Transfer Volume
 
-![Transfer Volume Page](../.gitbook/assets/volume9999.png)
+![](../.gitbook/assets/transfer_volume_2.png)
 
 ที่หน้า Transfer Volume ให้ใส่ข้อมูลดังต่อไปนี้
 
