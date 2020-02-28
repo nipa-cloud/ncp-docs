@@ -1,4 +1,4 @@
-# Project management
+# Project Management
 
 Project คือกลุ่มของ Resource ที่สามารถเข้าถึงได้โดยสมาชิกของโปรเจค นั้น ๆ ซึ่งสมาชิกนั้นจะมีอยู่ด้วยกัน 3 ประเภท ได้แก่
 
@@ -12,11 +12,11 @@ Document นี้จะพูดถึงการจัดการโปร�
 
 **Table of contents**
 
-1. [Create a Project](Project-management.md#create-a-Project)
-2. [Manage member](Project-management.md#manage-member)
-3. [Edit contact](Project-management.md#edit-contact)
-4. [Change Project & billing types](Project-management.md#change-Project-and-billing-types)
-5. [Remove Projec](Project-management.md#remove-Project)t
+1. [Create a Project](project-management.md#create-a-project)
+2. [Manage member](project-management.md#manage-member)
+3. [Edit contact](project-management.md#edit-contact)
+4. [Change Project & billing types](project-management.md#change-project-and-billing-types)
+5. [Remove Project](project-management.md#remove-project)
 
 ## **Create a Project**
 
