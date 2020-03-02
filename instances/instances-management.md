@@ -238,7 +238,7 @@ description: >-
 
 ![Manage Port Cloud Firewall Page \(After Attach\)](../.gitbook/assets/cloudfirewall04.png)
 
-6.หากต้องการเอา Cloud Firewall ออกจาก Port ก็ทำได้โดยการกด Detach หลัง Cloud Firewall ที่ต้องการเอาออก เพื่อเข้าสู่ Confire Detach Firewall Instance Page
+6.หากต้องการเอา Cloud Firewall ออกจาก Port ก็ทำได้โดยการกด Detach หลัง Cloud Firewall ที่ต้องการเอาออก เพื่อเข้าสู่ Confirm Detach Firewall Instance Page
 
 ![Confirm Detach Firewall Instance](../.gitbook/assets/cloudfirewall05.png)
 
@@ -304,11 +304,11 @@ Setting เหล่านี้จะมีผลในรอบการทำ
 
 4.ใส่ข้อมูลดังต่อไปนี้
 
-* Subnet: เลือก Subnet สำหรับ Port ที่ต้องการ Attach
-* IP Address\(Port\): เลือก Port IP ที่ต้องการ หรือหากต้องการสร้าง Port ใหม่ ให้เลือก "create new IP address"
-* Auto Assign IP: ในกรณีที่เลือกสร้าง Port ใหม่ สามารถเลือก IP เองได้ แต่หากต้องการให้ระบบตั้งให้ ให้เลือก Auto Assign IP
-* MAC Address: สามารถกำหนัด MAC Address เอง หรือให้ระบบตั้งให้ได้
-* Cloud Firewall: เปิดหรือปิด Cloud Firewall สำหรับ Port นี้ หากเปิด ก็สามารถใส่ Cloud Firewall ที่ต้องการได้เลย
+* **Subnet**: เลือก Subnet สำหรับ Port ที่ต้องการ Attach
+* **IP Address \(port\)**: เลือก Port IP ที่ต้องการ หรือหากต้องการสร้าง Port ใหม่ ให้เลือก "create new IP address"
+* **Auto Assign IP**: ในกรณีที่เลือกสร้าง Port ใหม่ สามารถเลือก IP เองได้ แต่หากต้องการให้ระบบตั้งให้ ให้เลือก Auto Assign IP
+* **MAC Address**: สามารถกำหนด MAC Address เอง หรือให้ระบบตั้งให้ได้
+* **Cloud Firewall**: เปิดหรือปิด Cloud Firewall สำหรับ Port นี้ หากเปิด ก็สามารถใส่ Cloud Firewall ที่ต้องการได้เลย
 
 เมื่อใส่ข้อมูลครบถ้วนแล้ว ให้กด Confirm ระบบจะพากลับไปที่ Instance Network Page พร้อมแสดง Port ที่ถูก Attach เข้ามาแล้ว
 
