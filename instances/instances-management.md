@@ -98,7 +98,7 @@ description: >-
 
 ![](../.gitbook/assets/rescue01.png)
 
-3.ที่ Select Image ให้เลือก Image ที่ต้องการใช้ในการ Mount เพื่อ Rescue Instance นี้ แล้วกดที่ปุ่ม Confirm เพื่อเริ่มทำ Mount Image ที่เลือกเข้าไปที่ Instance ระบบจะใช้เวลาซักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเหลืองแสดงสถานะ Rescue ของ Instance
+3.ที่ Select Image ให้เลือก Image ที่ต้องการใช้ในการ Mount เพื่อ Rescue Instance นี้ แล้วกดที่ปุ่ม Confirm เพื่อเริ่มทำ Mount Image ที่เลือกเข้าไปที่ Instance ระบบจะใช้เวลาสักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเหลืองแสดงสถานะ Rescue ของ Instance
 
 ![Power Page \(Rescue Instance \)](../.gitbook/assets/rescue02.png)
 
@@ -106,7 +106,7 @@ description: >-
 
 ## Clean Install
 
-เมื่อใช้งาน Instance ไปได้ซักพักนึง ก็อาจเกิดปัญหาบางอย่างขึ้น ที่ไม่สามารถแก้ไขได้ หรือแก้ไขได้ยาก การสร้าง Instance ใหม่ตั้งแต่ต้นเลยอาจจะดีกว่า แต่ก็จะต้องเสียเวลาย้าย IP, Port, Network, ฯลฯ ที่เคยใช้งานใน Instance ตัวเดิม ไปยัง Instance ตัวใหม่อีก ทางออกนึงของปัญหานี้ก็คือการใช้ feature Clean Install ที่จะเป็นการล้าง Instance ให้กลับไปเป็นเหมือนตอนสร้างขึ้นมาใหม่นั่นเอง โดยมีขั้นตอนดังนี้
+เมื่อใช้งาน Instance ไปได้สักพักนึง ก็อาจเกิดปัญหาบางอย่างขึ้น ที่ไม่สามารถแก้ไขได้ หรือแก้ไขได้ยาก การสร้าง Instance ใหม่ตั้งแต่ต้นเลยอาจจะดีกว่า แต่ก็จะต้องเสียเวลาย้าย IP, Port, Network, ฯลฯ ที่เคยใช้งานใน Instance ตัวเดิม ไปยัง Instance ตัวใหม่อีก ทางออกนึงของปัญหานี้ก็คือการใช้ feature Clean Install ที่จะเป็นการล้าง Instance ให้กลับไปเป็นเหมือนตอนสร้างขึ้นมาใหม่นั่นเอง โดยมีขั้นตอนดังนี้
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Clean Install
 
@@ -122,7 +122,7 @@ description: >-
 
 ![Clean Install Page](../.gitbook/assets/cleaninstall07.png)
 
-5.กดที่ปุ่ม "Confirm" เพื่อเริ่มทำ Clean Install ระบบจะใช้เวลาซักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเทาแสดงสถานะของ Instance
+5.กดที่ปุ่ม "Confirm" เพื่อเริ่มทำ Clean Install ระบบจะใช้เวลาสักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเทาแสดงสถานะของ Instance
 
 ![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
@@ -130,7 +130,7 @@ description: >-
 
 ## Rebuild
 
-เมื่อเราต้องการเปลี่ยน OS ของ Instance หรือต้องการ Instance ที่มี Image ตัวอื่น แต่ด้วย Config, Spec, IP, Port, Network, ฯลน เดิม เราไม่จำเป็นจะต้อง Launch Instance ขึ้นมาใหม่แล้ว Setting ใหม่ทั้งหมด เราสามารถใช้ Feature Rebuild เพื่อ Build Image ใหม่ ไปที่ Instance ตัวเดิมได้ โดยมีขั้นตอนดังนี้
+เมื่อเราต้องการเปลี่ยน OS ของ Instance หรือต้องการ Instance ที่มี Image ตัวอื่น แต่ด้วย Config, Spec, IP, Port, Network, ฯลฯ เดิม เราไม่จำเป็นจะต้อง Launch Instance ขึ้นมาใหม่แล้ว Setting ใหม่ทั้งหมด เราสามารถใช้ Feature Rebuild เพื่อ Build Image ใหม่ ไปที่ Instance ตัวเดิมได้ โดยมีขั้นตอนดังนี้
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Clean Install
 
@@ -146,7 +146,7 @@ description: >-
 
 ![Rebuild Page](../.gitbook/assets/rebuild01.png)
 
-5.ที่ Select Image ให้เลือก Image ใหม่ที่ต้องการ Build ลงไปใน Instance นี้ แล้วกดที่ปุ่ม Confirm เพื่อเริ่มทำ Rebuild ระบบจะใช้เวลาซักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเทาแสดงสถานะของ Instance
+5.ที่ Select Image ให้เลือก Image ใหม่ที่ต้องการ Build ลงไปใน Instance นี้ แล้วกดที่ปุ่ม Confirm เพื่อเริ่มทำ Rebuild ระบบจะใช้เวลาสักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเทาแสดงสถานะของ Instance
 
 ![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
@@ -154,7 +154,7 @@ description: >-
 
 ## Resize
 
-เมื่อเราสร้าง Instance มาแล้ว ทำงานไปได้ซักพักนึง ความต้องการของระบบอาจจะมากขึ้น RAM, CPU ไม่พอ การที่จะ launch Instance ขึ้นมาใหม่แล้วถ่ายโอนทุกอย่างไปก็คงจะเป็นเรื่องยาก วิธีนึงที่ช่วยได้ก็คือการ Resize ที่จะเพิ่มขนาดและประสิทธิภาพของ Instance โดยไม่ต้องสร้างใหม่ โดยมีวิธีการดังนี้
+เมื่อเราสร้าง Instance มาแล้ว ทำงานไปได้สักพักนึง ความต้องการของระบบอาจจะมากขึ้น RAM, CPU ไม่พอ การที่จะ launch Instance ขึ้นมาใหม่แล้วถ่ายโอนทุกอย่างไปก็คงจะเป็นเรื่องยาก อีกวิธีหนึ่งที่ช่วยได้ก็คือการ Resize ที่จะเพิ่มขนาดและประสิทธิภาพของ Instance โดยไม่ต้องสร้างใหม่ โดยมีวิธีการดังนี้
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Resize
 
@@ -170,7 +170,7 @@ description: >-
 
 ![Confirm Resize Page](../.gitbook/assets/resize02.png)
 
-5.กดปุ่ม Confirm เพื่อทำการ Resize ระบบจะใช้เวลาสักครุ่ เมื่อเสร็จแล้วระบบจะพากลับไปที่ Resize Page พร้อมแสดง Spec ใหม่ และสถานะของ Instance เป็นสีเท่า
+5.กดปุ่ม Confirm เพื่อทำการ Resize ระบบจะใช้เวลาสักครู่ เมื่อเสร็จแล้วระบบจะพากลับไปที่ Resize Page พร้อมแสดง Spec ใหม่ และสถานะของ Instance เป็นสีเทา
 
 ![](../.gitbook/assets/resize03.png)
 
@@ -228,7 +228,7 @@ description: >-
 
 ![Mange Port Cloud Firewall Page](../.gitbook/assets/cloudfirewall02.png)
 
-3.Instance นึง สามารถเชื่อมกับ Port ได้มากกว่า 1 Port เราสามารถเลือกจัดการ Cloud Firewall ของแต่ละ Port แยกกันได้ โดยการเลือก Port จากตัวเลือกในช่อง Cloud Firewall และแต่ละ Port สามารถเปิดปิด Cloud Firewall ได้ที่ตัวเลือกในช่อง Manage
+3.Instance หนึ่ง สามารถเชื่อมกับ Port ได้มากกว่า 1 Port เราสามารถเลือกจัดการ Cloud Firewall ของแต่ละ Port แยกกันได้ โดยการเลือก Port จากตัวเลือกในช่อง Cloud Firewall และแต่ละ Port สามารถเปิดปิด Cloud Firewall ได้ที่ตัวเลือกในช่อง Manage
 
 4.การเพิ่ม Cloud Firewall ไปที่ Port ที่เลือกอยู่ทำได้โดยกดที่ปุ่ม Cloud Firewall ในช่อง Rules เพื่อเข้า Attach Cloud Firewall Page
 

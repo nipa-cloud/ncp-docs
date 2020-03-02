@@ -4,7 +4,7 @@ description: >-
   ขยายพื้นที่จัดเก็บข้อมูลเพิ่มเติมจาก Machine Type ที่เลือกไว้
 ---
 
-# Volume Management
+# Volumes Management
 
 ## Create Volume
 
