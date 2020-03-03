@@ -1,6 +1,6 @@
 # Routers Management
 
-Router เป็นอีกหนึ่ง Resource ที่สำคัญสาหรับการใช้งาน Cloud  ที่จะทำให้ Instance สามารถติดต่อสื่อสารกันได้ รวมถึงติดต่อสื่อสารกับโลกภายนอกได้อีกด้วย โดย Feature นี้จะถูกเปิดให้ใช้งานเฉพาะบาง Project เท่านั้น ใน Project ที่ไม่ได้เปิดให้ใช้งาน จะมี Default Router ให้ใช้งานอยู่แล้ว
+Router เป็นอีกหนึ่ง Resource ที่สำคัญสำหรับการใช้งาน Cloud  ที่จะทำให้ Instance สามารถติดต่อสื่อสารกันได้ รวมถึงติดต่อสื่อสารกับโลกภายนอกได้อีกด้วย โดย Feature นี้จะถูกเปิดให้ใช้งานเฉพาะบาง Project เท่านั้น ใน Project ที่ไม่ได้เปิดให้ใช้งาน จะมี Default Router ให้ใช้งานอยู่แล้ว
 
 ### Create  a Router
 
@@ -27,7 +27,7 @@ Router เป็นอีกหนึ่ง Resource ที่สำคัญส
 
 ### Rename
 
-Router สามารถเปลี่ยนชื่อได้ โดนมีขั้นตอนดังนี้
+Router สามารถเปลี่ยนชื่อได้ โดยมีขั้นตอนดังนี้
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Routers ภายใต้กลุ่ม Network ที่ Sidebar เพื่อเข้าสู่ Routers Page
 
@@ -66,7 +66,7 @@ Router สามารถปรับแต่งเพิ่มเติม Sta
 4.ใส่ข้อมูล Static Route ที่ต้องการ โดยประกอบไปด้วย
 
 * Destination CIDR: CIDR ของวง Network ปลายทาง
-* Nexthop IP: IP ที่จะใช้เป็น Nexthop ไปสู้ Network ปลายทาง
+* Nexthop IP: IP ที่จะใช้เป็น Nexthop ไปสู่ Network ปลายทาง
 
 แล้วกด Confirm เพื่อเพิ่ม Static Route ลงบน Router นี้ ระบบจะพากลับไปที่ Routers Page 
 
