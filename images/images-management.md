@@ -13,7 +13,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Images ภายใต้กลุ่ม Compute ที่ Sidebar เพื่อเข้าสู่หน้า Image
 
-![Images Page](../.gitbook/assets/restoreimage01%20%281%29.png)
+![Images Page](../.gitbook/assets/restoreimage01.png)
 
 2.กดที่ More หลัง Image ที่ต้องการ Build ทับลงไปที่ Instance เพื่อเปิด Image Menu
 
@@ -49,7 +49,7 @@ image ที่ share จะยังเป็นของ Project ที่ส�
 
 2.กดที่ More หลัง Image ที่ต้องการ Share เพื่อเปิด Image Menu
 
-![Image Menu](../.gitbook/assets/restoreimage02%20%281%29.png)
+![Image Menu](../.gitbook/assets/restoreimage02.png)
 
 3.กดที่ Manage Image Sharing เพื่อเข้าสู่ Manage Image Sharing Page
 
