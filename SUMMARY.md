@@ -1,12 +1,45 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction](README.md)
+* [Nipa Cloud Portal](http://portal.nipa.cloud/)
 
+## Accounts
 
-## BILLING
+* [Registration](accounts/registration.md)
+* [Forgot Password](accounts/forgot-password.md)
+* [Change Password](accounts/change-password.md)
 
-* [Payment](billing/payment.md)
+## Projects
 
-## volumes
+* [Project Management](projects/project-management.md)
 
-* [Volume Management in NCP](volumes/volume-management-in-ncp.md)
+## Billings
+
+* [Top up](billings/top-up.md)
+
+## Instances
+
+* [Launch an Instance](instances/launch-instance.md)
+* [Instances Management](instances/instances-management.md)
+
+## Authentications
+
+* [Key Pair Management](authentications/key-pair-management.md)
+
+## Networks
+
+* [External IP Management](networks/external-ip-management.md)
+* [Routers Management](networks/routers-management.md)
+
+## Storages
+
+* [Volumes Management](storages/volumes-management.md)
+
+## Images
+
+* [Images Management](images/images-management.md)
+
+## Resources
+
+* [FAQ](resources/faq.md)
+

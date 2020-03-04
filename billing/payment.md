@@ -1,4 +1,0 @@
-# Payment
-
-this is payment
-
