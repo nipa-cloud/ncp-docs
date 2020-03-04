@@ -1,6 +1,6 @@
-# Key pair management
+# Key Pair Management
 
-ในส่วนของการเข้าถึง instance นั้น จำเป็นต้องมี Key หรือรหัสผ่าน เพื่อความปลอดภัยของข้อมูลภายใน Instance ของผู้ใช้งานเอง โดยผู้ใช้งานสามารถสร้าง Key ได้ด้วยตนเอง ซึ่ง Key ที่ได้จากการสร้าง เรียกว่า **Key Pair** เมื่อสร้างแล้วผู้ใช้งานจะสามารถนำ Public Key ที่ได้ ไปใช้งาน โดยผู้ใช้งานสามารถจัดการกับ key pair ได้ ดังนี้
+ในส่วนของการเข้าถึง instance นั้น จำเป็นต้องมี Key หรือรหัสผ่าน เพื่อความปลอดภัยของข้อมูลภายใน Instance ของผู้ใช้งานเอง โดยผู้ใช้งานสามารถสร้าง Key ได้ด้วยตนเอง ซึ่ง Key ที่ได้จากการสร้าง เรียกว่า **Key Pair** เมื่อสร้างแล้วผู้ใช้งานจะสามารถนำ Public Key ที่ได้ ไปใช้งาน โดยผู้ใช้งานสามารถจัดการกับ Key Pair ได้ ดังนี้
 
 **Table of contents**
 
@@ -48,12 +48,12 @@
 
 2.หลังจากคลิกแล้ว หน้า popup จะแสดงขึ้นมา เลือก tab "Import" ซึ่งจะประกอบด้วยข้อมูล ดังนี้
 
-* **Name**: ระบบจะทำการ random ชื่อ key pair ให้ เป็น default ผู้ใช้งานสามารถแก้ไขได้  
+* **Name**: ระบบจะทำการ Random ชื่อ Key Pair ให้ เป็น Default ผู้ใช้งานสามารถแก้ไขได้  
 * **Public key**: ส่วนที่ให้ผู้ใช้งานกรอก key ของตนเอง โดยระบบจะรองรับ key โดยทางระบบจะรองรับ key ประเภท **rsa**, **dsa**, **ecdsa** และ **ed25519**
 
 ![](../.gitbook/assets/create_keypair_6.png)
 
-3.คลิก Confirm ระบบจะทำการสร้าง key Pair ตามที่ผู้ใช้งานกรอก และแสดงรายชื่อ Key Pair ภายใน Table
+3.คลิก Confirm ระบบจะทำการสร้าง Key Pair ตามที่ผู้ใช้งานกรอก และแสดงรายชื่อ Key Pair ภายใน Table
 
 ![](../.gitbook/assets/create_keypair_7.png)
 
@@ -61,7 +61,7 @@
 ผู้ใช้งานสามารถ คลิก Show ในตารางส่วนของ Column Public Key เพื่อ Copy Public Key ไปใช้งาน Instance ได้
 {% endhint %}
 
-![](../.gitbook/assets/create_keypair_8.png)
+![](../.gitbook/assets/create_keypair_8_1.png)
 
 ## Set default
 
@@ -79,13 +79,13 @@
 
 3.ระบบจะแสดง Status ตามที่ผู้ใช้งานตั้งค่า
 
-![Status: Enable](../.gitbook/assets/set_default_3.png)
+![Status: Enable](../.gitbook/assets/set_default_3_1.png)
 
-![Status: Disable](../.gitbook/assets/set_default_1.png)
+![Status: Disable](../.gitbook/assets/set_default_1_1.png)
 
 ## Remove
 
-1.เลือก key Pair ที่ต้องการลบ \(ผู้ใช้งานสามารถลบหลาย Key Pair พร้อมกันได้\)
+1.เลือก Key Pair ที่ต้องการลบ \(ผู้ใช้งานสามารถลบหลาย Key Pair พร้อมกันได้\)
 
 ![](../.gitbook/assets/remove_1.png)
 

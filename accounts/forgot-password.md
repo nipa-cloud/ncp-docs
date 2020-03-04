@@ -1,4 +1,4 @@
-# Forgot password
+# Forgot Password
 
 การรีเซ็ตรหัสผ่านสมาชิกของระบบ Nipa Cloud Platform \(NCP\) สามารถทำได้ที่หน้า [http://portal.nipa.cloud/forgot-password](http://portal.nipa.cloud/forgot-password) โดยมีขั้นตอนดังนี้
 
