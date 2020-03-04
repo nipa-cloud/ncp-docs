@@ -1,8 +1,8 @@
 # Routers Management
 
-Router เป็นอีกหนึ่ง Resource ที่สำคัญสำหรับการใช้งาน Cloud  ที่จะทำให้ Instance สามารถติดต่อสื่อสารกันได้ รวมถึงติดต่อสื่อสารกับโลกภายนอกได้อีกด้วย โดย Feature นี้จะถูกเปิดให้ใช้งานเฉพาะบาง Project เท่านั้น ใน Project ที่ไม่ได้เปิดให้ใช้งาน จะมี Default Router ให้ใช้งานอยู่แล้ว
+Router เป็นอีกหนึ่ง Resource ที่สำคัญสำหรับการใช้งาน Cloud ที่จะทำให้ Instance สามารถติดต่อสื่อสารกันได้ รวมถึงติดต่อสื่อสารกับโลกภายนอกได้อีกด้วย โดย Feature นี้จะถูกเปิดให้ใช้งานเฉพาะบาง Project เท่านั้น ใน Project ที่ไม่ได้เปิดให้ใช้งาน จะมี Default Router ให้ใช้งานอยู่แล้ว
 
-### Create  a Router
+## Create  a Router
 
 การสร้าง Router ขึ้นมาเพิ่มเติมจาก Default Router มีขั้นตอนดังนี้
 
@@ -23,9 +23,7 @@ Router เป็นอีกหนึ่ง Resource ที่สำคัญส
 
 ![Routers Page \(After Created\)](../.gitbook/assets/createrouter03.png)
 
-
-
-### Rename
+## Rename
 
 Router สามารถเปลี่ยนชื่อได้ โดยมีขั้นตอนดังนี้
 
@@ -45,9 +43,7 @@ Router สามารถเปลี่ยนชื่อได้ โดยม
 
 ![Routers Page \(After Rename\)](../.gitbook/assets/renamerouter03.png)
 
-
-
-### Setting a Router
+## Setting a Router
 
 Router สามารถปรับแต่งเพิ่มเติม Static Route ได้ โดยมีขั้นตอนดังนี้
 
@@ -68,13 +64,11 @@ Router สามารถปรับแต่งเพิ่มเติม Sta
 * Destination CIDR: CIDR ของวง Network ปลายทาง
 * Nexthop IP: IP ที่จะใช้เป็น Nexthop ไปสู่ Network ปลายทาง
 
-แล้วกด Confirm เพื่อเพิ่ม Static Route ลงบน Router นี้ ระบบจะพากลับไปที่ Routers Page 
+แล้วกด Confirm เพื่อเพิ่ม Static Route ลงบน Router นี้ ระบบจะพากลับไปที่ Routers Page
 
 ![Routers Page \(After Add Static Route\)](../.gitbook/assets/routessetting02.png)
 
-
-
-### Remove Router
+## Remove Router
 
 Router ที่สร้างขึ้นมาเอง สามารถลบทิ้งได้โดยมีขั้นตอนดังนี้
 
@@ -93,6 +87,4 @@ Router ที่จะลบ จะต้องไม่มี External IP Attac
 3.กดที่ปุ่ม Confirm เพื่อลบ Router ระบบจะพากลับไปที่ Routers Page แสดงให้เห็น Router ที่เหลืออยู่
 
 ![Routers Page \(After Remove Router\)](../.gitbook/assets/removerouter03.png)
-
-
 

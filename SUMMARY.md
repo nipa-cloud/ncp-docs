@@ -38,6 +38,7 @@
 ## Images
 
 * [Images Management](images/images-management.md)
+* [Take Snapshot](images/take-snapshot.md)
 
 ## Resources
 
