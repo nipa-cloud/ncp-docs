@@ -10,10 +10,12 @@ description: >-
 
 ![](../.gitbook/assets/change_password_1.png)
 
-2.กรอกข้อมูลในแบบฟอร์มที่แสดง โดย  
-     **Current Password**: รหัสผ่านเดิมที่ผู้ใช้งานเคยใช้  
-     **New Password**: รหัสผ่านใหม่ที่ต้องการ  
-     **Confirm New Password**: ยืนยันรหัสผ่านใหม่ที่ต้องการ  
+2.กรอกข้อมูลในแบบฟอร์มที่แสดง โดย 
+
+* **Current Password**: รหัสผ่านเดิมที่ผู้ใช้งานเคยใช้  
+* **New Password**: รหัสผ่านใหม่ที่ต้องการ  
+* **Confirm New Password**: ยืนยันรหัสผ่านใหม่ที่ต้องการ
+
 หลังจากกรอกข้อมูลเรียบร้อยแล้ว ให้คลิก Confirm
 
 ![](../.gitbook/assets/change_password_2.png)
