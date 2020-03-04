@@ -7,6 +7,7 @@
 
 * [Registration](accounts/registration.md)
 * [Forgot Password](accounts/forgot-password.md)
+* [Change Password](accounts/change-password.md)
 
 ## Projects
 
