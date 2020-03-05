@@ -6,7 +6,7 @@ description: >-
 
 # Change Password
 
-1.คลิกเปิด menu ในส่วนของชื่อผู้ใช้งาน และเลือก **Change Password**
+1.คลิกเปิด Menu ในส่วนของชื่อผู้ใช้งาน และเลือก **Change Password**
 
 ![](../.gitbook/assets/change_password_1.png)
 
