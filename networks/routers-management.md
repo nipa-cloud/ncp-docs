@@ -29,7 +29,7 @@ Router สามารถเปลี่ยนชื่อได้ โดยม
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Routers ภายใต้กลุ่ม Network ที่ Sidebar เพื่อเข้าสู่ Routers Page
 
-![Routers Page](../.gitbook/assets/createrouter03.png)
+![Routers Page](../.gitbook/assets/createrouter03_2.png)
 
 2.กดที่ปุ่ม more ที่ Router ที่ต้องการเปลี่ยนชื่อ
 
@@ -49,11 +49,11 @@ Router สามารถปรับแต่งเพิ่มเติม Sta
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Routers ภายใต้กลุ่ม Network ที่ Sidebar เพื่อเข้าสู่ Routers Page
 
-![Routers Page](../.gitbook/assets/renamerouter03.png)
+![Routers Page](../.gitbook/assets/renamerouter03_2.png)
 
 2.กดที่ปุ่ม more ที่ Router ที่ต้องการเพิ่ม Static Route
 
-![Router Menu](../.gitbook/assets/renamerouter01.png)
+![Router Menu](../.gitbook/assets/renamerouter01_2.png)
 
 3.กดที่ปุ่ม Rename เพื่อเข้าสู่ Routes Setting Page
 

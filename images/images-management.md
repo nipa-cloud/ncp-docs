@@ -17,7 +17,7 @@ description: >-
 
 2.กดที่ More หลัง Image ที่ต้องการ Build ทับลงไปที่ Instance เพื่อเปิด Image Menu
 
-![Image Menu](../.gitbook/assets/restoreimage02.png)
+![](../.gitbook/assets/restoreimage02.png)
 
 3.กดที่ Restore Image to Existing Instance เพื่อเข้าสู่ Restore Image Page
 
@@ -45,11 +45,11 @@ image ที่ share จะยังเป็นของ Project ที่ส�
 
 1.เมื่อ Login เข้ามาใน NCP ให้คลิกที่ Images ภายใต้กลุ่ม Storage ที่ Sidebar เพื่อเข้าสู่หน้า Image
 
-![Images Page \(Before Share\)](../.gitbook/assets/restoreimage01.png)
+![](../.gitbook/assets/restoreimage01_2.png)
 
 2.กดที่ More หลัง Image ที่ต้องการ Share เพื่อเปิด Image Menu
 
-![Image Menu](../.gitbook/assets/restoreimage02.png)
+![](../.gitbook/assets/restoreimage02_2.png)
 
 3.กดที่ Manage Image Sharing เพื่อเข้าสู่ Manage Image Sharing Page
 

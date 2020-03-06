@@ -28,8 +28,9 @@
 
 ## Networks
 
-* [External IP Management](networks/external-ip-management.md)
 * [Routers Management](networks/routers-management.md)
+* [Cloud Firewalls](networks/cloud-firewalls.md)
+* [External IP Management](networks/external-ip-management.md)
 
 ## Storages
 
