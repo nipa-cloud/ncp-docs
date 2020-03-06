@@ -16,27 +16,41 @@ Volume Snapshot สามารถสร้างได้จากทั้ง 
 
 ![](../.gitbook/assets/ncp-vol-snapshot-2.png)
 
-คลิกปุ่ม Snapshot บนรายการ Snapshot ด้านขวาบนเพื่อแสดงกล่องตอบโต้ Snapshot Volume
+คลิกปุ่ม Snapshot บนรายการ Snapshot ด้านขวาบนเพื่อแสดงกล่องโต้ตอบ Snapshot Volume
 
 ![](../.gitbook/assets/ncp-vol-snapshot-4.png)
 
-3. คุณสามารถเลือกตั้งชื่อให้กับ Volume Snapshot ตามต้องการได้ ขนาดของ Volume Snapshot และ Performance Type จะถูกตั้งค่าให้ตรงกับ Volume ต้นฉบับ   
+3. คุณสามารถเลือกตั้งค่าชื่อให้กับ Volume Snapshot ตามต้องการได้ ขนาดของ Volume Snapshot และ Performance Type จะถูกตั้งค่าให้ตรงกับ Volume ต้นฉบับ   
   
-โดยราคาของ Volume Snapshot จะถูกแสดงด้านล่างของกล่องตอบโต้ 
+โดยราคาของ Volume Snapshot จะถูกแสดงด้านล่างของกล่องโต้ตอบ 
 
 ![](../.gitbook/assets/ncp-vol-snapshot-5.png)
 
 เมื่อตั้งค่าเรียบร้อย เลือกปุ่ม Create เพื่อทำการสร้าง Snapshot Volume
 
-5. เมื่อ Snapshot ถูกสร้างจะปรากฎในรายการของ Snapshot ภายใต้ Volume ที่เลือกไว้
+5. เมื่อ Snapshot ถูกสร้างจะปรากฎในรายการของ Snapshots ภายใต้ Volume ที่เลือกไว้
 
 ![](../.gitbook/assets/ncp-vol-snapshot-6.png)
 
+## สร้าง Volume ใหม่จาก Volume Snapshot
 
+1. จากรายการ Snapshots เลือก Action "+ Volume" ของ Snapshot ที่ต้องการ
 
+![](../.gitbook/assets/ncp-vol-snapshot-7.png)
 
+จะปรากฎกล่องโต้ตอบ Create Volume กลางหน้าจอ
 
+![](../.gitbook/assets/ncp-vol-snapshot-9.png)
 
+2. ตั้งค่า Volume ใหม่ที่ต้องการสร้าง โดยขนาดของ Volume ต้องมากกว่าหรือเท่ากับ Snapshot และสามารถสร้างได้ไม่เกิน Quota ที่กำหนด
 
+โดยราคาของ Volume จะถูกแสดงด้านล่างของกล่องโต้ตอบ 
 
+![](../.gitbook/assets/ncp-vol-snapshot-10.png)
+
+เมื่อตั้งค่าเรียบร้อย เลือกปุ่ม Create เพื่อทำการสร้าง Volume จาก Snapshot ที่เลือกไว้
+
+3. Volume ที่สร้างขึ้นจะปรากฎบนรายการ Volumes
+
+![](../.gitbook/assets/ncp-vol-snapshot-11.png)
 
