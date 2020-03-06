@@ -12,11 +12,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ stop
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%282%29.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Power Tab เพื่อเข้าสู่ Power Page
 
-![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall03.png)
+![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall03%20%281%29.png)
 
 3.ที่ Power Page ให้กดปุ่ม Stop เพื่อเข้า Stop Instance Page
 
@@ -32,11 +32,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ Start
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%288%29.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Power Tab เพื่อเข้าสู่ Power Page
 
-![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
+![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09%20%282%29.png)
 
 3.กดที่ปุ่ม Start เพื่อเข้า Start Instance Page
 
@@ -44,7 +44,7 @@ description: >-
 
 4.กดที่ปุ่ม Confirm เพื่อเริ่มใช้งาน Instance
 
-![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall11.png)
+![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall11%20%281%29.png)
 
 ## Soft Reboot
 
@@ -52,11 +52,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Soft reboot
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%286%29.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Power Tab เพื่อเข้าสู่ Power Page
 
-![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
+![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09%20%283%29.png)
 
 3.กดที่ปุ่ม Soft Reboot เพื่อเข้าสู่ Soft Reboot Page
 
@@ -64,7 +64,7 @@ description: >-
 
 4.กดที่ปุ่ม Confirm เพื่อเริ่มการ Soft Reboot ระบบจะใช้เวลาสักครู่หนึ่ง เมื่อเสร็จแล้วจะเห็นจุดสีเขียว แสดงสถานะ Active ของ Instance
 
-![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall11.png)
+![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall11%20%282%29.png)
 
 ## Hard Reboot
 
@@ -72,11 +72,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Hard reboot
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%284%29.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Power Tab เพื่อเข้าสู่ Power Page
 
-![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
+![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09%20%284%29.png)
 
 3.กดที่ปุ่ม Hard Reboot เพื่อเข้าสู่ Hard Reboot Page
 
@@ -110,7 +110,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Clean Install
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%289%29.png)
 
 2.Stop Instance ตามวิธีการด้านบน [Instance Operation](instances-management.md#stop)
 
@@ -124,7 +124,7 @@ description: >-
 
 5.กดที่ปุ่ม "Confirm" เพื่อเริ่มทำ Clean Install ระบบจะใช้เวลาสักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเทาแสดงสถานะของ Instance
 
-![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
+![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09%20%281%29.png)
 
 6.Start Instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
 
@@ -134,13 +134,13 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Clean Install
 
-![](../.gitbook/assets/cleaninstall02.png)
+![](../.gitbook/assets/cleaninstall02%20%281%29.png)
 
 2.Stop Instance ตามวิธีการด้านบน [Instance Operation](instances-management.md#stop)
 
 3.ที่ Instance Detail Page ให้เลือกที่ Power Tab เพื่อเข้าสู่ Power Page และเลื่อนลงมาด้านล่างจะพบปุ่ม Rebuild
 
-![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall06.png)
+![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall06%20%281%29.png)
 
 4.กดที่ปุ่ม Rebuild เพื่อเข้า Rebuild Page
 
@@ -158,7 +158,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการทำ Resize
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%283%29.png)
 
 2.Stop Instance ตามวิธีการด้านบน [Instance Operation](instances-management.md#stop)
 
@@ -182,7 +182,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ Attach Volume
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%287%29.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Volumes Tab เพื่อเข้าสู่ Attach Volume Page
 
@@ -202,11 +202,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ Detach volume
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%285%29.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Volumes Tab เพื่อเข้าสู่ Attach Volume Page
 
-![Attach Volume Page \(Volume Attached\)](../.gitbook/assets/attachvolume03.png)
+![Attach Volume Page \(Volume Attached\)](../.gitbook/assets/attachvolume03%20%281%29.png)
 
 3.ที่ Volume ที่ต้องการ Detach ให้กดที่ปุ่ม Detach ด้านขวา เพื่อเข้าสู่ Confirm Detach Volume Page
 
@@ -222,7 +222,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการจัดการ Cloud Firewall
 
-![Instance Detail Page](../.gitbook/assets/cloudfirewall01.png)
+![Instance Detail Page](../.gitbook/assets/cloudfirewall01%20%281%29.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Cloud Firewall Tab เพื่อเข้าสู่ Manage Port Cloud Firewall Page
 
@@ -318,7 +318,7 @@ Setting เหล่านี้จะมีผลในรอบการทำ
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการเปลี่ยนชื่อ
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall03.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall03%20%282%29.png)
 
 2.คลิกที่ชื่อของ Instance ที่อยู่ด้านบนของ Page เพื่อเข้าสู่ Edit Name Page
 
