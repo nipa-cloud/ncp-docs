@@ -12,9 +12,11 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการ stop
 
-![Instance Detail Page](../.gitbook/assets/cleaninstall02%20%282%29.png)
+![Instance Detail Page](../.gitbook/assets/cleaninstall02.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Power Tab เพื่อเข้าสู่ Power Page
+
+![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall03.png)
 
 3.ที่ Power Page ให้กดปุ่ม Stop เพื่อเข้า Stop Instance Page
 
@@ -34,7 +36,7 @@ description: >-
 
 2.ที่ Instance Detail Page ให้เลือกที่ Power Tab เพื่อเข้าสู่ Power Page
 
-![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09%20%282%29.png)
+![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall09.png)
 
 3.กดที่ปุ่ม Start เพื่อเข้า Start Instance Page
 
@@ -220,7 +222,7 @@ description: >-
 
 1.เมื่อ Login เข้ามาใน NCP จะพบกับ Instance Page ให้เลือก Instance ที่ต้องการจัดการ Cloud Firewall
 
-![Instance Detail Page](../.gitbook/assets/cloudfirewall01%20%281%29.png)
+![Instance Detail Page](../.gitbook/assets/cloudfirewall01.png)
 
 2.ที่ Instance Detail Page ให้เลือกที่ Cloud Firewall Tab เพื่อเข้าสู่ Manage Port Cloud Firewall Page
 
