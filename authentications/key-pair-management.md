@@ -18,7 +18,7 @@
 
 1.คลิก Create Key Pair
 
-![](../.gitbook/assets/create_keypair_1.png)
+![](../.gitbook/assets/create_keypair_1%20%281%29.png)
 
 2.หลังจากคลิกแล้ว หน้า Pop up จะแสดงขึ้นมา เลือก tab "Create" ซึ่งจะประกอบด้วยข้อมูล ดังนี้
 
