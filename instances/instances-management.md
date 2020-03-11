@@ -16,6 +16,8 @@ description: >-
 
 2.ที่ Instance Detail Page ให้เลือกที่ Power Tab เพื่อเข้าสู่ Power Page
 
+![Power Page \(Active Instance \)](../.gitbook/assets/cleaninstall03.png)
+
 3.ที่ Power Page ให้กดปุ่ม Stop เพื่อเข้า Stop Instance Page
 
 ![Stop Instance Page](../.gitbook/assets/cleaninstall04.png)

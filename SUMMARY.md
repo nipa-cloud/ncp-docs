@@ -35,6 +35,7 @@
 ## Storages
 
 * [Volumes Management](storages/volumes-management.md)
+* [Volume Snapshot](storages/volume-snapshot.md)
 
 ## Images
 
