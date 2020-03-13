@@ -80,7 +80,7 @@ description: >-
 
 ### DHCP
 
-1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการทำการ Setting  
+1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการ Setting  
 
 ![](../.gitbook/assets/vcp_network_16.png)
 
@@ -98,9 +98,9 @@ description: >-
 
 ### DNS nameservers
 
-1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการทำการ Setting  
+1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการ Setting  
 
-![](../.gitbook/assets/vcp_network_16_2%20%281%29.png)
+![](../.gitbook/assets/vcp_network_16_2.png)
 
 2.คลิกที่ปุ่ม "Setting"  
 
@@ -122,7 +122,7 @@ description: >-
 
 **Allocation Pool** คือ ช่วงที่อยู่ IP ใน CIDR Network Block ที่อนุญาตให้ใช้โดยบริการ Cloud หากต้องการยกเว้นที่อยู่ IP บางส่วนจาก Subnet คุณสามารถลดขนาด Pool และเพิ่มช่วงที่อยู่ IP ใหม่ที่ไม่ต่อเนื่องกันได้ \(Non-contiguous IP address range\)
 
-1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการทำการ Setting  
+1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการ Setting  
 
 ![](../.gitbook/assets/vcp_network_16_3.png)
 
@@ -154,7 +154,7 @@ description: >-
 
 ใช้ในกรณีต้องการกำหนด Traffic route ไปยัง Gateway ที่ไม่ใช่ Default
 
-1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการทำการ Setting  
+1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการ Setting  
 
 ![](../.gitbook/assets/vcp_network_16_4.png)
 
@@ -213,7 +213,7 @@ description: >-
 
 1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการ Setting  
 
-![](../.gitbook/assets/vcp_network_16_2.png)
+![](../.gitbook/assets/vcp_network_16_5.png)
 
 2.คลิกที่ "more"  ใน Column "action" ของ Port ที่ต้องการ Setiing  
 
@@ -235,7 +235,7 @@ description: >-
 
 1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการ Setting  
 
-![](../.gitbook/assets/vcp_network_16_3%20%281%29.png)
+![](../.gitbook/assets/vcp_network_16_6.png)
 
 2.คลิกที่ "more"  ใน Column "action" ของ Port ที่ต้องการ Setiing  
 
@@ -259,7 +259,7 @@ description: >-
 
 1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการ Setting  
 
-![](../.gitbook/assets/vcp_network_16_4%20%281%29.png)
+![](../.gitbook/assets/vcp_network_16_7.png)
 
 2.คลิกที่ "more"  ใน Column "action" ของ Port ที่ต้องการ Setiing  
 
@@ -291,9 +291,9 @@ description: >-
 
 ### Remove
 
-1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการทำการ Setting  
+1.คลิกที่ "subnet"  ใน Column "subnet" ของ Network ที่ต้องการ Setting  
 
-![](../.gitbook/assets/vcp_network_16_5.png)
+![](../.gitbook/assets/vcp_network_16_8.png)
 
 2.คลิกที่ "more"  ใน Column "action" ของ Port ที่ต้องการ Remove  
 
