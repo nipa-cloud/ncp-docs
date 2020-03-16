@@ -58,17 +58,17 @@ description: >-
 
 ![](../.gitbook/assets/vcp_network_12.png)
 
-3.กรอกชื่อใหม่ที่ต้องการตั้งให้ Router ลงในช่อง แล้วคลิกที่ปุ่ม "Confirm"  
+3.กรอกชื่อใหม่ที่ต้องการตั้งให้ Router ลงในช่อง แล้วคลิกที่ปุ่ม "Create"  
 
 ![](../.gitbook/assets/vcp_network_13.png)
 
-### Disable defualt cloud firewall
+### Disable default cloud firewall
 
 1.คลิกที่ "more"  ใน Column "action" ของ Network ที่ต้องการทำ Action  
 
 ![](../.gitbook/assets/vcp_network_9_3.png)
 
-2.เลือกเมนู "Disable defualt cloud firewall"  
+2.เลือกเมนู "Disable default cloud firewall"  
 
 ![](../.gitbook/assets/vcp_network_14.png)
 
@@ -134,19 +134,15 @@ description: >-
 
 ![](../.gitbook/assets/vcp_network_23.png)
 
-4.คลิกที่สวิตช์ "Set IP addresses" เพื่อเปิดการ Set IP  
-
-![](../.gitbook/assets/vcp_network_24.png)
-
-5.กำหนด IP Range ลงในช่องข้อความ  
+4.กำหนด IP Range ลงในช่องข้อความ  
 
 ![](../.gitbook/assets/vcp_network_25.png)
 
-6.คลิกที่ปุ่ม "Add" หากต้องการเพิ่ม IP Range \(Optional\)  
+5.คลิกที่ปุ่ม "Add" หากต้องการเพิ่ม IP Range \(Optional\)  
 
 ![](../.gitbook/assets/vcp_network_26.png)
 
-7.คลิกที่ปุ่ม "Confirm"  
+6.คลิกที่ปุ่ม "Confirm"  
 
 ![](../.gitbook/assets/vcp_network_27.png)
 
@@ -162,7 +158,7 @@ description: >-
 
 ![](../.gitbook/assets/vcp_network_17_4.png)
 
-3.เลือกเมนู "Host router"  
+3.เลือกเมนู "Host routers"  
 
 ![](../.gitbook/assets/vcp_network_28.png)
 
