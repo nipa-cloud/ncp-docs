@@ -55,4 +55,5 @@
 * [RULE CLOUD FIREWALL FOR AD SERVER](knowledge/rule-fw-for-AD-server.md)
 * [วิธีทดสอบความเร็วอินเตอร์เน็ตของ INSTANCE](knowledge/check-bw-instance.md)
 * [HOW TO ENABLE AUTHENTICATION ON MONGODB](knowledge/enable-authen-on-mongodb.md)
-* [HOW TO RESET SID OF WINDOWS SERVER](/knowledge/how-to-reset-sid-of-windows-server.md)
+* [HOW TO RESET SID OF WINDOWS SERVER](knowledge/how-to-reset-sid-of-windows-server.md)
+* [ALLOW MYSQL CONNECTION FROM ON-PREMISE](knowledge/allow-mysql-connection-from-on-premise.md)
