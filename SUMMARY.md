@@ -47,3 +47,12 @@
 
 * [FAQ](resources/faq.md)
 
+## Knowledge
+
+* [Change old SSH KEY](knowledge/change-ssh-key.md)
+* [วิธี GENERATE ไฟล์ CSR ด้วย OPENSSL](knowledge/generate-csr-with-openssl.md)
+* [วิธีการ RESET ROOT PASSWORD บน CENTOS7](knowledge/reset-root-passwd-centos7.md)
+* [RULE CLOUD FIREWALL FOR AD SERVER](knowledge/rule-fw-for-AD-server.md)
+* [วิธีทดสอบความเร็วอินเตอร์เน็ตของ INSTANCE](knowledge/check-bw-instance.md)
+* [HOW TO ENABLE AUTHENTICATION ON MONGODB](knowledge/enable-authen-on-mongodb.md)
+* [HOW TO RESET SID OF WINDOWS SERVER](/knowledge/how-to-reset-sid-of-windows-server.md)
