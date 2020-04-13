@@ -46,6 +46,7 @@
 ## Resources
 
 * [Knowledge](resources/knowledge/README.md)
+  * [Create OwnCloud](resources/knowledge/onwcloud.md)
   * [Change SSH Key](resources/knowledge/change-ssh-key.md)
   * [Enable MongoDB Authentication](resources/knowledge/enable-authen-on-mongodb.md)
   * [Cloud Firewall Rules for Ad Server](resources/knowledge/rule-fw-for-ad-server.md)

@@ -20,7 +20,7 @@ Volume Snapshot สามารถสร้างได้จากทั้ง 
 
 ![](../.gitbook/assets/ncp-vol-snapshot-4.png)
 
-3.คุณสามารถเลือกตั้งค่าชื่อให้กับ Volume Snapshot ตามต้องการได้ ขนาดของ Volume Snapshot และ Performance Type จะถูกตั้งค่าให้ตรงกับ Volume ต้นฉบับ   
+3.คุณสามารถเลือกตั้งค่าชื่อให้กับ Volume Snapshot ตามต้องการได้ ขนาดของ Volume Snapshot และ Performance Type จะถูกตั้งค่าให้ตรงกับ Volume ต้นฉบับ
 
 โดยราคาของ Volume Snapshot จะถูกแสดงด้านล่างของกล่องโต้ตอบ
 

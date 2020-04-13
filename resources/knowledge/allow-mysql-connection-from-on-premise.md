@@ -2,13 +2,13 @@
 
 Note: ควรทำด้วยความระมัดระวังและไม่ควรใช้รหัสที่สั้น/ไม่ปลอดภัย โดยเฉพาะ Dictionary Password และควรหมั่นเปลี่ยน Password ทุกๆ3เดือน
 
-### Requirement
+## Requirement
 
 ```text
 ได้ Allow Cloud Firewall port 3306 ไว้แล้ว
 ```
 
-### step
+## step
 
 1.Login ด้วย User Root
 
@@ -92,6 +92,4 @@ select Host,User from user;
 ```text
 flush privileges;
 ```
-
-
 

@@ -38,7 +38,7 @@ $ chmod +x speedtest-cli
 $ ./speedtest-cli
 ```
 
-5.โดยผลลัพธ์ที่ได้จะประกอบด้วยความเร็วในการ Download และ Upload ดังภาพ 
+5.โดยผลลัพธ์ที่ได้จะประกอบด้วยความเร็วในการ Download และ Upload ดังภาพ
 
 ![](../../.gitbook/assets/k_check-bw-instance-001.png)
 

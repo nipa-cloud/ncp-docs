@@ -7,7 +7,7 @@
 
 1.Login ด้วย User ที่มีสิทธิ์ Administrator
 
-2.เข้าไปยัง path `%systemroot%\Windows32\sysprep` 
+2.เข้าไปยัง path `%systemroot%\Windows32\sysprep`
 
 ![](../../.gitbook/assets/k_how-to-reset-sid-of-windows-server-001.png)
 
@@ -22,8 +22,6 @@
 5.โปรแกรมจะทำการ Reboot Instance และ reset SID ของเครื่อง รวมถึงค่า config อื่นๆ เช่น Keyboard & Language Setting, Administrator Password และ Hostname เครื่อง
 
 6.หลังจาก Reboot เสร็จ จะขึ้นหน้าจอดังนี้
-
- 
 
 ![](../../.gitbook/assets/k_how-to-reset-sid-of-windows-server-004.png)
 
@@ -52,6 +50,4 @@ keyboard layout: US
 * แก้ไข Computer name ให้ถูกต้องแล้วกดปุ่ม OK
 
 ![](../../.gitbook/assets/k_how-to-reset-sid-of-windows-server-007.png)
-
-
 
