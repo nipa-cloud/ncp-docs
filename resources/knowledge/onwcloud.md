@@ -1,5 +1,5 @@
 ---
-description: ง่ายๆ 8 ขั้นตอน
+description: ง่าย ๆ 8 ขั้นตอน
 ---
 
 # Create OwnCloud
@@ -10,9 +10,9 @@ description: ง่ายๆ 8 ขั้นตอน
 
 ![](../../.gitbook/assets/onwcloud-01.png)
 
-2.เลือกขนาดของเครื่อง Server ที่เราใช้โดยที่ OwnCloud Recommend  512MB Memory.
+2.เลือกขนาดของเครื่อง Server ที่เราใช้โดยที่ OwnCloud Recommend 512MB Memory.
 
-![](../../.gitbook/assets/onwcloud-02%20%281%29.png)
+![](../../.gitbook/assets/onwcloud-02-1.png)
 
 3.หลังจากนั้นเราจะได้ Instant มาให้เรากดเข้าที่ชื่อของ Instant ที่เราสร้างมา
 
@@ -34,7 +34,7 @@ description: ง่ายๆ 8 ขั้นตอน
 
 ![](../../.gitbook/assets/onwcloud-09.png)
 
-8. เราก็จะได้ OwnCloud ของเราเรียบร้อยแล้ววว
+8.เราก็จะได้ OwnCloud ของเราเรียบร้อยแล้ววว
 
 ![](../../.gitbook/assets/onwcloud-010.png)
 
