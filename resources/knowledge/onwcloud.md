@@ -4,7 +4,7 @@ description: ง่ายๆ 8 ขั้นตอน
 
 # Create OwnCloud
 
-How to Create OwnCloud
+**How to Create OwnCloud**
 
 1.สร้าง Instant ใน NipaCloud เลือกหัวข้อ Marketplace &gt;&gt; OwnCloud
 
