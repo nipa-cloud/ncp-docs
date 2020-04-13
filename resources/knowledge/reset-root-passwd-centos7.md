@@ -20,23 +20,23 @@ rw init=/bin/bash
 
 ![](../../.gitbook/assets/k_reset_password_centos7_003.png)
 
-แก้ไขเป็น 
+แก้ไขเป็น
 
 ![](../../.gitbook/assets/k_reset_password_centos7_004.png)
 
-4.กด Ctrl-x เพื่อ boot จาก config ที่แก้ไข เมื่อ boot เสร็จจะเข้า single user mode ดังภาพ 
+4.กด Ctrl-x เพื่อ boot จาก config ที่แก้ไข เมื่อ boot เสร็จจะเข้า single user mode ดังภาพ
 
 ![](../../.gitbook/assets/k_reset_password_centos7_005.png)
 
-5.ตรวจสอบว่า vda ถูก mount บน / และมีสถานะเป็น rw 
+5.ตรวจสอบว่า vda ถูก mount บน / และมีสถานะเป็น rw
 
 ![](../../.gitbook/assets/k_reset_password_centos7_006.png)
 
-6.ใช้ command passwd เพื่อ set password ให้กับ user root และ touch /.autorelabel เพื่อให้เกิดการ relabel ของ SELinux เมื่อ boot 
+6.ใช้ command passwd เพื่อ set password ให้กับ user root และ touch /.autorelabel เพื่อให้เกิดการ relabel ของ SELinux เมื่อ boot
 
 ![](../../.gitbook/assets/k_reset_password_centos7_007.png)
 
-7.Reboot ด้วย Command ดังนี้ 
+7.Reboot ด้วย Command ดังนี้
 
 ```text
 exec /sbin/init
@@ -45,6 +45,4 @@ exec /sbin/init
 8.ทดสอบ Login ด้วย Password ใหม่
 
 ![](../../.gitbook/assets/k_reset_password_centos7_008.png)
-
-
 

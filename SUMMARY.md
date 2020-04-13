@@ -55,4 +55,5 @@
   * [Reset Password in CentOS 7](resources/knowledge/reset-root-passwd-centos7.md)
   * [Generate CSR file using OpenSSL](resources/knowledge/generate-csr-with-openssl.md)
 * [FAQ](resources/faq.md)
+* [OnwCloud](onwcloud.md)
 
