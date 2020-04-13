@@ -46,6 +46,7 @@
 ## Resources
 
 * [Knowledge](resources/knowledge/README.md)
+  * [Create OwnCloud](resources/knowledge/onwcloud.md)
   * [Change SSH Key](resources/knowledge/change-ssh-key.md)
   * [Enable MongoDB Authentication](resources/knowledge/enable-authen-on-mongodb.md)
   * [Cloud Firewall Rules for Ad Server](resources/knowledge/rule-fw-for-ad-server.md)
@@ -53,7 +54,6 @@
   * [Reset SID OF Windows Server](resources/knowledge/how-to-reset-sid-of-windows-server.md)
   * [Allow MySQL Connection on On-Premise](resources/knowledge/allow-mysql-connection-from-on-premise.md)
   * [Reset Password in CentOS 7](resources/knowledge/reset-root-passwd-centos7.md)
-  * [Generate CSR file using OpenSSL](resources/knowledge/generate-csr-with-openssl/README.md)
-    * [OnwCloud](resources/knowledge/generate-csr-with-openssl/onwcloud.md)
+  * [Generate CSR file using OpenSSL](resources/knowledge/generate-csr-with-openssl.md)
 * [FAQ](resources/faq.md)
 
