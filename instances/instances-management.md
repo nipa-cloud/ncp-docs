@@ -148,7 +148,7 @@ description: >-
 
 5.ที่ Select Image ให้เลือก Image ใหม่ที่ต้องการ Build ลงไปใน Instance นี้ แล้วกดที่ปุ่ม Confirm เพื่อเริ่มทำ Rebuild ระบบจะใช้เวลาสักครู่นึง เมื่อเสร็จแล้วจะเห็นจุดสีเทาแสดงสถานะของ Instance
 
-![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall03.png)
+![Power Page \(Shutoff Instance \)](../.gitbook/assets/cleaninstall03%20%281%29.png)
 
 6.Start Instance ตามวิธีด้านบน [Instance Operation](instances-management.md#start) และใช้งานต่อได้เลย
 
