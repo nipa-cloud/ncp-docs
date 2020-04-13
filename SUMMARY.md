@@ -45,16 +45,14 @@
 
 ## Resources
 
+* [Knowledge](resources/knowledge/README.md)
+  * [Change SSH Key](resources/knowledge/change-ssh-key.md)
+  * [Enable MongoDB Authentication](resources/knowledge/enable-authen-on-mongodb.md)
+  * [Cloud Firewall Rules for Ad Server](resources/knowledge/rule-fw-for-ad-server.md)
+  * [Internet Speed-test of an Instance](resources/knowledge/check-bw-instance.md)
+  * [Reset SID OF Windows Server](resources/knowledge/how-to-reset-sid-of-windows-server.md)
+  * [Allow MySQL Connection on On-Premise](resources/knowledge/allow-mysql-connection-from-on-premise.md)
+  * [Reset Password in CentOS 7](resources/knowledge/reset-root-passwd-centos7.md)
+  * [Generate CSR file using OpenSSL](resources/knowledge/generate-csr-with-openssl.md)
 * [FAQ](resources/faq.md)
-
-## Knowledge
-
-* [Change old SSH KEY](knowledge/change-ssh-key.md)
-* [วิธี GENERATE ไฟล์ CSR ด้วย OPENSSL](knowledge/generate-csr-with-openssl.md)
-* [วิธีการ RESET ROOT PASSWORD บน CENTOS7](knowledge/reset-root-passwd-centos7.md)
-* [RULE CLOUD FIREWALL FOR AD SERVER](knowledge/rule-fw-for-ad-server.md)
-* [วิธีทดสอบความเร็วอินเตอร์เน็ตของ INSTANCE](knowledge/check-bw-instance.md)
-* [HOW TO ENABLE AUTHENTICATION ON MONGODB](knowledge/enable-authen-on-mongodb.md)
-* [HOW TO RESET SID OF WINDOWS SERVER](knowledge/how-to-reset-sid-of-windows-server.md)
-* [ALLOW MYSQL CONNECTION FROM ON-PREMISE](knowledge/allow-mysql-connection-from-on-premise.md)
 
