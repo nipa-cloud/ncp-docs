@@ -99,5 +99,3 @@ crl-verify crl.pem
 service openvpn restart
 ```
 
-
-
