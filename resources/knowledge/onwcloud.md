@@ -12,7 +12,7 @@ description: ง่าย ๆ 8 ขั้นตอน
 
 2.เลือกขนาดของเครื่อง Server ที่เราใช้โดยที่ OwnCloud Recommend 512MB Memory.
 
-![](https://github.com/KoutaCS/ncp-docs/tree/bfaa325d637fe85bbd5dc2200cb89bbb9065f225/.gitbook/assets/onwcloud-02-1.png)
+![](../../.gitbook/assets/onwcloud-02-1.png)
 
 3.หลังจากนั้นเราจะได้ Instant มาให้เรากดเข้าที่ชื่อของ Instant ที่เราสร้างมา
 
