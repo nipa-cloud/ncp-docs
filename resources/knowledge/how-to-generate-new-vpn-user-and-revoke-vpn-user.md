@@ -81,19 +81,19 @@ source vars
 sudo cp ~/openvpn-ca/keys/crl.pem /etc/openvpn
 ```
 
-1. เปิดไฟล์ Config ของ OpenVPN server โดย
+5.เปิดไฟล์ Config ของ OpenVPN server โดย
 
 ```text
 sudo nano /etc/openvpn/server.conf
 ```
 
-5.ใส่ข้อความ crl-verify ไปที่ด้านล่างสุดของไฟล์ server.conf เพื่อที่ OpenVPN Server จะทำการเช็คข้อมูลการถอน Access ของ User ดังกล่าว \( หากพบว่ามีการใส่ข้อความ crl-verify crl.pem อยู่แล้วให้ข้ามไปข้อ 7.\)
+6.ใส่ข้อความ crl-verify ไปที่ด้านล่างสุดของไฟล์ server.conf เพื่อที่ OpenVPN Server จะทำการเช็คข้อมูลการถอน Access ของ User ดังกล่าว \( หากพบว่ามีการใส่ข้อความ crl-verify crl.pem อยู่แล้วให้ข้ามไปข้อ 7.\)
 
 ```text
 crl-verify crl.pem
 ```
 
-6.ทำการ restart OpenVPN Service เพื่อให้ OpenVPN ดำเนินการ Certificate Revocation
+7.ทำการ restart OpenVPN Service เพื่อให้ OpenVPN ดำเนินการ Certificate Revocation
 
 ```text
 service openvpn restart
