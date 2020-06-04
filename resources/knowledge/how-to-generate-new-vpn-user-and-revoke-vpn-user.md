@@ -36,7 +36,7 @@ cd ~/client-configs
 cd ~/client-configs/files
 ```
 
-5.1 cat &lt;client1&gt;.ovpn แล้ว copy ข้อความในไฟล์ ovpn ทั้งหมดไป paste ไว้ที่ไฟล์ .txt ธรรมดาในเครื่องที่จะต้องการใช้งาน VPN และเปลี่ยนสกุลไฟล์เป็น .ovpn เพื่อใช้งาน  
+6.cat &lt;client1&gt;.ovpn แล้ว copy ข้อความในไฟล์ ovpn ทั้งหมดไป paste ไว้ที่ไฟล์ .txt ธรรมดาในเครื่องที่จะต้องการใช้งาน VPN และเปลี่ยนสกุลไฟล์เป็น .ovpn เพื่อใช้งาน  
 Example: client1.txt &gt;&gt; client1.ovpn
 
 ```text
