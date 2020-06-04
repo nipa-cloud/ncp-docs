@@ -46,6 +46,7 @@
 ## Resources
 
 * [Knowledge](resources/knowledge/README.md)
+  * [How To Generate And Revoke VPN User](resources/knowledge/how-to-generate-new-vpn-user-and-revoke-vpn-user.md)
   * [Create OwnCloud](resources/knowledge/onwcloud.md)
   * [Change SSH Key](resources/knowledge/change-ssh-key.md)
   * [Enable MongoDB Authentication](resources/knowledge/enable-authen-on-mongodb.md)
