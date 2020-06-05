@@ -120,7 +120,6 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 ![](https://lh3.googleusercontent.com/s7ycYQSttglgsEKHEjht0dLgkQH5pVj6NUX1znFDnGdt-9aloJWdmbxTDKNE1YVPY6SQuAaV4JWMTVoI7AJsWpLk4g8NJ7v00W4npjmtoZNB4FNk6Kx5gSg5pOjS3F7bpvs4J28)
 
 ## **LINE Notification**
-### Line Notification Token
 
 ปัจจุบัน NCP มีการแจ้ง Notification ผ่าน LINE โดย **Owner** จะต้องทำการขอ Notification Token จาก LINE Notify เสียก่อน จากนั้นทำการนำ Notification Token ที่ได้ บันทึกไว้ใน NCP Project โดยสามารถเพิ่ม Notification Token ได้มากกว่า 1 ตัว
 
