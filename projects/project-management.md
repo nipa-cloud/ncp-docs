@@ -124,7 +124,7 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 
 ปัจจุบัน NCP มีการแจ้ง Notification ผ่าน LINE โดย **Owner** จะต้องทำการขอ Notification Token จาก LINE Notify เสียก่อน จากนั้นทำการนำ Notification Token ที่ได้ บันทึกไว้ใน NCP Project โดยสามารถเพิ่ม Notification Token ได้มากกว่า 1 ตัว
 
-#### Get LINE Notification Token
+### Get LINE Notification Token
 
 การขอ LINE Notification Token มีขั้นตอนต่อไปนี้
 
@@ -152,7 +152,7 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 
 ![](../.gitbook/assets/line_notify_3.png)
 
-#### Add LINE Notification Token into NCP Project
+### Add LINE Notification Token into NCP Project
 
 การนำ LINE Notification Token ไว้ใน NCP Project สามารถทำได้ดังขั้นตอนต่อไปนี้
 
@@ -173,7 +173,7 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 
 ![](../.gitbook/assets/line_notify_16.png)
 
-#### Remove LINE Notification Token from NCP Project
+### Remove LINE Notification Token from NCP Project
 
 การลบ Notification Token สามารถทำได้ตามขั้นตอนต่อไปนี้
 
