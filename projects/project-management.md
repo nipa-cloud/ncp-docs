@@ -13,10 +13,11 @@ Document นี้จะพูดถึงการจัดการโปร�
 **Table of contents**
 
 1. [Create a Project](project-management.md#create-a-project)
-2. [Manage member](project-management.md#manage-member)
-3. [Edit contact](project-management.md#edit-contact)
-4. [Change Project & billing types](project-management.md#change-project-and-billing-types)
-5. [Remove Project](project-management.md#remove-project)
+2. [Manage Member](project-management.md#manage-member)
+3. [Edit Contact](project-management.md#edit-contact)
+4. [LINE Notification](project-management.md#line-notification)
+5. [Change Project & Billing Types](project-management.md#change-project-and-billing-types)
+6. [Remove Project](project-management.md#remove-project)
 
 ## **Create a Project**
 
@@ -118,6 +119,7 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 
 ![](https://lh3.googleusercontent.com/s7ycYQSttglgsEKHEjht0dLgkQH5pVj6NUX1znFDnGdt-9aloJWdmbxTDKNE1YVPY6SQuAaV4JWMTVoI7AJsWpLk4g8NJ7v00W4npjmtoZNB4FNk6Kx5gSg5pOjS3F7bpvs4J28)
 
+## **LINE Notification**
 ### Line Notification Token
 
 ปัจจุบัน NCP มีการแจ้ง Notification ผ่าน LINE โดย **Owner** จะต้องทำการขอ Notification Token จาก LINE Notify เสียก่อน จากนั้นทำการนำ Notification Token ที่ได้ บันทึกไว้ใน NCP Project โดยสามารถเพิ่ม Notification Token ได้มากกว่า 1 ตัว
@@ -146,7 +148,7 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 
 ![](../.gitbook/assets/line_notify_2.png)
 
-6.เมื่อ Generate Token สำเร็จ จะมี Notification ใน Chat Room ที่ระบุไว้ และมีการแสดงผลดังภาพ ให้ทำการคลิกปุ่ม Copy เพื่อทำการคักลอก Token สำหรับนำไปใช้ต่อไป
+6.เมื่อ Generate Token สำเร็จ จะมี Notification ใน Chat Room ที่ระบุไว้ และมีการแสดงผลดังภาพ ให้ทำการคลิกปุ่ม Copy เพื่อทำการคัดลอก Token สำหรับนำไปใช้ต่อไป
 
 ![](../.gitbook/assets/line_notify_3.png)
 
@@ -183,7 +185,7 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 
 ![](../.gitbook/assets/line_notify_1.png)
 
-## **Change Project & billing types**
+## **Change Project & Billing Types**
 
 {% hint style="info" %}
 โดยพื้นฐานทุก ๆ Project จะเป็นประเภท **Individual** แต่ Owner สามารถส่งคำร้องขอเปลี่ยนเป็นประเภท **Company** ได้
@@ -216,7 +218,7 @@ Owner สามารถแก้ไขเบอร์โทรศัพท์ �
 
 ![](https://lh4.googleusercontent.com/nGD0k12z9DpmlCSgs0JEhkpFK7Yz071_-3dEQgYHmWTEVYfyEmde-7nFPO3GGgpYdsF9K9eTdOehMDRvRI9OqyqDPBbMxc-6YChr8C8N5IC3NagFMIsKE9xvnj728y3hppyHIHY)
 
-### **Change billing type**
+### **Change Billing Type**
 
 การส่งคำร้องขอเปลี่ยนการคิดเงิน มีขั้นตอนดังต่อไปนี้
 
