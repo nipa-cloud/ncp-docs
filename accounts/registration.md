@@ -1,5 +1,7 @@
 # Registration
 
+{% embed url="https://www.youtube.com/watch?v=0RJSJI53CNs&feature=youtu.be" %}
+
 การสมัครสมาชิกของระบบ Nipa Cloud Platform \(NCP\) สามารถแบ่งตามประเภทของผู้ใช้งานได้ 2 ประเภท คือ **Public** \(การลงทะเบียนผู้ใช้งานระบบทั่วไป\) และ **Private** \(การลงทะเบียนผู้ใช้ที่ใช้งานระบบเฉพาะส่วน เช่น ภายในองค์กร\) โดยมีขั้นตอนที่ต่างกัน ดังนี้
 
 **Table of contents**
@@ -9,8 +11,6 @@
 * [Private user registration](registration.md#private-user)
   * [Email registration](registration.md#email-registration)
   * [Phone registration](registration.md#phone-registration)
-
-เพื่อทำการเริ่มลงทะเบียนใช้งานโดยไปที่หน้า
 
 ## **Public user**
 

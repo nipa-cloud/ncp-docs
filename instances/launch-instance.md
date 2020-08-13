@@ -1,5 +1,7 @@
 # Launch an Instance
 
+{% embed url="https://www.youtube.com/watch?v=NzDxLInKwts&feature=youtu.be" %}
+
 ## Instance details
 
 ข้อมูลที่ใช้ในการสร้าง **Instance** ควรทำความเข้าใจถึงข้อมูลต่างๆที่ใช้ในการสร้าง Instance ก่อน ดังนี้
